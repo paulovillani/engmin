@@ -1,0 +1,1792 @@
+[
+    {
+        "fields": {
+            "classification": "MOD",
+            "description": "Ajudante de armador",
+            "unit": "h",
+            "unit_price": 4.0
+        },
+        "model": "planilha.input",
+        "pk": "01.001.000002.MOD"
+    },
+    {
+        "fields": {
+            "classification": "MOD",
+            "description": "Ajudante de carpinteiro",
+            "unit": "h",
+            "unit_price": 4.0
+        },
+        "model": "planilha.input",
+        "pk": "01.001.000003.MOD"
+    },
+    {
+        "fields": {
+            "classification": "MOD",
+            "description": "Ajudante de eletricista",
+            "unit": "h",
+            "unit_price": 4.0
+        },
+        "model": "planilha.input",
+        "pk": "01.001.000004.MOD"
+    },
+    {
+        "fields": {
+            "classification": "MOD",
+            "description": "Ajudante de encanador",
+            "unit": "h",
+            "unit_price": 4.0
+        },
+        "model": "planilha.input",
+        "pk": "01.001.000005.MOD"
+    },
+    {
+        "fields": {
+            "classification": "MOD",
+            "description": "Ajudante de pintor",
+            "unit": "h",
+            "unit_price": 4.0
+        },
+        "model": "planilha.input",
+        "pk": "01.001.000007.MOD"
+    },
+    {
+        "fields": {
+            "classification": "MOD",
+            "description": "Ajudante de telhadista",
+            "unit": "h",
+            "unit_price": 4.0
+        },
+        "model": "planilha.input",
+        "pk": "01.001.000008.MOD"
+    },
+    {
+        "fields": {
+            "classification": "MOD",
+            "description": "Azulejista",
+            "unit": "h",
+            "unit_price": 5.0
+        },
+        "model": "planilha.input",
+        "pk": "01.003.000001.MOD"
+    },
+    {
+        "fields": {
+            "classification": "MOD",
+            "description": "Carpinteiro",
+            "unit": "h",
+            "unit_price": 5.0
+        },
+        "model": "planilha.input",
+        "pk": "01.007.000001.MOD"
+    },
+    {
+        "fields": {
+            "classification": "MOD",
+            "description": "Eletricista",
+            "unit": "h",
+            "unit_price": 5.0
+        },
+        "model": "planilha.input",
+        "pk": "01.009.000001.MOD"
+    },
+    {
+        "fields": {
+            "classification": "MOD",
+            "description": "Encanador",
+            "unit": "h",
+            "unit_price": 5.0
+        },
+        "model": "planilha.input",
+        "pk": "01.010.000001.MOD"
+    },
+    {
+        "fields": {
+            "classification": "MOD",
+            "description": "Armador",
+            "unit": "h",
+            "unit_price": 5.0
+        },
+        "model": "planilha.input",
+        "pk": "01.011.000001.MOD"
+    },
+    {
+        "fields": {
+            "classification": "MOD",
+            "description": "Ladrilhista",
+            "unit": "h",
+            "unit_price": 5.0
+        },
+        "model": "planilha.input",
+        "pk": "01.016.000001.MOD"
+    },
+    {
+        "fields": {
+            "classification": "MOD",
+            "description": "Pedreiro",
+            "unit": "h",
+            "unit_price": 5.0
+        },
+        "model": "planilha.input",
+        "pk": "01.021.000001.MOD"
+    },
+    {
+        "fields": {
+            "classification": "MOD",
+            "description": "Pintor",
+            "unit": "h",
+            "unit_price": 5.0
+        },
+        "model": "planilha.input",
+        "pk": "01.022.000001.MOD"
+    },
+    {
+        "fields": {
+            "classification": "MOD",
+            "description": "Servente",
+            "unit": "h",
+            "unit_price": 4.0
+        },
+        "model": "planilha.input",
+        "pk": "01.026.000001.MOD"
+    },
+    {
+        "fields": {
+            "classification": "MOD",
+            "description": "Telhadista",
+            "unit": "h",
+            "unit_price": 5.0
+        },
+        "model": "planilha.input",
+        "pk": "01.029.000001.MOD"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Areia m\u00e9dia lavada",
+            "unit": "m\u00b3",
+            "unit_price": 99.0
+        },
+        "model": "planilha.input",
+        "pk": "03.001.000008.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Brita 3",
+            "unit": "m\u00b3",
+            "unit_price": 87.0
+        },
+        "model": "planilha.input",
+        "pk": "03.002.000003.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Brita 4",
+            "unit": "m\u00b3",
+            "unit_price": 87.0
+        },
+        "model": "planilha.input",
+        "pk": "03.002.000004.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Brita 1",
+            "unit": "m\u00b3",
+            "unit_price": 88.0
+        },
+        "model": "planilha.input",
+        "pk": "03.002.000011.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Brita 2",
+            "unit": "m\u00b3",
+            "unit_price": 92.0
+        },
+        "model": "planilha.input",
+        "pk": "03.002.000014.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Cal hidratada CH III",
+            "unit": "kg",
+            "unit_price": 0.0
+        },
+        "model": "planilha.input",
+        "pk": "04.001.000001.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Cimento CP-32",
+            "unit": "kg",
+            "unit_price": 0.0
+        },
+        "model": "planilha.input",
+        "pk": "04.002.000002.MAT"
+    },
+    {
+        "fields": {
+            "classification": "SER",
+            "description": "Concreto preparado na obra, controle \"A\", brita 1, fck 15 MPa, abatimento 8\u00b11 cm",
+            "unit": "m\u00b3",
+            "unit_price": 328.0
+        },
+        "model": "planilha.input",
+        "pk": "04.002.000038.SER"
+    },
+    {
+        "fields": {
+            "classification": "SER",
+            "description": "Concreto preparado na obra, controle \"C\", brita 1 e 2, fck 15 MPa, abatimento 8\u00b11 cm",
+            "unit": "m\u00b3",
+            "unit_price": 338.0
+        },
+        "model": "planilha.input",
+        "pk": "04.002.000065.SER"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Argamassa pr\u00e9-fabricada de cimento colante para assentamento de pe\u00e7as cer\u00e2micas",
+            "unit": "kg",
+            "unit_price": 0.0
+        },
+        "model": "planilha.input",
+        "pk": "04.004.000036.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Bloco cer\u00e2mico furado de veda\u00e7\u00e3o (altura: 190 mm / comprimento: 190 mm / largura: 90 mm)",
+            "unit": "un",
+            "unit_price": 0.0
+        },
+        "model": "planilha.input",
+        "pk": "05.004.000004.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Tijolo cer\u00e2mico comum para alvenaria 6 x 9 x 19 cm",
+            "unit": "un",
+            "unit_price": 0.0
+        },
+        "model": "planilha.input",
+        "pk": "05.004.000006.MAT"
+    },
+    {
+        "fields": {
+            "classification": "SER",
+            "description": "Concreto\u00a0n\u00e3o\u00a0estrutural\u00a0,\u00a0preparo\u00a0com\u00a0betoneira",
+            "unit": "m\u00b3",
+            "unit_price": 283.0
+        },
+        "model": "planilha.input",
+        "pk": "05.004.000097.SER"
+    },
+    {
+        "fields": {
+            "classification": "SER",
+            "description": "Forma para estruturas de concreto com chapa compensada plastificada, e=12mm - fabrica\u00e7\u00e3o",
+            "unit": "m\u00b2",
+            "unit_price": 120.0
+        },
+        "model": "planilha.input",
+        "pk": "05.006.000022.SER"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Laje pr\u00e9-fabricada para piso, sobrecarga 150 kgf/m\u00b2, esp. 8 cm, v\u00e3o livre 3,5 m",
+            "unit": "m\u00b2",
+            "unit_price": 21.0
+        },
+        "model": "planilha.input",
+        "pk": "06.001.000060.MAT"
+    },
+    {
+        "fields": {
+            "classification": "SER",
+            "description": "Argamassa de cal hidratada e areia peneirada tra\u00e7o 1:3",
+            "unit": "m\u00b3",
+            "unit_price": 265.0
+        },
+        "model": "planilha.input",
+        "pk": "06.003.000005.SER"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Espa\u00e7ador pl\u00e1stico para armadura de pe\u00e7as de concreto com cobrimento 3 cm",
+            "unit": "un",
+            "unit_price": 0.0
+        },
+        "model": "planilha.input",
+        "pk": "06.003.000010.MAT"
+    },
+    {
+        "fields": {
+            "classification": "SER",
+            "description": "Argamassa de cimento e areia peneirada tra\u00e7o 1:3",
+            "unit": "m\u00b3",
+            "unit_price": 403.0
+        },
+        "model": "planilha.input",
+        "pk": "06.003.000015.SER"
+    },
+    {
+        "fields": {
+            "classification": "SER",
+            "description": "Argamassa de cimento e areia sem peneirar tra\u00e7o 1:3",
+            "unit": "m\u00b3",
+            "unit_price": 402.0
+        },
+        "model": "planilha.input",
+        "pk": "06.003.000027.SER"
+    },
+    {
+        "fields": {
+            "classification": "SER",
+            "description": "Argamassa mista de cal hidratada e areia sem peneirar tra\u00e7o 1:4, com adi\u00e7\u00e3o de 100 kg de cimento",
+            "unit": "m\u00b3",
+            "unit_price": 276.0
+        },
+        "model": "planilha.input",
+        "pk": "06.003.000037.SER"
+    },
+    {
+        "fields": {
+            "classification": "SER",
+            "description": "Argamassa mista de cimento, cal hidratada e areia sem peneirar tra\u00e7o 1:2:8",
+            "unit": "m\u00b3",
+            "unit_price": 335.0
+        },
+        "model": "planilha.input",
+        "pk": "06.003.000070.SER"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Concreto usinado fck 25 MPa brita 1 e 2 abatimento 8\u00b11",
+            "unit": "m\u00b3",
+            "unit_price": 254.0
+        },
+        "model": "planilha.input",
+        "pk": "06.004.000009.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "A\u00e7o CA-25 \u00d8 6,3 mm, em barra, massa nominal 0,245 kg/m",
+            "unit": "kg",
+            "unit_price": 4.0
+        },
+        "model": "planilha.input",
+        "pk": "07.007.000003.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "A\u00e7o CA-50 \u00d8 6,3 mm, em barra, massa nominal 0,245 kg/m",
+            "unit": "kg",
+            "unit_price": 3.0
+        },
+        "model": "planilha.input",
+        "pk": "07.007.000008.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "A\u00e7o CA-50 \u00d8 12,5 mm, em barra, massa nominal 0,963 kg/m",
+            "unit": "kg",
+            "unit_price": 3.0
+        },
+        "model": "planilha.input",
+        "pk": "07.007.000011.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "A\u00e7o CA-60 \u00d8 5,00 mm, em barra, massa nominal 0,154 kg/m",
+            "unit": "kg",
+            "unit_price": 3.0
+        },
+        "model": "planilha.input",
+        "pk": "07.007.000014.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Arame galvanizado 16 BWG, \u00d8 1,60 mm, 0,016 kg/m",
+            "unit": "kg",
+            "unit_price": 7.0
+        },
+        "model": "planilha.input",
+        "pk": "07.009.000003.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Arame recozido 18 BWG, \u00d8 1,25 mm, 0,010 kg/m",
+            "unit": "kg",
+            "unit_price": 6.0
+        },
+        "model": "planilha.input",
+        "pk": "07.009.000007.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Poste de a\u00e7o galvanizado ELETROPAULO/BANDEIRANTES/ELEKTRO/CPFL para entrada de energia h = 6 m, \u00d8 4\", # 5 mm",
+            "unit": "un",
+            "unit_price": 348.0
+        },
+        "model": "planilha.input",
+        "pk": "07.022.000002.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Madeira bruta peroba",
+            "unit": "m\u00b3",
+            "unit_price": 2769.0
+        },
+        "model": "planilha.input",
+        "pk": "08.001.000006.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Chapa de madeira compensada resinada 1,10 x 2,20 m # 12 mm",
+            "unit": "m\u00b2",
+            "unit_price": 12.0
+        },
+        "model": "planilha.input",
+        "pk": "08.002.000004.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Pontalete de cedro 3a 7,5 x 7,5 cm",
+            "unit": "m",
+            "unit_price": 2.0
+        },
+        "model": "planilha.input",
+        "pk": "08.005.000003.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Sarrafo 1\" x 4\"",
+            "unit": "m",
+            "unit_price": 1.0
+        },
+        "model": "planilha.input",
+        "pk": "08.005.000011.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "T\u00e1bua de cedrinho 1\" x 6\"",
+            "unit": "m\u00b2",
+            "unit_price": 12.0
+        },
+        "model": "planilha.input",
+        "pk": "08.005.000018.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "T\u00e1bua de cedrinho 1\" x 9\"",
+            "unit": "m\u00b2",
+            "unit_price": 12.0
+        },
+        "model": "planilha.input",
+        "pk": "08.005.000019.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "T\u00e1bua de cedrinho 1\" x 12\"",
+            "unit": "m",
+            "unit_price": 4.0
+        },
+        "model": "planilha.input",
+        "pk": "08.005.000020.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "T\u00e1bua de cedrinho 3a 1\" x 12\"",
+            "unit": "m\u00b2",
+            "unit_price": 15.0
+        },
+        "model": "planilha.input",
+        "pk": "08.005.000022.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Viga de peroba 6 x 12 cm",
+            "unit": "m",
+            "unit_price": 19.0
+        },
+        "model": "planilha.input",
+        "pk": "08.005.000024.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Viga de peroba 6 x 16 cm",
+            "unit": "m",
+            "unit_price": 26.0
+        },
+        "model": "planilha.input",
+        "pk": "08.005.000025.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Aditivo impermeabilizante e plastificante em p\u00f3 para argamassas",
+            "unit": "kg",
+            "unit_price": 8.0
+        },
+        "model": "planilha.input",
+        "pk": "12.003.000012.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Janela de correr de alum\u00ednio, 1 folha fixa e 1 m\u00f3vel, vidro liso 1,20 x 1,00 m",
+            "unit": "un",
+            "unit_price": 398.0
+        },
+        "model": "planilha.input",
+        "pk": "13.005.000010.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Janela basculante de alum\u00ednio, 2 b\u00e1sculas, com vidro canelado 0,60 x 0,80 m",
+            "unit": "un",
+            "unit_price": 91.0
+        },
+        "model": "planilha.input",
+        "pk": "13.005.000011.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Janela de correr de alum\u00ednio, 1 folha veneziana e 1 folha de vidro liso 1,50 x 1,00 m",
+            "unit": "un",
+            "unit_price": 715.0
+        },
+        "model": "planilha.input",
+        "pk": "13.005.000018.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Guarni\u00e7\u00e3o de peroba 5 x 1 cm para porta de at\u00e9 0,90 x 2,10 m",
+            "unit": "un",
+            "unit_price": 8.0
+        },
+        "model": "planilha.input",
+        "pk": "13.008.000006.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Batente de peroba para porta de 1 folha 3,5 cm x 14 cm x 5,40 m de per\u00edmetro",
+            "unit": "un",
+            "unit_price": 86.0
+        },
+        "model": "planilha.input",
+        "pk": "13.008.000009.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Porta de chapa de madeira lisa encabe\u00e7ada com Imbuia 70 x 210 x 3,5 cm",
+            "unit": "un",
+            "unit_price": 94.0
+        },
+        "model": "planilha.input",
+        "pk": "13.008.000010.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Porta de chapa de madeira lisa encabe\u00e7ada com Imbuia 80 x 210 x 3,5 cm",
+            "unit": "un",
+            "unit_price": 99.0
+        },
+        "model": "planilha.input",
+        "pk": "13.008.000017.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Fechadura em lat\u00e3o completa tipo gorge com guarni\u00e7\u00e3o tipo espelho e ma\u00e7aneta tipo alavanca para porta interna encaixe 40 mm",
+            "unit": "un",
+            "unit_price": 147.0
+        },
+        "model": "planilha.input",
+        "pk": "13.017.000001.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Dobradi\u00e7a de a\u00e7o pino solto para porta 3\" x 2 1/2\"",
+            "unit": "un",
+            "unit_price": 8.0
+        },
+        "model": "planilha.input",
+        "pk": "13.017.000004.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Flange de ferro male\u00e1vel galvanizado com sextavado \u00d8 3/4\"",
+            "unit": "un",
+            "unit_price": 7.0
+        },
+        "model": "planilha.input",
+        "pk": "14.001.000199.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Flange de ferro male\u00e1vel galvanizado com sextavado \u00d8 1\"",
+            "unit": "un",
+            "unit_price": 9.0
+        },
+        "model": "planilha.input",
+        "pk": "14.001.000200.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Flange de ferro male\u00e1vel galvanizado com sextavado \u00d8 2\"",
+            "unit": "un",
+            "unit_price": 21.0
+        },
+        "model": "planilha.input",
+        "pk": "14.001.000203.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Tubo de a\u00e7o galvanizado com costura \u00d8 3/4\"",
+            "unit": "m",
+            "unit_price": 12.0
+        },
+        "model": "planilha.input",
+        "pk": "14.001.000330.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Tubo de a\u00e7o galvanizado com costura \u00d8 1 1/2\"",
+            "unit": "m",
+            "unit_price": 30.0
+        },
+        "model": "planilha.input",
+        "pk": "14.001.000333.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Solu\u00e7\u00e3o limpadora para PVC",
+            "unit": "l",
+            "unit_price": 23.0
+        },
+        "model": "planilha.input",
+        "pk": "14.001.000471.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Tubo PVC sold\u00e1vel \u00d8 25 mm",
+            "unit": "m",
+            "unit_price": 1.0
+        },
+        "model": "planilha.input",
+        "pk": "14.001.000506.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Tubo PVC sold\u00e1vel \u00d8 40 mm",
+            "unit": "m",
+            "unit_price": 7.0
+        },
+        "model": "planilha.input",
+        "pk": "14.001.000508.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Tubo PVC sold\u00e1vel \u00d8 50 mm",
+            "unit": "m",
+            "unit_price": 6.0
+        },
+        "model": "planilha.input",
+        "pk": "14.001.000509.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Tubo PVC sold\u00e1vel \u00d8 75 mm",
+            "unit": "m",
+            "unit_price": 21.0
+        },
+        "model": "planilha.input",
+        "pk": "14.001.000511.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Tubo PVC sold\u00e1vel \u00d8 110 mm",
+            "unit": "m",
+            "unit_price": 41.0
+        },
+        "model": "planilha.input",
+        "pk": "14.001.000513.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Adesivo para PVC",
+            "unit": "kg",
+            "unit_price": 40.0
+        },
+        "model": "planilha.input",
+        "pk": "14.001.000564.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Fita de veda\u00e7\u00e3o para tubos e conex\u00f5es rosc\u00e1veis, rolo de 50 m x 18 mm",
+            "unit": "m",
+            "unit_price": 0.0
+        },
+        "model": "planilha.input",
+        "pk": "14.001.000668.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Joelho 90\u00ba PVC PBV para esgoto \u00d8 100 mm",
+            "unit": "un",
+            "unit_price": 4.0
+        },
+        "model": "planilha.input",
+        "pk": "14.001.000947.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Pasta lubrificante para tubo de PVC",
+            "unit": "kg",
+            "unit_price": 36.0
+        },
+        "model": "planilha.input",
+        "pk": "14.001.000971.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Tubo cer\u00e2mico para esgoto \u00d8 100 mm",
+            "unit": "m",
+            "unit_price": 10.0
+        },
+        "model": "planilha.input",
+        "pk": "14.001.001088.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Caixa de PVC sifonada \u00d8 100 mm, altura 100 mm, entrada \u00d8 40 mm, sa\u00edda \u00d8 50 mm, grelha redonda de PVC, 3 entradas, para esgoto sanit\u00e1rio",
+            "unit": "un",
+            "unit_price": 14.0
+        },
+        "model": "planilha.input",
+        "pk": "14.002.000007.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Ralo de PVC seco com grelha de PVC se\u00e7\u00e3o quadrada 10 x 10 cm, altura 5 cm, entrada \u00d8 40 mm",
+            "unit": "un",
+            "unit_price": 8.0
+        },
+        "model": "planilha.input",
+        "pk": "14.002.000016.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Grelha de ferro fundido hemisf\u00e9rica para \u00e1guas pluviais \u00d8 4\"",
+            "unit": "un",
+            "unit_price": 12.0
+        },
+        "model": "planilha.input",
+        "pk": "14.002.000024.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Registro de press\u00e3o com canopla padr\u00e3o popular \u00d8 1\"",
+            "unit": "un",
+            "unit_price": 71.0
+        },
+        "model": "planilha.input",
+        "pk": "14.006.000019.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "V\u00e1lvula de descarga com registro interno \u00d8 1 1/2\"",
+            "unit": "un",
+            "unit_price": 138.0
+        },
+        "model": "planilha.input",
+        "pk": "14.006.000021.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Hidr\u00f4metro multijato para medi\u00e7\u00e3o em entrada de \u00e1gua residencial \u00d8 3/4\" vaz\u00e3o 3 m\u00b3/h",
+            "unit": "un",
+            "unit_price": 111.0
+        },
+        "model": "planilha.input",
+        "pk": "14.006.000057.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Registro de gaveta com canopla padr\u00e3o popular \u00d8 1\"",
+            "unit": "un",
+            "unit_price": 68.0
+        },
+        "model": "planilha.input",
+        "pk": "14.006.000058.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "V\u00e1lvula de escoamento para tanque ou mict\u00f3rio met\u00e1lica \u00d8 1 1/4\"",
+            "unit": "un",
+            "unit_price": 39.0
+        },
+        "model": "planilha.input",
+        "pk": "14.006.000059.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "V\u00e1lvula de escoamento para pia de cozinha met\u00e1lica acabamento cromado \u00d8 3 1/2\"",
+            "unit": "un",
+            "unit_price": 29.0
+        },
+        "model": "planilha.input",
+        "pk": "14.006.000063.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "V\u00e1lvula de escoamento para lavat\u00f3rio ou bid\u00ea met\u00e1lica acabamento cromado \u00d8 1\"",
+            "unit": "un",
+            "unit_price": 27.0
+        },
+        "model": "planilha.input",
+        "pk": "14.006.000065.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Caixa de gordura polietileno cilindrica entrada \u00d8 50 mm sa\u00edda \u00d8 100 mm",
+            "unit": "un",
+            "unit_price": 173.0
+        },
+        "model": "planilha.input",
+        "pk": "14.010.000001.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Tampa para caixa de inspe\u00e7\u00e3o ou gordura de polietileno 35 x 35 cm",
+            "unit": "un",
+            "unit_price": 72.0
+        },
+        "model": "planilha.input",
+        "pk": "14.010.000002.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Caixa de inspe\u00e7\u00e3o cilindrica de polietileno com 3 entradas \u00d8 de sa\u00edda 100 mm",
+            "unit": "un",
+            "unit_price": 104.0
+        },
+        "model": "planilha.input",
+        "pk": "14.010.000003.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Reservat\u00f3rio d' \u00e1gua de fibra de vidro cil\u00edndrico (capacidade: 1000 l)",
+            "unit": "un",
+            "unit_price": 264.0
+        },
+        "model": "planilha.input",
+        "pk": "14.015.000007.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Reservat\u00f3rio de \u00e1gua cil\u00edndrico de fibra de vidro p/ 500 litros",
+            "unit": "un",
+            "unit_price": 130.0
+        },
+        "model": "planilha.input",
+        "pk": "14.015.000009.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Tanque de lou\u00e7a com coluna volume 22 litros",
+            "unit": "un",
+            "unit_price": 202.0
+        },
+        "model": "planilha.input",
+        "pk": "15.001.000002.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Coluna de lou\u00e7a para tanque",
+            "unit": "un",
+            "unit_price": 65.0
+        },
+        "model": "planilha.input",
+        "pk": "15.001.000007.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Conjunto para fixa\u00e7\u00e3o de tanque",
+            "unit": "un",
+            "unit_price": 29.0
+        },
+        "model": "planilha.input",
+        "pk": "15.001.000008.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Porta toalha de lou\u00e7a",
+            "unit": "cj",
+            "unit_price": 23.0
+        },
+        "model": "planilha.input",
+        "pk": "15.003.000005.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Engate flex\u00edvel em PVC \u00d8 1/2\" x 30 cm",
+            "unit": "un",
+            "unit_price": 3.0
+        },
+        "model": "planilha.input",
+        "pk": "15.003.000010.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Tampo de pia de a\u00e7o inoxid\u00e1vel com cuba dupla 2,00 x 0,54 m",
+            "unit": "un",
+            "unit_price": 670.0
+        },
+        "model": "planilha.input",
+        "pk": "15.003.000012.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Lavat\u00f3rio de lou\u00e7a padr\u00e3o popular para embutir",
+            "unit": "un",
+            "unit_price": 53.0
+        },
+        "model": "planilha.input",
+        "pk": "15.003.000018.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Porta Papel higi\u00eanico de lou\u00e7a branca para embutir sem rolete 15 x 15 cm",
+            "unit": "un",
+            "unit_price": 21.0
+        },
+        "model": "planilha.input",
+        "pk": "15.003.000020.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Sif\u00e3o met\u00e1lico acabamento cromado para tanque \u00d8 1 1/4\" x 1 1/2\"",
+            "unit": "un",
+            "unit_price": 77.0
+        },
+        "model": "planilha.input",
+        "pk": "15.003.000021.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Saboneteira de lou\u00e7a branca de embutir, sem al\u00e7a 10,5 x 17,5 cm",
+            "unit": "un",
+            "unit_price": 12.0
+        },
+        "model": "planilha.input",
+        "pk": "15.003.000023.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Sif\u00e3o met\u00e1lico acabamento cromado para lavat\u00f3rio \u00d8 1\" x 1 1/2\"",
+            "unit": "un",
+            "unit_price": 100.0
+        },
+        "model": "planilha.input",
+        "pk": "15.003.000024.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Sif\u00e3o met\u00e1lico acabamento cromado para pia americana \u00d8 1 1/2\" x 2\"",
+            "unit": "un",
+            "unit_price": 122.0
+        },
+        "model": "planilha.input",
+        "pk": "15.003.000029.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Assento pl\u00e1stico padr\u00e3o popular para vaso sanit\u00e1rio",
+            "unit": "un",
+            "unit_price": 21.0
+        },
+        "model": "planilha.input",
+        "pk": "15.005.000008.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Anel de veda\u00e7\u00e3o vaso sanit\u00e1rio",
+            "unit": "un",
+            "unit_price": 6.0
+        },
+        "model": "planilha.input",
+        "pk": "15.005.000012.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Tubo de lat\u00e3o com canopla acabamento cromado para liga\u00e7\u00e3o de bacia sanit\u00e1ria \u00d8 1 1/2\" x 25 cm",
+            "unit": "un",
+            "unit_price": 17.0
+        },
+        "model": "planilha.input",
+        "pk": "15.005.000014.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Bolsa de borracha de liga\u00e7\u00e3o para vaso sant\u00e1rio \u00d8 1 1/2\"",
+            "unit": "un",
+            "unit_price": 3.0
+        },
+        "model": "planilha.input",
+        "pk": "15.005.000015.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Bacia sanit\u00e1ria de lou\u00e7a, padr\u00e3o popular",
+            "unit": "un",
+            "unit_price": 123.0
+        },
+        "model": "planilha.input",
+        "pk": "15.005.000016.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Mict\u00f3rio individual de lou\u00e7a tipo bacia turca",
+            "unit": "un",
+            "unit_price": 170.0
+        },
+        "model": "planilha.input",
+        "pk": "15.005.000018.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Torneira de press\u00e3o de mesa padr\u00e3o m\u00e9dio para lavat\u00f3rio",
+            "unit": "un",
+            "unit_price": 133.0
+        },
+        "model": "planilha.input",
+        "pk": "15.021.000003.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Torneira de press\u00e3o de parede para pia",
+            "unit": "un",
+            "unit_price": 206.0
+        },
+        "model": "planilha.input",
+        "pk": "15.021.000004.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Torneira de press\u00e3o de parede para uso geral",
+            "unit": "un",
+            "unit_price": 61.0
+        },
+        "model": "planilha.input",
+        "pk": "15.021.000007.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Conjunto de cabe\u00e7ote de pl\u00e1stico para entrada de telefone em poste",
+            "unit": "un",
+            "unit_price": 3.0
+        },
+        "model": "planilha.input",
+        "pk": "16.001.000032.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Barramento neutro para quadro de luz padr\u00e3o europeu",
+            "unit": "un",
+            "unit_price": 8.0
+        },
+        "model": "planilha.input",
+        "pk": "16.004.000086.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Al\u00e7a com isolador de porcelana padr\u00e3o TELESP",
+            "unit": "un",
+            "unit_price": 1.0
+        },
+        "model": "planilha.input",
+        "pk": "16.004.000088.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Arma\u00e7\u00e3o secund\u00e1ria com 3 isoladores",
+            "unit": "un",
+            "unit_price": 31.0
+        },
+        "model": "planilha.input",
+        "pk": "16.004.000089.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Barramento principal para quadro de luz padr\u00e3o europeu",
+            "unit": "un",
+            "unit_price": 60.0
+        },
+        "model": "planilha.input",
+        "pk": "16.004.000090.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Barramento terra para quadro de luz padr\u00e3o europeu",
+            "unit": "un",
+            "unit_price": 8.0
+        },
+        "model": "planilha.input",
+        "pk": "16.004.000092.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Fio r\u00edgido 4 mm\u00b2 isolamento em PVC, 750 V",
+            "unit": "m",
+            "unit_price": 1.0
+        },
+        "model": "planilha.input",
+        "pk": "16.006.000007.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Fio r\u00edgido 2,5 mm\u00b2 isolamento em PVC, 750 V",
+            "unit": "m",
+            "unit_price": 0.0
+        },
+        "model": "planilha.input",
+        "pk": "16.006.000013.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Fio r\u00edgido 10 mm\u00b2 isolamento em PVC, 750 V",
+            "unit": "m",
+            "unit_price": 3.0
+        },
+        "model": "planilha.input",
+        "pk": "16.006.000023.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Cabo semi-r\u00edgido isolado em PVC 16 mm\u00b2 450 a 750 V",
+            "unit": "m",
+            "unit_price": 4.0
+        },
+        "model": "planilha.input",
+        "pk": "16.006.000067.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Fio r\u00edgido 6 mm\u00b2 isolamento em PVC, 750 V",
+            "unit": "m",
+            "unit_price": 1.0
+        },
+        "model": "planilha.input",
+        "pk": "16.006.000104.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Curva 90\u00b0 de a\u00e7o galvanizada a fogo para eletroduto \u00d8 3/4\"",
+            "unit": "un",
+            "unit_price": 2.0
+        },
+        "model": "planilha.input",
+        "pk": "16.011.000014.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Curva 90\u00b0 de a\u00e7o galvanizada a fogo para eletroduto \u00d8 1 1/4\"",
+            "unit": "un",
+            "unit_price": 8.0
+        },
+        "model": "planilha.input",
+        "pk": "16.011.000033.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Eletroduto PVC flex\u00edvel corrugado \u00d8 32 mm",
+            "unit": "m",
+            "unit_price": 1.0
+        },
+        "model": "planilha.input",
+        "pk": "16.012.000009.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Eletroduto PVC flex\u00edvel corrugado \u00d8 25 mm",
+            "unit": "m",
+            "unit_price": 1.0
+        },
+        "model": "planilha.input",
+        "pk": "16.012.000023.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Eletroduto de a\u00e7o com costura galvanizado a fogo \u00d8 3/4\"",
+            "unit": "m",
+            "unit_price": 10.0
+        },
+        "model": "planilha.input",
+        "pk": "16.012.000030.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Eletroduto de a\u00e7o com costura galvanizado a fogo \u00d8 1 1/4\"",
+            "unit": "m",
+            "unit_price": 16.0
+        },
+        "model": "planilha.input",
+        "pk": "16.012.000035.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Caixa de entrada de energia modelo K padr\u00e3o ELETROPAULO em chapa de a\u00e7o para 2 medidores 50 x 60 x 27 cm",
+            "unit": "un",
+            "unit_price": 234.0
+        },
+        "model": "planilha.input",
+        "pk": "16.015.000014.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Quadro em PVC de distribui\u00e7\u00e3o de luz de embutir 6 disjuntores padr\u00e3o europeu/8 disjuntores padr\u00e3o americano padr\u00e3o americano (comprimento: 245 mm / largura: 190 mm / profundidade: 78,7 mm)",
+            "unit": "un",
+            "unit_price": 22.0
+        },
+        "model": "planilha.input",
+        "pk": "16.015.000024.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Interruptor de embutir 1 tecla simples com placa (corrente el\u00e9trica: 10 A / tens\u00e3o: 250 V)",
+            "unit": "un",
+            "unit_price": 4.0
+        },
+        "model": "planilha.input",
+        "pk": "16.035.000006.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Interruptor de embutir 1 tecla dupla bipolar simples (corrente el\u00e9trica: 10 A / tens\u00e3o: 250 V)",
+            "unit": "un",
+            "unit_price": 16.0
+        },
+        "model": "planilha.input",
+        "pk": "16.035.000016.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Tomada de embutir 2 p\u00f3los + terra 250 V 20 A",
+            "unit": "un",
+            "unit_price": 12.0
+        },
+        "model": "planilha.input",
+        "pk": "16.035.000020.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Tomada de embutir 2 p\u00f3los + terra sem placa 250 V 10 A",
+            "unit": "un",
+            "unit_price": 4.0
+        },
+        "model": "planilha.input",
+        "pk": "16.035.000023.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Lumin\u00e1ria em chapa de a\u00e7o interna tipo calha de sobrepor comercial com 2 l\u00e2mpadas para l\u00e2mpada fluorescente tubular (pot\u00eancia da l\u00e2mpada: 32 W)",
+            "unit": "un",
+            "unit_price": 38.0
+        },
+        "model": "planilha.input",
+        "pk": "16.037.000004.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Plafonier de alum\u00ednio com globo de vidro leitoso boca \u00d8 100 mm",
+            "unit": "un",
+            "unit_price": 10.0
+        },
+        "model": "planilha.input",
+        "pk": "16.037.000010.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "L\u00e2mpada fluorescente tubular 40 W",
+            "unit": "un",
+            "unit_price": 3.0
+        },
+        "model": "planilha.input",
+        "pk": "16.037.000019.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Reator de partida r\u00e1pida com baixo fator de pot\u00eancia para 1 l\u00e2mpada 40 W",
+            "unit": "un",
+            "unit_price": 16.0
+        },
+        "model": "planilha.input",
+        "pk": "16.037.000029.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Soquete simples em termopl\u00e1stico para l\u00e2mpada fluorescente",
+            "unit": "un",
+            "unit_price": 1.0
+        },
+        "model": "planilha.input",
+        "pk": "16.037.000032.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Taco de peroba para instala\u00e7\u00e3o de portas e janelas altura 60 x 50 x 15 mm",
+            "unit": "un",
+            "unit_price": 0.0
+        },
+        "model": "planilha.input",
+        "pk": "18.003.000006.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Rodap\u00e9 cer\u00e2mico 30 x 8 x 0,8 cm",
+            "unit": "m",
+            "unit_price": 8.0
+        },
+        "model": "planilha.input",
+        "pk": "18.006.000002.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Azulejo cer\u00e2mico esmaltado 15 x 15 cm",
+            "unit": "m\u00b2",
+            "unit_price": 19.0
+        },
+        "model": "planilha.input",
+        "pk": "18.006.000008.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Placa cer\u00e2mica esmaltada 30 x 30 cm x 8 mm resist\u00eancia a abras\u00e3o 3",
+            "unit": "m\u00b2",
+            "unit_price": 23.0
+        },
+        "model": "planilha.input",
+        "pk": "18.006.000009.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Massa corrida acr\u00edlica para pintura latex",
+            "unit": "kg",
+            "unit_price": 3.0
+        },
+        "model": "planilha.input",
+        "pk": "21.001.000005.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Massa corrida base PVA",
+            "unit": "kg",
+            "unit_price": 1.0
+        },
+        "model": "planilha.input",
+        "pk": "21.001.000007.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Selador para madeira",
+            "unit": "l",
+            "unit_price": 15.0
+        },
+        "model": "planilha.input",
+        "pk": "21.001.000020.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "L\u00edquido preparador de superf\u00edcies lata com 18 litros",
+            "unit": "l",
+            "unit_price": 9.0
+        },
+        "model": "planilha.input",
+        "pk": "21.001.000023.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Selador base PVA para pintura l\u00e1tex",
+            "unit": "l",
+            "unit_price": 7.0
+        },
+        "model": "planilha.input",
+        "pk": "21.001.000027.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Solvente para produtos \u00e0 base de nitrocelulose",
+            "unit": "l",
+            "unit_price": 7.0
+        },
+        "model": "planilha.input",
+        "pk": "21.001.000030.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Aguarr\u00e1s mineral",
+            "unit": "l",
+            "unit_price": 7.0
+        },
+        "model": "planilha.input",
+        "pk": "21.001.000032.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Verniz sint\u00e9tico para madeira",
+            "unit": "l",
+            "unit_price": 16.0
+        },
+        "model": "planilha.input",
+        "pk": "21.002.000003.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Tinta l\u00e1tex acr\u00edlica fosca",
+            "unit": "l",
+            "unit_price": 12.0
+        },
+        "model": "planilha.input",
+        "pk": "21.004.000003.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Tinta l\u00e1tex PVA fosca",
+            "unit": "l",
+            "unit_price": 10.0
+        },
+        "model": "planilha.input",
+        "pk": "21.004.000004.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Lixa grana 100 para superf\u00edcie madeira/massa",
+            "unit": "un",
+            "unit_price": 1.0
+        },
+        "model": "planilha.input",
+        "pk": "21.006.000005.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Massa de vidraceiro",
+            "unit": "kg",
+            "unit_price": 2.0
+        },
+        "model": "planilha.input",
+        "pk": "22.001.000001.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Chapa de a\u00e7o para emenda de tesouras em telhados 4\" x 1/4\" x 50 cm",
+            "unit": "kg",
+            "unit_price": 13.0
+        },
+        "model": "planilha.input",
+        "pk": "23.001.000002.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Cumeeira articulada inferior para telha de fibrocimento tipo vogatex ou fibrotex",
+            "unit": "un",
+            "unit_price": 3.0
+        },
+        "model": "planilha.input",
+        "pk": "23.004.000014.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Telha francesa",
+            "unit": "un",
+            "unit_price": 1.0
+        },
+        "model": "planilha.input",
+        "pk": "23.004.000030.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Telha de fibrocimento ondulada esp. 4 mm / largura \u00fatil 45 cm",
+            "unit": "m\u00b2",
+            "unit_price": 7.0
+        },
+        "model": "planilha.input",
+        "pk": "23.004.000035.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Rufo de chapa de a\u00e7o galvanizada # 24 e 25 cm de largura",
+            "unit": "m",
+            "unit_price": 10.0
+        },
+        "model": "planilha.input",
+        "pk": "23.005.000006.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Calha de chapa de a\u00e7o galvanizada # 24 largura 25 cm",
+            "unit": "m",
+            "unit_price": 10.0
+        },
+        "model": "planilha.input",
+        "pk": "23.005.000022.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Parafuso cabe\u00e7a chata fenda simples zincado branco para madeira comprimento \u00d8 6 mm x 90 mm",
+            "unit": "un",
+            "unit_price": 0.0
+        },
+        "model": "planilha.input",
+        "pk": "25.002.000014.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Parafuso cromado \u00d8 1/4\" x 2 1/2\"",
+            "unit": "un",
+            "unit_price": 1.0
+        },
+        "model": "planilha.input",
+        "pk": "25.002.000021.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Prego com cabe\u00e7a 16 x 24, 55 mm x \u00d8 2,7 mm",
+            "unit": "kg",
+            "unit_price": 5.0
+        },
+        "model": "planilha.input",
+        "pk": "25.007.000007.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Prego com cabe\u00e7a 15 x 15, 34,5 mm x \u00d8 2,4 mm",
+            "unit": "kg",
+            "unit_price": 6.0
+        },
+        "model": "planilha.input",
+        "pk": "25.007.000008.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Prego com cabe\u00e7a 18 x 27, 62,1 mm x \u00d8 3,4 mm",
+            "unit": "kg",
+            "unit_price": 5.0
+        },
+        "model": "planilha.input",
+        "pk": "25.007.000009.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Rebite de a\u00e7o zincado n\u00ba 8, 6,10 x 3 mm",
+            "unit": "kg",
+            "unit_price": 17.0
+        },
+        "model": "planilha.input",
+        "pk": "25.008.000001.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Bucha de nylon \u00d8 8 mm x 40 mm",
+            "unit": "un",
+            "unit_price": 0.0
+        },
+        "model": "planilha.input",
+        "pk": "25.011.000001.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Estanho 30x70 para solda",
+            "unit": "kg",
+            "unit_price": 27.0
+        },
+        "model": "planilha.input",
+        "pk": "25.012.000002.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Fita de a\u00e7o perfurada chapa # 14 3 m x 38 mm para poste",
+            "unit": "un",
+            "unit_price": 15.0
+        },
+        "model": "planilha.input",
+        "pk": "25.021.000005.MAT"
+    },
+    {
+        "fields": {
+            "classification": "EQH",
+            "description": "Betoneira el\u00e9trica trif\u00e1sica, 2 HP 1,5 kW, capacidade 400 L",
+            "unit": "h prod",
+            "unit_price": 5.0
+        },
+        "model": "planilha.input",
+        "pk": "36.003.000017.EQH"
+    },
+    {
+        "fields": {
+            "classification": "EQH",
+            "description": "Dobradora para ferro, el\u00e9trica, 5 HP 3,7 kW, capacidade de dobra, CA-25 at\u00e9 \u00d8 32 mm e CA-50 at\u00e9 \u00d8 25 mm",
+            "unit": "h prod",
+            "unit_price": 14.0
+        },
+        "model": "planilha.input",
+        "pk": "36.004.000009.EQH"
+    },
+    {
+        "fields": {
+            "classification": "EQI",
+            "description": "Caminh\u00e3o basculante 6 m\u00b3 10,5 t 208 hp 155 kW, vida \u00fatil 12.000 h",
+            "unit": "h imp",
+            "unit_price": 50.0
+        },
+        "model": "planilha.input",
+        "pk": "36.015.000004.EQI"
+    }
+]
