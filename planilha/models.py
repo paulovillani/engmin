@@ -50,6 +50,7 @@ class CompositionCoeficient(models.Model):
 	class Meta:
 		verbose_name = u"Coeficiente da composição"
 		verbose_name_plural = u"Coeficientes da composição"
+		unique_together = ("inputs", "composition")
 
 	inputs = models.ForeignKey(Input)
 	composition = models.ForeignKey(Composition)

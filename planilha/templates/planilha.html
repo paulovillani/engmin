@@ -528,18 +528,25 @@
     </table>
     <table title="Composição de Preços">
         <colgroup>
-            <col style="width: 90px; "/>
+            <col style="width: 90px; "/><!--78/3=26 -->
             <col style="width: 530px; "/>
             <col style="width: 50px; "/>
             <col style="width: 65px; "/>
-            <col style="width: 78px; "/>
-            <col style="width: 108px; "/>
-            <col style="width: 78px; "/>
-            <col style="width: 78px; "/>
+            <col style="width: 104px; "/>
+            <col style="width: 134px; "/>
+            <col style="width: 104px; "/>
         </colgroup>
         <tbody>
             <tr>
-                <td class="styleBold styleCenter" rowspan="3" colspan="8">Composição de Preços</td>
+                <td class="styleBold styleCenter" rowspan="3" colspan="7">Composição de Preços</td>
+                <td style="display: none;"></td>
+                <td style="display: none;"></td>
+                <td style="display: none;"></td>
+                <td style="display: none;"></td>
+                <td style="display: none;"></td>
+                <td style="display: none;"></td>
+            </tr>
+            <tr>
                 <td style="display: none;"></td>
                 <td style="display: none;"></td>
                 <td style="display: none;"></td>
@@ -556,21 +563,9 @@
                 <td style="display: none;"></td>
                 <td style="display: none;"></td>
                 <td style="display: none;"></td>
-                <td style="display: none;"></td>
             </tr>
             <tr>
-                <td style="display: none;"></td>
-                <td style="display: none;"></td>
-                <td style="display: none;"></td>
-                <td style="display: none;"></td>
-                <td style="display: none;"></td>
-                <td style="display: none;"></td>
-                <td style="display: none;"></td>
-                <td style="display: none;"></td>
-            </tr>
-            <tr>
-                <td rowspan="1" colspan="8"></td>
-                <td style="display: none;"></td>
+                <td rowspan="1" colspan="7"></td>
                 <td style="display: none;"></td>
                 <td style="display: none;"></td>
                 <td style="display: none;"></td>
@@ -586,8 +581,87 @@
                 <td>Coef.</td>
                 <td>Preço Un. (R$)</td>
                 <td>Total (R$)</td>
-                <td>Consumo</td>
             </tr>
+            {% for composition in compositions %}
+                <tr>
+                    <td style="background: rgb(221,217,195);" class="styleBold styleRight">{{composition.code}}</td>
+                    <td style="background: rgb(221,217,195);" class="styleBold styleRight">{{composition.description}}</td>
+                    <td style="background: rgb(221,217,195);" class="styleBold styleRight">{{composition.unit}}</td>
+                    <td style="background: rgb(221,217,195);" class="styleBold styleRight"></td>
+                    <td style="background: rgb(221,217,195);" class="styleBold styleRight"></td>
+                    <td style="background: rgb(221,217,195);" class="styleBold styleRight"></td>
+                    <td style="background: rgb(221,217,195);" class="styleBold styleRight"></td>
+                </tr>
+                {% for input in composition.inputs.all %}
+                    <tr>
+                        <td>{{input.code}}</td>
+                        <td>{{input.description}}</td>
+                        <td>{{input.unit}}</td>
+                        <td>{{input.classification}}</td>
+                        {% for coeficient in input.compositioncoeficient_set.all %}
+                            {% if coeficient.composition.code == composition.code %}
+                                <td>{{coeficient.coeficient}}</td>
+                            {% endif %}
+                        {% endfor %}
+                        <td>{{input.unit_price}}</td>
+                        <td></td>
+                    </tr>
+                {% endfor %}
+                <tr>
+                    <td rowspan="1" colspan="7"></td>
+                    <td style="display: none;"></td>
+                    <td style="display: none;"></td>
+                    <td style="display: none;"></td>
+                    <td style="display: none;"></td>
+                    <td style="display: none;"></td>
+                    <td style="display: none;"></td>
+                </tr>
+                <tr>
+                    <td rowspan="1" colspan="3"></td>
+                    <td style="display: none;"></td>
+                    <td style="display: none;"></td>
+                    <td>M.O.</td>
+                    <td></td>
+                    <td>Total s/ Taxa (Unit.) :</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="1" colspan="3"></td>
+                    <td style="display: none;"></td>
+                    <td style="display: none;"></td>
+                    <td>Outros</td>
+                    <td></td>
+                    <td>Valor LS :</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="1" colspan="5"></td>
+                    <td style="display: none;"></td>
+                    <td style="display: none;"></td>
+                    <td style="display: none;"></td>
+                    <td style="display: none;"></td>
+                    <td>Valor BDI :</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="1" colspan="5"></td>
+                    <td style="display: none;"></td>
+                    <td style="display: none;"></td>
+                    <td style="display: none;"></td>
+                    <td style="display: none;"></td>
+                    <td>Valor Total c/ Taxa :</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="1" colspan="7"></td>
+                    <td style="display: none;"></td>
+                    <td style="display: none;"></td>
+                    <td style="display: none;"></td>
+                    <td style="display: none;"></td>
+                    <td style="display: none;"></td>
+                    <td style="display: none;"></td>
+                </tr>
+            {% endfor %}
         </tbody>
     </table>
 </div>
