@@ -1,0 +1,5832 @@
+[
+    {
+        "fields": {
+            "classification": "MOD",
+            "description": "Ajudante de armador",
+            "unit": "h",
+            "unit_price": 4.0
+        },
+        "model": "planilha.input",
+        "pk": "01.001.000002.MOD"
+    },
+    {
+        "fields": {
+            "classification": "MOD",
+            "description": "Ajudante de carpinteiro",
+            "unit": "h",
+            "unit_price": 4.0
+        },
+        "model": "planilha.input",
+        "pk": "01.001.000003.MOD"
+    },
+    {
+        "fields": {
+            "classification": "MOD",
+            "description": "Ajudante de eletricista",
+            "unit": "h",
+            "unit_price": 4.0
+        },
+        "model": "planilha.input",
+        "pk": "01.001.000004.MOD"
+    },
+    {
+        "fields": {
+            "classification": "MOD",
+            "description": "Ajudante de encanador",
+            "unit": "h",
+            "unit_price": 4.0
+        },
+        "model": "planilha.input",
+        "pk": "01.001.000005.MOD"
+    },
+    {
+        "fields": {
+            "classification": "MOD",
+            "description": "Ajudante de pintor",
+            "unit": "h",
+            "unit_price": 4.0
+        },
+        "model": "planilha.input",
+        "pk": "01.001.000007.MOD"
+    },
+    {
+        "fields": {
+            "classification": "MOD",
+            "description": "Ajudante de telhadista",
+            "unit": "h",
+            "unit_price": 4.0
+        },
+        "model": "planilha.input",
+        "pk": "01.001.000008.MOD"
+    },
+    {
+        "fields": {
+            "classification": "MOD",
+            "description": "Azulejista",
+            "unit": "h",
+            "unit_price": 5.0
+        },
+        "model": "planilha.input",
+        "pk": "01.003.000001.MOD"
+    },
+    {
+        "fields": {
+            "classification": "MOD",
+            "description": "Carpinteiro",
+            "unit": "h",
+            "unit_price": 5.0
+        },
+        "model": "planilha.input",
+        "pk": "01.007.000001.MOD"
+    },
+    {
+        "fields": {
+            "classification": "MOD",
+            "description": "Eletricista",
+            "unit": "h",
+            "unit_price": 5.0
+        },
+        "model": "planilha.input",
+        "pk": "01.009.000001.MOD"
+    },
+    {
+        "fields": {
+            "classification": "MOD",
+            "description": "Encanador",
+            "unit": "h",
+            "unit_price": 5.0
+        },
+        "model": "planilha.input",
+        "pk": "01.010.000001.MOD"
+    },
+    {
+        "fields": {
+            "classification": "MOD",
+            "description": "Armador",
+            "unit": "h",
+            "unit_price": 5.0
+        },
+        "model": "planilha.input",
+        "pk": "01.011.000001.MOD"
+    },
+    {
+        "fields": {
+            "classification": "MOD",
+            "description": "Ladrilhista",
+            "unit": "h",
+            "unit_price": 5.0
+        },
+        "model": "planilha.input",
+        "pk": "01.016.000001.MOD"
+    },
+    {
+        "fields": {
+            "classification": "MOD",
+            "description": "Pedreiro",
+            "unit": "h",
+            "unit_price": 5.0
+        },
+        "model": "planilha.input",
+        "pk": "01.021.000001.MOD"
+    },
+    {
+        "fields": {
+            "classification": "MOD",
+            "description": "Pintor",
+            "unit": "h",
+            "unit_price": 5.0
+        },
+        "model": "planilha.input",
+        "pk": "01.022.000001.MOD"
+    },
+    {
+        "fields": {
+            "classification": "MOD",
+            "description": "Servente",
+            "unit": "h",
+            "unit_price": 4.0
+        },
+        "model": "planilha.input",
+        "pk": "01.026.000001.MOD"
+    },
+    {
+        "fields": {
+            "classification": "MOD",
+            "description": "Telhadista",
+            "unit": "h",
+            "unit_price": 5.0
+        },
+        "model": "planilha.input",
+        "pk": "01.029.000001.MOD"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Areia m\u00e9dia lavada",
+            "unit": "m3",
+            "unit_price": 99.0
+        },
+        "model": "planilha.input",
+        "pk": "03.001.000008.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Brita 3",
+            "unit": "m3",
+            "unit_price": 87.0
+        },
+        "model": "planilha.input",
+        "pk": "03.002.000003.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Brita 4",
+            "unit": "m3",
+            "unit_price": 87.0
+        },
+        "model": "planilha.input",
+        "pk": "03.002.000004.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Brita 1",
+            "unit": "m3",
+            "unit_price": 88.0
+        },
+        "model": "planilha.input",
+        "pk": "03.002.000011.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Brita 2",
+            "unit": "m3",
+            "unit_price": 92.0
+        },
+        "model": "planilha.input",
+        "pk": "03.002.000014.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Cal hidratada CH III",
+            "unit": "kg",
+            "unit_price": 0.0
+        },
+        "model": "planilha.input",
+        "pk": "04.001.000001.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Cimento CP-32",
+            "unit": "kg",
+            "unit_price": 0.0
+        },
+        "model": "planilha.input",
+        "pk": "04.002.000002.MAT"
+    },
+    {
+        "fields": {
+            "classification": "SER",
+            "description": "Concreto preparado na obra, controle \"A\", brita 1, fck 15 MPa, abatimento 8\u00b11 cm",
+            "unit": "m3",
+            "unit_price": 328.0
+        },
+        "model": "planilha.input",
+        "pk": "04.002.000038.SER"
+    },
+    {
+        "fields": {
+            "classification": "SER",
+            "description": "Concreto preparado na obra, controle \"C\", brita 1 e 2, fck 15 MPa, abatimento 8\u00b11 cm",
+            "unit": "m3",
+            "unit_price": 338.0
+        },
+        "model": "planilha.input",
+        "pk": "04.002.000065.SER"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Argamassa pr\u00e9-fabricada de cimento colante para assentamento de pe\u00e7as cer\u00e2micas",
+            "unit": "kg",
+            "unit_price": 0.0
+        },
+        "model": "planilha.input",
+        "pk": "04.004.000036.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Bloco cer\u00e2mico furado de veda\u00e7\u00e3o (altura: 190 mm / comprimento: 190 mm / largura: 90 mm)",
+            "unit": "un",
+            "unit_price": 0.0
+        },
+        "model": "planilha.input",
+        "pk": "05.004.000004.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Tijolo cer\u00e2mico comum para alvenaria 6 x 9 x 19 cm",
+            "unit": "un",
+            "unit_price": 0.0
+        },
+        "model": "planilha.input",
+        "pk": "05.004.000006.MAT"
+    },
+    {
+        "fields": {
+            "classification": "SER",
+            "description": "Concreto\u00a0n\u00e3o\u00a0estrutural\u00a0,\u00a0preparo\u00a0com\u00a0betoneira",
+            "unit": "m3",
+            "unit_price": 283.0
+        },
+        "model": "planilha.input",
+        "pk": "05.004.000097.SER"
+    },
+    {
+        "fields": {
+            "classification": "SER",
+            "description": "Forma para estruturas de concreto com chapa compensada plastificada, e=12mm - fabrica\u00e7\u00e3o",
+            "unit": "m2",
+            "unit_price": 120.0
+        },
+        "model": "planilha.input",
+        "pk": "05.006.000022.SER"
+    },
+    {
+        "fields": {
+            "classification": "SER",
+            "description": "Forma para estruturas de concreto com chapa compensada plastificada, e=12mm - montagem",
+            "unit": "m2",
+            "unit_price": 4.0
+        },
+        "model": "planilha.input",
+        "pk": "05.006.000030.SER"
+    },
+    {
+        "fields": {
+            "classification": "SER",
+            "description": "Forma para estruturas de concreto com chapa compensada plastificada, e=12mm - desmontagem",
+            "unit": "m\u00b2",
+            "unit_price": 1.0
+        },
+        "model": "planilha.input",
+        "pk": "05.006.000032.SER"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Laje pr\u00e9-fabricada para piso, sobrecarga 150 kgf/m\u00b2, esp. 8 cm, v\u00e3o livre 3,5 m",
+            "unit": "m2",
+            "unit_price": 21.0
+        },
+        "model": "planilha.input",
+        "pk": "06.001.000060.MAT"
+    },
+    {
+        "fields": {
+            "classification": "SER",
+            "description": "Argamassa de cal hidratada e areia peneirada tra\u00e7o 1:3",
+            "unit": "m3",
+            "unit_price": 265.0
+        },
+        "model": "planilha.input",
+        "pk": "06.003.000005.SER"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Espa\u00e7ador pl\u00e1stico para armadura de pe\u00e7as de concreto com cobrimento 3 cm",
+            "unit": "un",
+            "unit_price": 0.0
+        },
+        "model": "planilha.input",
+        "pk": "06.003.000010.MAT"
+    },
+    {
+        "fields": {
+            "classification": "SER",
+            "description": "Argamassa de cimento e areia peneirada tra\u00e7o 1:3",
+            "unit": "m3",
+            "unit_price": 403.0
+        },
+        "model": "planilha.input",
+        "pk": "06.003.000015.SER"
+    },
+    {
+        "fields": {
+            "classification": "SER",
+            "description": "Argamassa de cimento e areia sem peneirar tra\u00e7o 1:3",
+            "unit": "m3",
+            "unit_price": 402.0
+        },
+        "model": "planilha.input",
+        "pk": "06.003.000027.SER"
+    },
+    {
+        "fields": {
+            "classification": "SER",
+            "description": "Argamassa mista de cal hidratada e areia sem peneirar tra\u00e7o 1:4, com adi\u00e7\u00e3o de 100 kg de cimento",
+            "unit": "m3",
+            "unit_price": 276.0
+        },
+        "model": "planilha.input",
+        "pk": "06.003.000037.SER"
+    },
+    {
+        "fields": {
+            "classification": "SER",
+            "description": "Argamassa mista de cimento, cal hidratada e areia sem peneirar tra\u00e7o 1:2:8",
+            "unit": "m3",
+            "unit_price": 335.0
+        },
+        "model": "planilha.input",
+        "pk": "06.003.000070.SER"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Concreto usinado fck 25 MPa brita 1 e 2 abatimento 8\u00b11",
+            "unit": "m3",
+            "unit_price": 254.0
+        },
+        "model": "planilha.input",
+        "pk": "06.004.000009.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "A\u00e7o CA-25 \u00d8 6,3 mm, em barra, massa nominal 0,245 kg/m",
+            "unit": "kg",
+            "unit_price": 4.0
+        },
+        "model": "planilha.input",
+        "pk": "07.007.000003.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "A\u00e7o CA-50 \u00d8 6,3 mm, em barra, massa nominal 0,245 kg/m",
+            "unit": "kg",
+            "unit_price": 3.0
+        },
+        "model": "planilha.input",
+        "pk": "07.007.000008.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "A\u00e7o CA-50 \u00d8 12,5 mm, em barra, massa nominal 0,963 kg/m",
+            "unit": "kg",
+            "unit_price": 3.0
+        },
+        "model": "planilha.input",
+        "pk": "07.007.000011.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "A\u00e7o CA-60 \u00d8 5,00 mm, em barra, massa nominal 0,154 kg/m",
+            "unit": "kg",
+            "unit_price": 3.0
+        },
+        "model": "planilha.input",
+        "pk": "07.007.000014.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Arame galvanizado 16 BWG, \u00d8 1,60 mm, 0,016 kg/m",
+            "unit": "kg",
+            "unit_price": 7.0
+        },
+        "model": "planilha.input",
+        "pk": "07.009.000003.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Arame recozido 18 BWG, \u00d8 1,25 mm, 0,010 kg/m",
+            "unit": "kg",
+            "unit_price": 6.0
+        },
+        "model": "planilha.input",
+        "pk": "07.009.000007.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Poste de a\u00e7o galvanizado ELETROPAULO/BANDEIRANTES/ELEKTRO/CPFL para entrada de energia h = 6 m, \u00d8 4\", # 5 mm",
+            "unit": "un",
+            "unit_price": 348.0
+        },
+        "model": "planilha.input",
+        "pk": "07.022.000002.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Madeira bruta peroba",
+            "unit": "m3",
+            "unit_price": 2769.0
+        },
+        "model": "planilha.input",
+        "pk": "08.001.000006.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Chapa de madeira compensada resinada 1,10 x 2,20 m # 12 mm",
+            "unit": "m2",
+            "unit_price": 12.0
+        },
+        "model": "planilha.input",
+        "pk": "08.002.000004.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Pontalete de cedro 3a 7,5 x 7,5 cm",
+            "unit": "m",
+            "unit_price": 2.0
+        },
+        "model": "planilha.input",
+        "pk": "08.005.000003.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Sarrafo 1\" x 4\"",
+            "unit": "m",
+            "unit_price": 1.0
+        },
+        "model": "planilha.input",
+        "pk": "08.005.000011.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "T\u00e1bua de cedrinho 1\" x 6\"",
+            "unit": "m2",
+            "unit_price": 12.0
+        },
+        "model": "planilha.input",
+        "pk": "08.005.000018.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "T\u00e1bua de cedrinho 1\" x 9\"",
+            "unit": "m2",
+            "unit_price": 12.0
+        },
+        "model": "planilha.input",
+        "pk": "08.005.000019.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "T\u00e1bua de cedrinho 1\" x 12\"",
+            "unit": "m",
+            "unit_price": 4.0
+        },
+        "model": "planilha.input",
+        "pk": "08.005.000020.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "T\u00e1bua de cedrinho 3a 1\" x 12\"",
+            "unit": "m2",
+            "unit_price": 15.0
+        },
+        "model": "planilha.input",
+        "pk": "08.005.000022.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Viga de peroba 6 x 12 cm",
+            "unit": "m",
+            "unit_price": 19.0
+        },
+        "model": "planilha.input",
+        "pk": "08.005.000024.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Viga de peroba 6 x 16 cm",
+            "unit": "m",
+            "unit_price": 26.0
+        },
+        "model": "planilha.input",
+        "pk": "08.005.000025.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Aditivo impermeabilizante e plastificante em p\u00f3 para argamassas",
+            "unit": "kg",
+            "unit_price": 8.0
+        },
+        "model": "planilha.input",
+        "pk": "12.003.000012.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Janela de correr de alum\u00ednio, 1 folha fixa e 1 m\u00f3vel, vidro liso 1,20 x 1,00 m",
+            "unit": "un",
+            "unit_price": 398.0
+        },
+        "model": "planilha.input",
+        "pk": "13.005.000010.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Janela basculante de alum\u00ednio, 2 b\u00e1sculas, com vidro canelado 0,60 x 0,80 m",
+            "unit": "un",
+            "unit_price": 91.0
+        },
+        "model": "planilha.input",
+        "pk": "13.005.000011.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Janela de correr de alum\u00ednio, 1 folha veneziana e 1 folha de vidro liso 1,50 x 1,00 m",
+            "unit": "un",
+            "unit_price": 715.0
+        },
+        "model": "planilha.input",
+        "pk": "13.005.000018.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Guarni\u00e7\u00e3o de peroba 5 x 1 cm para porta de at\u00e9 0,90 x 2,10 m",
+            "unit": "un",
+            "unit_price": 8.0
+        },
+        "model": "planilha.input",
+        "pk": "13.008.000006.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Batente de peroba para porta de 1 folha 3,5 cm x 14 cm x 5,40 m de per\u00edmetro",
+            "unit": "un",
+            "unit_price": 86.0
+        },
+        "model": "planilha.input",
+        "pk": "13.008.000009.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Porta de chapa de madeira lisa encabe\u00e7ada com Imbuia 70 x 210 x 3,5 cm",
+            "unit": "un",
+            "unit_price": 94.0
+        },
+        "model": "planilha.input",
+        "pk": "13.008.000010.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Porta de chapa de madeira lisa encabe\u00e7ada com Imbuia 80 x 210 x 3,5 cm",
+            "unit": "un",
+            "unit_price": 99.0
+        },
+        "model": "planilha.input",
+        "pk": "13.008.000017.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Fechadura em lat\u00e3o completa tipo gorge com guarni\u00e7\u00e3o tipo espelho e ma\u00e7aneta tipo alavanca para porta interna encaixe 40 mm",
+            "unit": "un",
+            "unit_price": 147.0
+        },
+        "model": "planilha.input",
+        "pk": "13.017.000001.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Dobradi\u00e7a de a\u00e7o pino solto para porta 3\" x 2 1/2\"",
+            "unit": "un",
+            "unit_price": 8.0
+        },
+        "model": "planilha.input",
+        "pk": "13.017.000004.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Flange de ferro male\u00e1vel galvanizado com sextavado \u00d8 3/4\"",
+            "unit": "un",
+            "unit_price": 7.0
+        },
+        "model": "planilha.input",
+        "pk": "14.001.000199.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Flange de ferro male\u00e1vel galvanizado com sextavado \u00d8 1\"",
+            "unit": "un",
+            "unit_price": 9.0
+        },
+        "model": "planilha.input",
+        "pk": "14.001.000200.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Flange de ferro male\u00e1vel galvanizado com sextavado \u00d8 2\"",
+            "unit": "un",
+            "unit_price": 21.0
+        },
+        "model": "planilha.input",
+        "pk": "14.001.000203.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Tubo de a\u00e7o galvanizado com costura \u00d8 3/4\"",
+            "unit": "m",
+            "unit_price": 12.0
+        },
+        "model": "planilha.input",
+        "pk": "14.001.000330.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Tubo de a\u00e7o galvanizado com costura \u00d8 1 1/2\"",
+            "unit": "m",
+            "unit_price": 30.0
+        },
+        "model": "planilha.input",
+        "pk": "14.001.000333.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Solu\u00e7\u00e3o limpadora para PVC",
+            "unit": "l",
+            "unit_price": 23.0
+        },
+        "model": "planilha.input",
+        "pk": "14.001.000471.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Tubo PVC sold\u00e1vel \u00d8 25 mm",
+            "unit": "m",
+            "unit_price": 1.0
+        },
+        "model": "planilha.input",
+        "pk": "14.001.000506.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Tubo PVC sold\u00e1vel \u00d8 40 mm",
+            "unit": "m",
+            "unit_price": 7.0
+        },
+        "model": "planilha.input",
+        "pk": "14.001.000508.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Tubo PVC sold\u00e1vel \u00d8 50 mm",
+            "unit": "m",
+            "unit_price": 6.0
+        },
+        "model": "planilha.input",
+        "pk": "14.001.000509.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Tubo PVC sold\u00e1vel \u00d8 75 mm",
+            "unit": "m",
+            "unit_price": 21.0
+        },
+        "model": "planilha.input",
+        "pk": "14.001.000511.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Tubo PVC sold\u00e1vel \u00d8 110 mm",
+            "unit": "m",
+            "unit_price": 41.0
+        },
+        "model": "planilha.input",
+        "pk": "14.001.000513.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Adesivo para PVC",
+            "unit": "kg",
+            "unit_price": 40.0
+        },
+        "model": "planilha.input",
+        "pk": "14.001.000564.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Fita de veda\u00e7\u00e3o para tubos e conex\u00f5es rosc\u00e1veis, rolo de 50 m x 18 mm",
+            "unit": "m",
+            "unit_price": 0.0
+        },
+        "model": "planilha.input",
+        "pk": "14.001.000668.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Joelho 90\u00ba PVC PBV para esgoto \u00d8 100 mm",
+            "unit": "un",
+            "unit_price": 4.0
+        },
+        "model": "planilha.input",
+        "pk": "14.001.000947.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Pasta lubrificante para tubo de PVC",
+            "unit": "kg",
+            "unit_price": 36.0
+        },
+        "model": "planilha.input",
+        "pk": "14.001.000971.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Tubo cer\u00e2mico para esgoto \u00d8 100 mm",
+            "unit": "m",
+            "unit_price": 10.0
+        },
+        "model": "planilha.input",
+        "pk": "14.001.001088.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Caixa de PVC sifonada \u00d8 100 mm, altura 100 mm, entrada \u00d8 40 mm, sa\u00edda \u00d8 50 mm, grelha redonda de PVC, 3 entradas, para esgoto sanit\u00e1rio",
+            "unit": "un",
+            "unit_price": 14.0
+        },
+        "model": "planilha.input",
+        "pk": "14.002.000007.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Ralo de PVC seco com grelha de PVC se\u00e7\u00e3o quadrada 10 x 10 cm, altura 5 cm, entrada \u00d8 40 mm",
+            "unit": "un",
+            "unit_price": 8.0
+        },
+        "model": "planilha.input",
+        "pk": "14.002.000016.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Grelha de ferro fundido hemisf\u00e9rica para \u00e1guas pluviais \u00d8 4\"",
+            "unit": "un",
+            "unit_price": 12.0
+        },
+        "model": "planilha.input",
+        "pk": "14.002.000024.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Registro de press\u00e3o com canopla padr\u00e3o popular \u00d8 1\"",
+            "unit": "un",
+            "unit_price": 71.0
+        },
+        "model": "planilha.input",
+        "pk": "14.006.000019.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "V\u00e1lvula de descarga com registro interno \u00d8 1 1/2\"",
+            "unit": "un",
+            "unit_price": 138.0
+        },
+        "model": "planilha.input",
+        "pk": "14.006.000021.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Hidr\u00f4metro multijato para medi\u00e7\u00e3o em entrada de \u00e1gua residencial \u00d8 3/4\" vaz\u00e3o 3 m\u00b3/h",
+            "unit": "un",
+            "unit_price": 111.0
+        },
+        "model": "planilha.input",
+        "pk": "14.006.000057.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Registro de gaveta com canopla padr\u00e3o popular \u00d8 1\"",
+            "unit": "un",
+            "unit_price": 68.0
+        },
+        "model": "planilha.input",
+        "pk": "14.006.000058.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "V\u00e1lvula de escoamento para tanque ou mict\u00f3rio met\u00e1lica \u00d8 1 1/4\"",
+            "unit": "un",
+            "unit_price": 39.0
+        },
+        "model": "planilha.input",
+        "pk": "14.006.000059.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "V\u00e1lvula de escoamento para pia de cozinha met\u00e1lica acabamento cromado \u00d8 3 1/2\"",
+            "unit": "un",
+            "unit_price": 29.0
+        },
+        "model": "planilha.input",
+        "pk": "14.006.000063.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "V\u00e1lvula de escoamento para lavat\u00f3rio ou bid\u00ea met\u00e1lica acabamento cromado \u00d8 1\"",
+            "unit": "un",
+            "unit_price": 27.0
+        },
+        "model": "planilha.input",
+        "pk": "14.006.000065.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Caixa de gordura polietileno cilindrica entrada \u00d8 50 mm sa\u00edda \u00d8 100 mm",
+            "unit": "un",
+            "unit_price": 173.0
+        },
+        "model": "planilha.input",
+        "pk": "14.010.000001.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Tampa para caixa de inspe\u00e7\u00e3o ou gordura de polietileno 35 x 35 cm",
+            "unit": "un",
+            "unit_price": 72.0
+        },
+        "model": "planilha.input",
+        "pk": "14.010.000002.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Caixa de inspe\u00e7\u00e3o cilindrica de polietileno com 3 entradas \u00d8 de sa\u00edda 100 mm",
+            "unit": "un",
+            "unit_price": 104.0
+        },
+        "model": "planilha.input",
+        "pk": "14.010.000003.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Reservat\u00f3rio d' \u00e1gua de fibra de vidro cil\u00edndrico (capacidade: 1000 l)",
+            "unit": "un",
+            "unit_price": 264.0
+        },
+        "model": "planilha.input",
+        "pk": "14.015.000007.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Reservat\u00f3rio de \u00e1gua cil\u00edndrico de fibra de vidro p/ 500 litros",
+            "unit": "un",
+            "unit_price": 130.0
+        },
+        "model": "planilha.input",
+        "pk": "14.015.000009.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Tanque de lou\u00e7a com coluna volume 22 litros",
+            "unit": "un",
+            "unit_price": 202.0
+        },
+        "model": "planilha.input",
+        "pk": "15.001.000002.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Coluna de lou\u00e7a para tanque",
+            "unit": "un",
+            "unit_price": 65.0
+        },
+        "model": "planilha.input",
+        "pk": "15.001.000007.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Conjunto para fixa\u00e7\u00e3o de tanque",
+            "unit": "un",
+            "unit_price": 29.0
+        },
+        "model": "planilha.input",
+        "pk": "15.001.000008.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Porta toalha de lou\u00e7a",
+            "unit": "cj",
+            "unit_price": 23.0
+        },
+        "model": "planilha.input",
+        "pk": "15.003.000005.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Engate flex\u00edvel em PVC \u00d8 1/2\" x 30 cm",
+            "unit": "un",
+            "unit_price": 3.0
+        },
+        "model": "planilha.input",
+        "pk": "15.003.000010.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Tampo de pia de a\u00e7o inoxid\u00e1vel com cuba dupla 2,00 x 0,54 m",
+            "unit": "un",
+            "unit_price": 670.0
+        },
+        "model": "planilha.input",
+        "pk": "15.003.000012.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Lavat\u00f3rio de lou\u00e7a padr\u00e3o popular para embutir",
+            "unit": "un",
+            "unit_price": 53.0
+        },
+        "model": "planilha.input",
+        "pk": "15.003.000018.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Porta Papel higi\u00eanico de lou\u00e7a branca para embutir sem rolete 15 x 15 cm",
+            "unit": "un",
+            "unit_price": 21.0
+        },
+        "model": "planilha.input",
+        "pk": "15.003.000020.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Sif\u00e3o met\u00e1lico acabamento cromado para tanque \u00d8 1 1/4\" x 1 1/2\"",
+            "unit": "un",
+            "unit_price": 77.0
+        },
+        "model": "planilha.input",
+        "pk": "15.003.000021.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Saboneteira de lou\u00e7a branca de embutir, sem al\u00e7a 10,5 x 17,5 cm",
+            "unit": "un",
+            "unit_price": 12.0
+        },
+        "model": "planilha.input",
+        "pk": "15.003.000023.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Sif\u00e3o met\u00e1lico acabamento cromado para lavat\u00f3rio \u00d8 1\" x 1 1/2\"",
+            "unit": "un",
+            "unit_price": 100.0
+        },
+        "model": "planilha.input",
+        "pk": "15.003.000024.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Sif\u00e3o met\u00e1lico acabamento cromado para pia americana \u00d8 1 1/2\" x 2\"",
+            "unit": "un",
+            "unit_price": 122.0
+        },
+        "model": "planilha.input",
+        "pk": "15.003.000029.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Assento pl\u00e1stico padr\u00e3o popular para vaso sanit\u00e1rio",
+            "unit": "un",
+            "unit_price": 21.0
+        },
+        "model": "planilha.input",
+        "pk": "15.005.000008.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Anel de veda\u00e7\u00e3o vaso sanit\u00e1rio",
+            "unit": "un",
+            "unit_price": 6.0
+        },
+        "model": "planilha.input",
+        "pk": "15.005.000012.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Tubo de lat\u00e3o com canopla acabamento cromado para liga\u00e7\u00e3o de bacia sanit\u00e1ria \u00d8 1 1/2\" x 25 cm",
+            "unit": "un",
+            "unit_price": 17.0
+        },
+        "model": "planilha.input",
+        "pk": "15.005.000014.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Bolsa de borracha de liga\u00e7\u00e3o para vaso sant\u00e1rio \u00d8 1 1/2\"",
+            "unit": "un",
+            "unit_price": 3.0
+        },
+        "model": "planilha.input",
+        "pk": "15.005.000015.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Bacia sanit\u00e1ria de lou\u00e7a, padr\u00e3o popular",
+            "unit": "un",
+            "unit_price": 123.0
+        },
+        "model": "planilha.input",
+        "pk": "15.005.000016.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Mict\u00f3rio individual de lou\u00e7a tipo bacia turca",
+            "unit": "un",
+            "unit_price": 170.0
+        },
+        "model": "planilha.input",
+        "pk": "15.005.000018.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Torneira de press\u00e3o de mesa padr\u00e3o m\u00e9dio para lavat\u00f3rio",
+            "unit": "un",
+            "unit_price": 133.0
+        },
+        "model": "planilha.input",
+        "pk": "15.021.000003.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Torneira de press\u00e3o de parede para pia",
+            "unit": "un",
+            "unit_price": 206.0
+        },
+        "model": "planilha.input",
+        "pk": "15.021.000004.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Torneira de press\u00e3o de parede para uso geral",
+            "unit": "un",
+            "unit_price": 61.0
+        },
+        "model": "planilha.input",
+        "pk": "15.021.000007.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Conjunto de cabe\u00e7ote de pl\u00e1stico para entrada de telefone em poste",
+            "unit": "un",
+            "unit_price": 3.0
+        },
+        "model": "planilha.input",
+        "pk": "16.001.000032.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Barramento neutro para quadro de luz padr\u00e3o europeu",
+            "unit": "un",
+            "unit_price": 8.0
+        },
+        "model": "planilha.input",
+        "pk": "16.004.000086.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Al\u00e7a com isolador de porcelana padr\u00e3o TELESP",
+            "unit": "un",
+            "unit_price": 1.0
+        },
+        "model": "planilha.input",
+        "pk": "16.004.000088.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Arma\u00e7\u00e3o secund\u00e1ria com 3 isoladores",
+            "unit": "un",
+            "unit_price": 31.0
+        },
+        "model": "planilha.input",
+        "pk": "16.004.000089.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Barramento principal para quadro de luz padr\u00e3o europeu",
+            "unit": "un",
+            "unit_price": 60.0
+        },
+        "model": "planilha.input",
+        "pk": "16.004.000090.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Barramento terra para quadro de luz padr\u00e3o europeu",
+            "unit": "un",
+            "unit_price": 8.0
+        },
+        "model": "planilha.input",
+        "pk": "16.004.000092.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Fio r\u00edgido 4 mm\u00b2 isolamento em PVC, 750 V",
+            "unit": "m",
+            "unit_price": 1.0
+        },
+        "model": "planilha.input",
+        "pk": "16.006.000007.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Fio r\u00edgido 2,5 mm\u00b2 isolamento em PVC, 750 V",
+            "unit": "m",
+            "unit_price": 0.0
+        },
+        "model": "planilha.input",
+        "pk": "16.006.000013.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Fio r\u00edgido 10 mm\u00b2 isolamento em PVC, 750 V",
+            "unit": "m",
+            "unit_price": 3.0
+        },
+        "model": "planilha.input",
+        "pk": "16.006.000023.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Cabo semi-r\u00edgido isolado em PVC 16 mm\u00b2 450 a 750 V",
+            "unit": "m",
+            "unit_price": 4.0
+        },
+        "model": "planilha.input",
+        "pk": "16.006.000067.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Fio r\u00edgido 6 mm\u00b2 isolamento em PVC, 750 V",
+            "unit": "m",
+            "unit_price": 1.0
+        },
+        "model": "planilha.input",
+        "pk": "16.006.000104.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Curva 90\u00b0 de a\u00e7o galvanizada a fogo para eletroduto \u00d8 3/4\"",
+            "unit": "un",
+            "unit_price": 2.0
+        },
+        "model": "planilha.input",
+        "pk": "16.011.000014.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Curva 90\u00b0 de a\u00e7o galvanizada a fogo para eletroduto \u00d8 1 1/4\"",
+            "unit": "un",
+            "unit_price": 8.0
+        },
+        "model": "planilha.input",
+        "pk": "16.011.000033.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Eletroduto PVC flex\u00edvel corrugado \u00d8 32 mm",
+            "unit": "m",
+            "unit_price": 1.0
+        },
+        "model": "planilha.input",
+        "pk": "16.012.000009.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Eletroduto PVC flex\u00edvel corrugado \u00d8 25 mm",
+            "unit": "m",
+            "unit_price": 1.0
+        },
+        "model": "planilha.input",
+        "pk": "16.012.000023.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Eletroduto de a\u00e7o com costura galvanizado a fogo \u00d8 3/4\"",
+            "unit": "m",
+            "unit_price": 10.0
+        },
+        "model": "planilha.input",
+        "pk": "16.012.000030.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Eletroduto de a\u00e7o com costura galvanizado a fogo \u00d8 1 1/4\"",
+            "unit": "m",
+            "unit_price": 16.0
+        },
+        "model": "planilha.input",
+        "pk": "16.012.000035.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Caixa de entrada de energia modelo K padr\u00e3o ELETROPAULO em chapa de a\u00e7o para 2 medidores 50 x 60 x 27 cm",
+            "unit": "un",
+            "unit_price": 234.0
+        },
+        "model": "planilha.input",
+        "pk": "16.015.000014.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Quadro em PVC de distribui\u00e7\u00e3o de luz de embutir 6 disjuntores padr\u00e3o europeu/8 disjuntores padr\u00e3o americano padr\u00e3o americano (comprimento: 245 mm / largura: 190 mm / profundidade: 78,7 mm)",
+            "unit": "un",
+            "unit_price": 22.0
+        },
+        "model": "planilha.input",
+        "pk": "16.015.000024.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Interruptor de embutir 1 tecla simples com placa (corrente el\u00e9trica: 10 A / tens\u00e3o: 250 V)",
+            "unit": "un",
+            "unit_price": 4.0
+        },
+        "model": "planilha.input",
+        "pk": "16.035.000006.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Interruptor de embutir 1 tecla dupla bipolar simples (corrente el\u00e9trica: 10 A / tens\u00e3o: 250 V)",
+            "unit": "un",
+            "unit_price": 16.0
+        },
+        "model": "planilha.input",
+        "pk": "16.035.000016.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Tomada de embutir 2 p\u00f3los + terra 250 V 20 A",
+            "unit": "un",
+            "unit_price": 12.0
+        },
+        "model": "planilha.input",
+        "pk": "16.035.000020.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Tomada de embutir 2 p\u00f3los + terra sem placa 250 V 10 A",
+            "unit": "un",
+            "unit_price": 4.0
+        },
+        "model": "planilha.input",
+        "pk": "16.035.000023.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Lumin\u00e1ria em chapa de a\u00e7o interna tipo calha de sobrepor comercial com 2 l\u00e2mpadas para l\u00e2mpada fluorescente tubular (pot\u00eancia da l\u00e2mpada: 32 W)",
+            "unit": "un",
+            "unit_price": 38.0
+        },
+        "model": "planilha.input",
+        "pk": "16.037.000004.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Plafonier de alum\u00ednio com globo de vidro leitoso boca \u00d8 100 mm",
+            "unit": "un",
+            "unit_price": 10.0
+        },
+        "model": "planilha.input",
+        "pk": "16.037.000010.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "L\u00e2mpada fluorescente tubular 40 W",
+            "unit": "un",
+            "unit_price": 3.0
+        },
+        "model": "planilha.input",
+        "pk": "16.037.000019.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Reator de partida r\u00e1pida com baixo fator de pot\u00eancia para 1 l\u00e2mpada 40 W",
+            "unit": "un",
+            "unit_price": 16.0
+        },
+        "model": "planilha.input",
+        "pk": "16.037.000029.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Soquete simples em termopl\u00e1stico para l\u00e2mpada fluorescente",
+            "unit": "un",
+            "unit_price": 1.0
+        },
+        "model": "planilha.input",
+        "pk": "16.037.000032.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Taco de peroba para instala\u00e7\u00e3o de portas e janelas altura 60 x 50 x 15 mm",
+            "unit": "un",
+            "unit_price": 0.0
+        },
+        "model": "planilha.input",
+        "pk": "18.003.000006.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Rodap\u00e9 cer\u00e2mico 30 x 8 x 0,8 cm",
+            "unit": "m",
+            "unit_price": 8.0
+        },
+        "model": "planilha.input",
+        "pk": "18.006.000002.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Azulejo cer\u00e2mico esmaltado 15 x 15 cm",
+            "unit": "m2",
+            "unit_price": 19.0
+        },
+        "model": "planilha.input",
+        "pk": "18.006.000008.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Placa cer\u00e2mica esmaltada 30 x 30 cm x 8 mm resist\u00eancia a abras\u00e3o 3",
+            "unit": "m2",
+            "unit_price": 23.0
+        },
+        "model": "planilha.input",
+        "pk": "18.006.000009.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Massa corrida acr\u00edlica para pintura latex",
+            "unit": "kg",
+            "unit_price": 3.0
+        },
+        "model": "planilha.input",
+        "pk": "21.001.000005.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Massa corrida base PVA",
+            "unit": "kg",
+            "unit_price": 1.0
+        },
+        "model": "planilha.input",
+        "pk": "21.001.000007.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Selador para madeira",
+            "unit": "l",
+            "unit_price": 15.0
+        },
+        "model": "planilha.input",
+        "pk": "21.001.000020.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "L\u00edquido preparador de superf\u00edcies lata com 18 litros",
+            "unit": "l",
+            "unit_price": 9.0
+        },
+        "model": "planilha.input",
+        "pk": "21.001.000023.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Selador base PVA para pintura l\u00e1tex",
+            "unit": "l",
+            "unit_price": 7.0
+        },
+        "model": "planilha.input",
+        "pk": "21.001.000027.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Solvente para produtos \u00e0 base de nitrocelulose",
+            "unit": "l",
+            "unit_price": 7.0
+        },
+        "model": "planilha.input",
+        "pk": "21.001.000030.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Aguarr\u00e1s mineral",
+            "unit": "l",
+            "unit_price": 7.0
+        },
+        "model": "planilha.input",
+        "pk": "21.001.000032.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Verniz sint\u00e9tico para madeira",
+            "unit": "l",
+            "unit_price": 16.0
+        },
+        "model": "planilha.input",
+        "pk": "21.002.000003.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Tinta l\u00e1tex acr\u00edlica fosca",
+            "unit": "l",
+            "unit_price": 12.0
+        },
+        "model": "planilha.input",
+        "pk": "21.004.000003.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Tinta l\u00e1tex PVA fosca",
+            "unit": "l",
+            "unit_price": 10.0
+        },
+        "model": "planilha.input",
+        "pk": "21.004.000004.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Lixa grana 100 para superf\u00edcie madeira/massa",
+            "unit": "un",
+            "unit_price": 1.0
+        },
+        "model": "planilha.input",
+        "pk": "21.006.000005.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Massa de vidraceiro",
+            "unit": "kg",
+            "unit_price": 2.0
+        },
+        "model": "planilha.input",
+        "pk": "22.001.000001.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Chapa de a\u00e7o para emenda de tesouras em telhados 4\" x 1/4\" x 50 cm",
+            "unit": "kg",
+            "unit_price": 13.0
+        },
+        "model": "planilha.input",
+        "pk": "23.001.000002.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Cumeeira articulada inferior para telha de fibrocimento tipo vogatex ou fibrotex",
+            "unit": "un",
+            "unit_price": 3.0
+        },
+        "model": "planilha.input",
+        "pk": "23.004.000014.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Telha francesa",
+            "unit": "un",
+            "unit_price": 1.0
+        },
+        "model": "planilha.input",
+        "pk": "23.004.000030.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Telha de fibrocimento ondulada esp. 4 mm / largura \u00fatil 45 cm",
+            "unit": "m2",
+            "unit_price": 7.0
+        },
+        "model": "planilha.input",
+        "pk": "23.004.000035.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Rufo de chapa de a\u00e7o galvanizada # 24 e 25 cm de largura",
+            "unit": "m",
+            "unit_price": 10.0
+        },
+        "model": "planilha.input",
+        "pk": "23.005.000006.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Calha de chapa de a\u00e7o galvanizada # 24 largura 25 cm",
+            "unit": "m",
+            "unit_price": 10.0
+        },
+        "model": "planilha.input",
+        "pk": "23.005.000022.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Parafuso cabe\u00e7a chata fenda simples zincado branco para madeira comprimento \u00d8 6 mm x 90 mm",
+            "unit": "un",
+            "unit_price": 0.0
+        },
+        "model": "planilha.input",
+        "pk": "25.002.000014.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Parafuso cromado \u00d8 1/4\" x 2 1/2\"",
+            "unit": "un",
+            "unit_price": 1.0
+        },
+        "model": "planilha.input",
+        "pk": "25.002.000021.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Prego com cabe\u00e7a 16 x 24, 55 mm x \u00d8 2,7 mm",
+            "unit": "kg",
+            "unit_price": 5.0
+        },
+        "model": "planilha.input",
+        "pk": "25.007.000007.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Prego com cabe\u00e7a 15 x 15, 34,5 mm x \u00d8 2,4 mm",
+            "unit": "kg",
+            "unit_price": 6.0
+        },
+        "model": "planilha.input",
+        "pk": "25.007.000008.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Prego com cabe\u00e7a 18 x 27, 62,1 mm x \u00d8 3,4 mm",
+            "unit": "kg",
+            "unit_price": 5.0
+        },
+        "model": "planilha.input",
+        "pk": "25.007.000009.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Rebite de a\u00e7o zincado n\u00ba 8, 6,10 x 3 mm",
+            "unit": "kg",
+            "unit_price": 17.0
+        },
+        "model": "planilha.input",
+        "pk": "25.008.000001.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Bucha de nylon \u00d8 8 mm x 40 mm",
+            "unit": "un",
+            "unit_price": 0.0
+        },
+        "model": "planilha.input",
+        "pk": "25.011.000001.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Estanho 30x70 para solda",
+            "unit": "kg",
+            "unit_price": 27.0
+        },
+        "model": "planilha.input",
+        "pk": "25.012.000002.MAT"
+    },
+    {
+        "fields": {
+            "classification": "MAT",
+            "description": "Fita de a\u00e7o perfurada chapa # 14 3 m x 38 mm para poste",
+            "unit": "un",
+            "unit_price": 15.0
+        },
+        "model": "planilha.input",
+        "pk": "25.021.000005.MAT"
+    },
+    {
+        "fields": {
+            "classification": "EQH",
+            "description": "Betoneira el\u00e9trica trif\u00e1sica, 2 HP 1,5 kW, capacidade 400 L",
+            "unit": "h prod",
+            "unit_price": 5.0
+        },
+        "model": "planilha.input",
+        "pk": "36.003.000017.EQH"
+    },
+    {
+        "fields": {
+            "classification": "EQH",
+            "description": "Dobradora para ferro, el\u00e9trica, 5 HP 3,7 kW, capacidade de dobra, CA-25 at\u00e9 \u00d8 32 mm e CA-50 at\u00e9 \u00d8 25 mm",
+            "unit": "h prod",
+            "unit_price": 14.0
+        },
+        "model": "planilha.input",
+        "pk": "36.004.000009.EQH"
+    },
+    {
+        "fields": {
+            "classification": "EQI",
+            "description": "Caminh\u00e3o basculante 6 m\u00b3 10,5 t 208 hp 155 kW, vida \u00fatil 12.000 h",
+            "unit": "h imp",
+            "unit_price": 50.0
+        },
+        "model": "planilha.input",
+        "pk": "36.015.000004.EQI"
+    },
+    {
+        "fields": {
+            "description": "Abrigo provis\u00f3rio de madeira com dois pavimentos para alojamento e/ou dep\u00f3sito de materiais e ferramentas",
+            "unit": "m2"
+        },
+        "model": "planilha.composition",
+        "pk": "02.001.000002.SER"
+    },
+    {
+        "fields": {
+            "description": "Liga\u00e7\u00e3o provis\u00f3ria de \u00e1gua para obra e instala\u00e7\u00e3o sanit\u00e1ria provis\u00f3ria, pequenas obras - instala\u00e7\u00e3o m\u00ednima",
+            "unit": "un"
+        },
+        "model": "planilha.composition",
+        "pk": "02.001.000009.SER"
+    },
+    {
+        "fields": {
+            "description": "Liga\u00e7\u00e3o provis\u00f3ria de luz e for\u00e7a para obra - instala\u00e7\u00e3o m\u00ednima",
+            "unit": "un"
+        },
+        "model": "planilha.composition",
+        "pk": "02.001.000010.SER"
+    },
+    {
+        "fields": {
+            "description": "Loca\u00e7\u00e3o da obra, execu\u00e7\u00e3o de gabarito",
+            "unit": "m2"
+        },
+        "model": "planilha.composition",
+        "pk": "02.004.000001.SER"
+    },
+    {
+        "fields": {
+            "description": "Reaterro e compacta\u00e7\u00e3o manual de vala por apiloamento com soquete",
+            "unit": "m3"
+        },
+        "model": "planilha.composition",
+        "pk": "02.005.000007.SER"
+    },
+    {
+        "fields": {
+            "description": "Escava\u00e7\u00e3o manual de vala em solo de 1\u00aa categoria profundidade at\u00e9 2 m",
+            "unit": "m3"
+        },
+        "model": "planilha.composition",
+        "pk": "02.005.000049.SER"
+    },
+    {
+        "fields": {
+            "description": "Armadura de a\u00e7o CA-50 para estruturas de concreto armado, \u00d8 at\u00e9 12,5 mm, corte, dobra e montagem",
+            "unit": "kg"
+        },
+        "model": "planilha.composition",
+        "pk": "04.001.000003.SER"
+    },
+    {
+        "fields": {
+            "description": "Armadura de a\u00e7o CA-60 para estruturas de concreto armado, \u00d8 at\u00e9 5,00 mm, corte, dobra e montagem",
+            "unit": "kg"
+        },
+        "model": "planilha.composition",
+        "pk": "04.001.000005.SER"
+    },
+    {
+        "fields": {
+            "description": "Concreto estrutural dosado em central, fck 25 MPa, abatimento 8\u00b11 cm",
+            "unit": "m3"
+        },
+        "model": "planilha.composition",
+        "pk": "04.002.000016.SER"
+    },
+    {
+        "fields": {
+            "description": "Alvenaria de embasamento com tijolo comum, empregando argamassa mista de cimento, cal hidratada e areia sem peneirar, tra\u00e7o 1:2:8",
+            "unit": "m3"
+        },
+        "model": "planilha.composition",
+        "pk": "04.009.000003.SER"
+    },
+    {
+        "fields": {
+            "description": "Broca de concreto armado, controle tipo \"C\", brita 1 e 2, fck=15 MPa, \u00d8 25 cm",
+            "unit": "m"
+        },
+        "model": "planilha.composition",
+        "pk": "04.009.000008.SER"
+    },
+    {
+        "fields": {
+            "description": "Lastro de brita 3 e 4 apiloado com soquete manual para regulariza\u00e7\u00e3o",
+            "unit": "m3"
+        },
+        "model": "planilha.composition",
+        "pk": "04.012.000004.SER"
+    },
+    {
+        "fields": {
+            "description": "Lastro de concreto, incluindo preparo de caixa, e = 5 cm",
+            "unit": "m2"
+        },
+        "model": "planilha.composition",
+        "pk": "04.012.000007.SER"
+    },
+    {
+        "fields": {
+            "description": "Forma para estruturas de concreto com chapa compensada plastificada, e=12mm, 3 aproveitamentos",
+            "unit": "m2"
+        },
+        "model": "planilha.composition",
+        "pk": "05.006.000011.SER"
+    },
+    {
+        "fields": {
+            "description": "Laje pr\u00e9-fabricada comum para forro, intereixo 38 cm, espessura da laje 12 cm, capeamento 4 cm, elemento de enchimento 8 cm",
+            "unit": "m2"
+        },
+        "model": "planilha.composition",
+        "pk": "05.007.000002.SER"
+    },
+    {
+        "fields": {
+            "description": "Alvenaria de veda\u00e7\u00e3o com blocos cer\u00e2mico furados 9 x 19 x 19 cm furos horizontais, espessura da parede 9 cm, juntas de 10 mm com argamassa mista de cal hidratada e areia sem peneirar tra\u00e7o 1:4, com 100 kg de cimento",
+            "unit": "m2"
+        },
+        "model": "planilha.composition",
+        "pk": "06.001.000044.SER"
+    },
+    {
+        "fields": {
+            "description": "Calha de chapa galvanizada n\u00ba 24 desenvolvimento 25 cm",
+            "unit": "m"
+        },
+        "model": "planilha.composition",
+        "pk": "09.001.000011.SER"
+    },
+    {
+        "fields": {
+            "description": "Rufo de chapa de a\u00e7o galvanizado n\u00ba 24 desenvolvimento 25 cm",
+            "unit": "m"
+        },
+        "model": "planilha.composition",
+        "pk": "09.001.000025.SER"
+    },
+    {
+        "fields": {
+            "description": "Estrutura de madeira para telha cer\u00e2mica ou de concreto, v\u00e3o de 3 a 7 m",
+            "unit": "m2"
+        },
+        "model": "planilha.composition",
+        "pk": "09.003.000025.SER"
+    },
+    {
+        "fields": {
+            "description": "Cobertura com telha cer\u00e2mica tipo francesa",
+            "unit": "m2"
+        },
+        "model": "planilha.composition",
+        "pk": "09.005.000001.SER"
+    },
+    {
+        "fields": {
+            "description": "Impermeabiliza\u00e7\u00e3o de alvenaria de embasamento com argamassa de cimento e areia tra\u00e7o 1:3, com aditivo impermeabilizante, e=2 cm",
+            "unit": "m2"
+        },
+        "model": "planilha.composition",
+        "pk": "10.001.000002.SER"
+    },
+    {
+        "fields": {
+            "description": "Janela de alum\u00ednio 0,60 x 0,60 m, basculante (vitr\u00f4) com uma se\u00e7\u00e3o, com vidro canelado",
+            "unit": "un"
+        },
+        "model": "planilha.composition",
+        "pk": "12.003.000022.SER"
+    },
+    {
+        "fields": {
+            "description": "Janela de alum\u00ednio 1,00 x 1,20 m, de correr, com duas folhas, com vidro liso",
+            "unit": "un"
+        },
+        "model": "planilha.composition",
+        "pk": "12.003.000025.SER"
+    },
+    {
+        "fields": {
+            "description": "Janela de alum\u00ednio 1,00 x 1,50 m, de correr, com tr\u00eas folhas, com vidro liso",
+            "unit": "un"
+        },
+        "model": "planilha.composition",
+        "pk": "12.003.000031.SER"
+    },
+    {
+        "fields": {
+            "description": "Porta de madeira 0,70 x 2,10 m, interna, com batente, guarni\u00e7\u00e3o e ferragem",
+            "unit": "un"
+        },
+        "model": "planilha.composition",
+        "pk": "12.004.000027.SER"
+    },
+    {
+        "fields": {
+            "description": "Porta de madeira 0,80 x 2,10 m, interna, com batente, guarni\u00e7\u00e3o e ferragem",
+            "unit": "un"
+        },
+        "model": "planilha.composition",
+        "pk": "12.004.000028.SER"
+    },
+    {
+        "fields": {
+            "description": "Registro de gaveta com canopla \u00d8 25 mm (1\")",
+            "unit": "un"
+        },
+        "model": "planilha.composition",
+        "pk": "13.004.000016.SER"
+    },
+    {
+        "fields": {
+            "description": "Registro de press\u00e3o com canopla \u00d8 25 mm (1\")",
+            "unit": "un"
+        },
+        "model": "planilha.composition",
+        "pk": "13.004.000033.SER"
+    },
+    {
+        "fields": {
+            "description": "Reservat\u00f3rio d'\u00e1gua cil\u00edndrico de fibra de vidro capacidade 500 litros",
+            "unit": "un"
+        },
+        "model": "planilha.composition",
+        "pk": "13.005.000001.SER"
+    },
+    {
+        "fields": {
+            "description": "Tubo de PVC sold\u00e1vel, com conex\u00f5es \u00d8 25 mm",
+            "unit": "m"
+        },
+        "model": "planilha.composition",
+        "pk": "13.008.000091.SER"
+    },
+    {
+        "fields": {
+            "description": "Tubo de PVC sold\u00e1vel, com conex\u00f5es \u00d8 40 mm",
+            "unit": "m"
+        },
+        "model": "planilha.composition",
+        "pk": "13.008.000093.SER"
+    },
+    {
+        "fields": {
+            "description": "Tubo de PVC sold\u00e1vel, com conex\u00f5es \u00d8 50 mm",
+            "unit": "m"
+        },
+        "model": "planilha.composition",
+        "pk": "13.008.000094.SER"
+    },
+    {
+        "fields": {
+            "description": "Tubo de PVC sold\u00e1vel, com conex\u00f5es \u00d8 75 mm",
+            "unit": "m"
+        },
+        "model": "planilha.composition",
+        "pk": "13.008.000096.SER"
+    },
+    {
+        "fields": {
+            "description": "Tubo de PVC sold\u00e1vel, com conex\u00f5es \u00d8 100 mm",
+            "unit": "m"
+        },
+        "model": "planilha.composition",
+        "pk": "13.008.000098.SER"
+    },
+    {
+        "fields": {
+            "description": "V\u00e1lvula de descarga met\u00e1lica com registro acoplado e canopla, \u00d8 32 mm (1 1/4\") ou 40 mm (1 1/2\")",
+            "unit": "un"
+        },
+        "model": "planilha.composition",
+        "pk": "13.009.000001.SER"
+    },
+    {
+        "fields": {
+            "description": "Caixa de gordura de polietileno, \u00d8 50 x 100 mm",
+            "unit": "un"
+        },
+        "model": "planilha.composition",
+        "pk": "14.001.000005.SER"
+    },
+    {
+        "fields": {
+            "description": "Caixa de inspe\u00e7\u00e3o de polietileno, \u00d8 100 mm\u00a0",
+            "unit": "un"
+        },
+        "model": "planilha.composition",
+        "pk": "14.001.000006.SER"
+    },
+    {
+        "fields": {
+            "description": "Caixa sifonada de PVC com grelha branca, 100 x 100 x 50 mm",
+            "unit": "un"
+        },
+        "model": "planilha.composition",
+        "pk": "14.001.000009.SER"
+    },
+    {
+        "fields": {
+            "description": "Grelha hemisf\u00e9rica de ferro fundido \u00d8 100 mm (4\")",
+            "unit": "un"
+        },
+        "model": "planilha.composition",
+        "pk": "14.001.000018.SER"
+    },
+    {
+        "fields": {
+            "description": "Ralo de PVC r\u00edgido seco, 100 x 50 x 40 mm",
+            "unit": "un"
+        },
+        "model": "planilha.composition",
+        "pk": "14.001.000026.SER"
+    },
+    {
+        "fields": {
+            "description": "Entrada de energia em poste particular da edifica\u00e7\u00e3o com pot\u00eancia instalada de 10 a 15 KW",
+            "unit": "un"
+        },
+        "model": "planilha.composition",
+        "pk": "16.001.000009.SER"
+    },
+    {
+        "fields": {
+            "description": "Fio isolado de PVC se\u00e7\u00e3o 2,5 mm\u00b2 - 750 V - 70\u00b0C",
+            "unit": "m"
+        },
+        "model": "planilha.composition",
+        "pk": "16.006.000108.SER"
+    },
+    {
+        "fields": {
+            "description": "Fio isolado de PVC se\u00e7\u00e3o 4 mm\u00b2 - 750 V - 70\u00b0C",
+            "unit": "m"
+        },
+        "model": "planilha.composition",
+        "pk": "16.006.000109.SER"
+    },
+    {
+        "fields": {
+            "description": "Fio isolado de PVC se\u00e7\u00e3o 10 mm\u00b2 - 750 V - 70\u00b0C",
+            "unit": "m"
+        },
+        "model": "planilha.composition",
+        "pk": "16.006.000111.SER"
+    },
+    {
+        "fields": {
+            "description": "Interruptor, uma tecla dupla bipolar simples 10 A - 250 V",
+            "unit": "un"
+        },
+        "model": "planilha.composition",
+        "pk": "16.007.000009.SER"
+    },
+    {
+        "fields": {
+            "description": "Interruptor, uma tecla simples 10 A - 250 V",
+            "unit": "un"
+        },
+        "model": "planilha.composition",
+        "pk": "16.007.000011.SER"
+    },
+    {
+        "fields": {
+            "description": "Tomada dois p\u00f3los mais terra 20 A - 250 V",
+            "unit": "un"
+        },
+        "model": "planilha.composition",
+        "pk": "16.007.000021.SER"
+    },
+    {
+        "fields": {
+            "description": "Tomada universal dois p\u00f3los 10 A - 250 V",
+            "unit": "un"
+        },
+        "model": "planilha.composition",
+        "pk": "16.007.000022.SER"
+    },
+    {
+        "fields": {
+            "description": "Lumin\u00e1ria fluorescente completa comercial com 2 l\u00e2mpada de 40 W, tipo calha de sobrepor",
+            "unit": "un"
+        },
+        "model": "planilha.composition",
+        "pk": "16.008.000013.SER"
+    },
+    {
+        "fields": {
+            "description": "Pendente ou plafonier com globo leitoso e l\u00e2mpada de 60 W",
+            "unit": "un"
+        },
+        "model": "planilha.composition",
+        "pk": "16.008.000021.SER"
+    },
+    {
+        "fields": {
+            "description": "Quadro de distribui\u00e7\u00e3o de luz em PVC de embutir, at\u00e9 8 divis\u00f5es modulares, dimens\u00f5es externas 160 x 240 x 89 mm",
+            "unit": "un"
+        },
+        "model": "planilha.composition",
+        "pk": "16.009.000007.SER"
+    },
+    {
+        "fields": {
+            "description": "Eletroduto de PVC flex\u00edvel corrugado \u00d8 25 mm 3/4\"\u00a0",
+            "unit": "m"
+        },
+        "model": "planilha.composition",
+        "pk": "16.011.000059.SER"
+    },
+    {
+        "fields": {
+            "description": "Eletroduto de PVC flex\u00edvel corrugado \u00d8 32 mm 1\"\u00a0",
+            "unit": "m"
+        },
+        "model": "planilha.composition",
+        "pk": "16.011.000060.SER"
+    },
+    {
+        "fields": {
+            "description": "Chapisco para parede interna ou externa com argamassa de cimento e areia sem peneirar tra\u00e7o 1:3, e=5 mm",
+            "unit": "m2"
+        },
+        "model": "planilha.composition",
+        "pk": "20.001.000002.SER"
+    },
+    {
+        "fields": {
+            "description": "Reboco para parede interna ou externa, com argamassa de cal hidratada e areia peneirada tra\u00e7o 1:3, e=5 mm",
+            "unit": "m2"
+        },
+        "model": "planilha.composition",
+        "pk": "20.004.000004.SER"
+    },
+    {
+        "fields": {
+            "description": "Piso cer\u00e2mico esmaltado assentado com argamassa pr\u00e9-fabricada de cimento colante dimens\u00e3o: 30 x 30 cm",
+            "unit": "m2"
+        },
+        "model": "planilha.composition",
+        "pk": "22.003.000003.SER"
+    },
+    {
+        "fields": {
+            "description": "Rodap\u00e9 cer\u00e2mico assentado com argamassa pr\u00e9-fabricada de cimento colante (altura: 8 cm)",
+            "unit": "m"
+        },
+        "model": "planilha.composition",
+        "pk": "22.003.000009.SER"
+    },
+    {
+        "fields": {
+            "description": "Regulariza\u00e7\u00e3o sarrafeada de base para revestimento de piso com argamassa de cimento e areia peneirada espessura: 3 cm / tra\u00e7o: 1:3",
+            "unit": "m2"
+        },
+        "model": "planilha.composition",
+        "pk": "22.014.000006.SER"
+    },
+    {
+        "fields": {
+            "description": "Azulejo assentado com argamassa pr\u00e9-fabricada de cimento colante, juntas a prumo",
+            "unit": "m2"
+        },
+        "model": "planilha.composition",
+        "pk": "23.001.000013.SER"
+    },
+    {
+        "fields": {
+            "description": "Pintura com verniz em esquadria de madeira, com tr\u00eas dem\u00e3os",
+            "unit": "m2"
+        },
+        "model": "planilha.composition",
+        "pk": "24.001.000005.SER"
+    },
+    {
+        "fields": {
+            "description": "Pintura com tinta l\u00e1tex acr\u00edlica em parede externa, com duas dem\u00e3os, sem massa corrida",
+            "unit": "m2"
+        },
+        "model": "planilha.composition",
+        "pk": "24.003.000001.SER"
+    },
+    {
+        "fields": {
+            "description": "Emassamento de parede interna com massa corrida \u00e0 base de PVA com duas dem\u00e3os, para pintura l\u00e1tex",
+            "unit": "m2"
+        },
+        "model": "planilha.composition",
+        "pk": "24.003.000007.SER"
+    },
+    {
+        "fields": {
+            "description": "Emassamento de parede externa com massa acr\u00edlica com duas dem\u00e3os, para pintura l\u00e1tex",
+            "unit": "m2"
+        },
+        "model": "planilha.composition",
+        "pk": "24.003.000011.SER"
+    },
+    {
+        "fields": {
+            "description": "Pintura com tinta l\u00e1tex PVA em parede interna, com duas dem\u00e3os, sem massa corrida",
+            "unit": "m2"
+        },
+        "model": "planilha.composition",
+        "pk": "24.003.000019.SER"
+    },
+    {
+        "fields": {
+            "description": "Bacia sanit\u00e1ria de lou\u00e7a, com tampa e acess\u00f3rios",
+            "unit": "un"
+        },
+        "model": "planilha.composition",
+        "pk": "26.001.000004.SER"
+    },
+    {
+        "fields": {
+            "description": "Lavat\u00f3rio de lou\u00e7a de embutir (cuba), com torneira de press\u00e3o e acess\u00f3rios",
+            "unit": "un"
+        },
+        "model": "planilha.composition",
+        "pk": "26.010.000013.SER"
+    },
+    {
+        "fields": {
+            "description": "Pia de cozinha de a\u00e7o inoxid\u00e1vel, cuba dupla, 2,00 x 0,54 m",
+            "unit": "un"
+        },
+        "model": "planilha.composition",
+        "pk": "26.013.000001.SER"
+    },
+    {
+        "fields": {
+            "description": "Porta-papel de lou\u00e7a branca ou em cores",
+            "unit": "un"
+        },
+        "model": "planilha.composition",
+        "pk": "26.015.000014.SER"
+    },
+    {
+        "fields": {
+            "description": "Porta-toalha de lou\u00e7a branca ou em cores",
+            "unit": "un"
+        },
+        "model": "planilha.composition",
+        "pk": "26.016.000015.SER"
+    },
+    {
+        "fields": {
+            "description": "Saboneteira de lou\u00e7a 7,5 x 15 cm",
+            "unit": "un"
+        },
+        "model": "planilha.composition",
+        "pk": "26.018.000017.SER"
+    },
+    {
+        "fields": {
+            "description": "Tanque de lou\u00e7a com coluna",
+            "unit": "un"
+        },
+        "model": "planilha.composition",
+        "pk": "26.019.000004.SER"
+    },
+    {
+        "fields": {
+            "description": "Torneira de press\u00e3o met\u00e1lica para pia",
+            "unit": "un"
+        },
+        "model": "planilha.composition",
+        "pk": "26.020.000019.SER"
+    },
+    {
+        "fields": {
+            "description": "Torneira de press\u00e3o met\u00e1lica para uso geral",
+            "unit": "un"
+        },
+        "model": "planilha.composition",
+        "pk": "26.020.000020.SER"
+    },
+    {
+        "fields": {
+            "description": "Carga manual de entulho em caminh\u00e3o basculante",
+            "unit": "m3"
+        },
+        "model": "planilha.composition",
+        "pk": "32.003.000001.SER"
+    },
+    {
+        "fields": {
+            "description": "Limpeza geral da edifica\u00e7\u00e3o\u00a0",
+            "unit": "m2"
+        },
+        "model": "planilha.composition",
+        "pk": "32.003.000003.SER"
+    },
+    {
+        "fields": {
+            "coeficient": 13.4,
+            "composition": "02.001.000002.SER",
+            "inputs": "01.007.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "coeficient": 0.4,
+            "composition": "02.001.000002.SER",
+            "inputs": "01.021.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "coeficient": 15.0,
+            "composition": "02.001.000002.SER",
+            "inputs": "01.026.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "coeficient": 0.07,
+            "composition": "02.001.000002.SER",
+            "inputs": "04.002.000038.SER"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 4
+    },
+    {
+        "fields": {
+            "coeficient": 2.36,
+            "composition": "02.001.000002.SER",
+            "inputs": "08.002.000004.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 5
+    },
+    {
+        "fields": {
+            "coeficient": 7.44,
+            "composition": "02.001.000002.SER",
+            "inputs": "08.005.000003.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 6
+    },
+    {
+        "fields": {
+            "coeficient": 3.43,
+            "composition": "02.001.000002.SER",
+            "inputs": "08.005.000018.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 7
+    },
+    {
+        "fields": {
+            "coeficient": 1.56,
+            "composition": "02.001.000002.SER",
+            "inputs": "08.005.000022.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 8
+    },
+    {
+        "fields": {
+            "coeficient": 3.37,
+            "composition": "02.001.000002.SER",
+            "inputs": "08.005.000024.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 9
+    },
+    {
+        "fields": {
+            "coeficient": 0.25,
+            "composition": "02.001.000002.SER",
+            "inputs": "23.004.000014.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 10
+    },
+    {
+        "fields": {
+            "coeficient": 1.2,
+            "composition": "02.001.000002.SER",
+            "inputs": "23.004.000035.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 11
+    },
+    {
+        "fields": {
+            "coeficient": 0.4,
+            "composition": "02.001.000002.SER",
+            "inputs": "25.007.000008.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 12
+    },
+    {
+        "fields": {
+            "coeficient": 1.5,
+            "composition": "02.001.000002.SER",
+            "inputs": "25.007.000009.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 13
+    },
+    {
+        "fields": {
+            "coeficient": 4.0,
+            "composition": "02.001.000009.SER",
+            "inputs": "01.001.000005.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 14
+    },
+    {
+        "fields": {
+            "coeficient": 8.0,
+            "composition": "02.001.000009.SER",
+            "inputs": "01.007.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 15
+    },
+    {
+        "fields": {
+            "coeficient": 8.0,
+            "composition": "02.001.000009.SER",
+            "inputs": "01.010.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 16
+    },
+    {
+        "fields": {
+            "coeficient": 8.0,
+            "composition": "02.001.000009.SER",
+            "inputs": "01.021.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 17
+    },
+    {
+        "fields": {
+            "coeficient": 8.12,
+            "composition": "02.001.000009.SER",
+            "inputs": "01.026.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 18
+    },
+    {
+        "fields": {
+            "coeficient": 0.0189,
+            "composition": "02.001.000009.SER",
+            "inputs": "03.001.000008.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 19
+    },
+    {
+        "fields": {
+            "coeficient": 30.0,
+            "composition": "02.001.000009.SER",
+            "inputs": "05.004.000006.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 20
+    },
+    {
+        "fields": {
+            "coeficient": 25.0,
+            "composition": "02.001.000009.SER",
+            "inputs": "08.005.000003.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 21
+    },
+    {
+        "fields": {
+            "coeficient": 8.0,
+            "composition": "02.001.000009.SER",
+            "inputs": "08.005.000020.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 22
+    },
+    {
+        "fields": {
+            "coeficient": 30.0,
+            "composition": "02.001.000009.SER",
+            "inputs": "14.001.000330.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 23
+    },
+    {
+        "fields": {
+            "coeficient": 5.0,
+            "composition": "02.001.000009.SER",
+            "inputs": "14.001.001088.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 24
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "02.001.000009.SER",
+            "inputs": "14.006.000057.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 25
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "02.001.000009.SER",
+            "inputs": "14.015.000007.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 26
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "02.001.000009.SER",
+            "inputs": "15.005.000018.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 27
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "02.001.000009.SER",
+            "inputs": "25.007.000008.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 28
+    },
+    {
+        "fields": {
+            "coeficient": 24.0,
+            "composition": "02.001.000010.SER",
+            "inputs": "01.001.000004.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 29
+    },
+    {
+        "fields": {
+            "coeficient": 24.0,
+            "composition": "02.001.000010.SER",
+            "inputs": "01.009.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 30
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "02.001.000010.SER",
+            "inputs": "07.022.000002.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 31
+    },
+    {
+        "fields": {
+            "coeficient": 27.0,
+            "composition": "02.001.000010.SER",
+            "inputs": "16.006.000104.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 32
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "02.001.000010.SER",
+            "inputs": "16.015.000014.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 33
+    },
+    {
+        "fields": {
+            "coeficient": 0.13,
+            "composition": "02.004.000001.SER",
+            "inputs": "01.007.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 34
+    },
+    {
+        "fields": {
+            "coeficient": 0.13,
+            "composition": "02.004.000001.SER",
+            "inputs": "01.026.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 35
+    },
+    {
+        "fields": {
+            "coeficient": 0.02,
+            "composition": "02.004.000001.SER",
+            "inputs": "07.009.000003.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 36
+    },
+    {
+        "fields": {
+            "coeficient": 0.04,
+            "composition": "02.004.000001.SER",
+            "inputs": "08.005.000003.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 37
+    },
+    {
+        "fields": {
+            "coeficient": 0.09,
+            "composition": "02.004.000001.SER",
+            "inputs": "08.005.000019.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 38
+    },
+    {
+        "fields": {
+            "coeficient": 12.0,
+            "composition": "02.004.000001.SER",
+            "inputs": "25.007.000009.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 39
+    },
+    {
+        "fields": {
+            "coeficient": 2.0,
+            "composition": "04.009.000008.SER",
+            "inputs": "01.026.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 40
+    },
+    {
+        "fields": {
+            "coeficient": 0.0491,
+            "composition": "04.009.000008.SER",
+            "inputs": "04.002.000065.SER"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 41
+    },
+    {
+        "fields": {
+            "coeficient": 0.98,
+            "composition": "04.009.000008.SER",
+            "inputs": "07.007.000003.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 42
+    },
+    {
+        "fields": {
+            "coeficient": 4.0,
+            "composition": "02.005.000049.SER",
+            "inputs": "01.026.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 43
+    },
+    {
+        "fields": {
+            "coeficient": 2.5,
+            "composition": "04.012.000004.SER",
+            "inputs": "01.026.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 44
+    },
+    {
+        "fields": {
+            "coeficient": 0.6,
+            "composition": "04.012.000004.SER",
+            "inputs": "03.002.000003.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 45
+    },
+    {
+        "fields": {
+            "coeficient": 0.6,
+            "composition": "04.012.000004.SER",
+            "inputs": "03.002.000004.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 46
+    },
+    {
+        "fields": {
+            "coeficient": 333.0,
+            "composition": "05.006.000011.SER",
+            "inputs": "05.006.000022.SER"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 47
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "05.006.000011.SER",
+            "inputs": "05.006.000030.SER"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 48
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "05.006.000011.SER",
+            "inputs": "05.006.000032.SER"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 49
+    },
+    {
+        "fields": {
+            "coeficient": 1.05,
+            "composition": "04.002.000016.SER",
+            "inputs": "06.004.000009.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 50
+    },
+    {
+        "fields": {
+            "coeficient": 0.14,
+            "composition": "04.001.000003.SER",
+            "inputs": "01.001.000002.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 51
+    },
+    {
+        "fields": {
+            "coeficient": 0.08,
+            "composition": "04.001.000003.SER",
+            "inputs": "01.011.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 52
+    },
+    {
+        "fields": {
+            "coeficient": 11.4,
+            "composition": "04.001.000003.SER",
+            "inputs": "06.003.000010.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 53
+    },
+    {
+        "fields": {
+            "coeficient": 1.1,
+            "composition": "04.001.000003.SER",
+            "inputs": "07.007.000011.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 54
+    },
+    {
+        "fields": {
+            "coeficient": 25.0,
+            "composition": "04.001.000003.SER",
+            "inputs": "07.009.000007.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 55
+    },
+    {
+        "fields": {
+            "coeficient": 0.06,
+            "composition": "04.001.000003.SER",
+            "inputs": "36.004.000009.EQH"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 56
+    },
+    {
+        "fields": {
+            "coeficient": 0.1225,
+            "composition": "04.001.000005.SER",
+            "inputs": "01.001.000002.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 57
+    },
+    {
+        "fields": {
+            "coeficient": 0.07,
+            "composition": "04.001.000005.SER",
+            "inputs": "01.011.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 58
+    },
+    {
+        "fields": {
+            "coeficient": 15.2,
+            "composition": "04.001.000005.SER",
+            "inputs": "06.003.000010.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 59
+    },
+    {
+        "fields": {
+            "coeficient": 1.1,
+            "composition": "04.001.000005.SER",
+            "inputs": "07.007.000014.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 60
+    },
+    {
+        "fields": {
+            "coeficient": 0.02,
+            "composition": "04.001.000005.SER",
+            "inputs": "07.009.000007.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 61
+    },
+    {
+        "fields": {
+            "coeficient": 0.0525,
+            "composition": "04.001.000005.SER",
+            "inputs": "36.004.000009.EQH"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 62
+    },
+    {
+        "fields": {
+            "coeficient": 0.35,
+            "composition": "02.005.000007.SER",
+            "inputs": "01.021.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 63
+    },
+    {
+        "fields": {
+            "coeficient": 3.5,
+            "composition": "02.005.000007.SER",
+            "inputs": "01.026.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 64
+    },
+    {
+        "fields": {
+            "coeficient": 7.0,
+            "composition": "04.009.000003.SER",
+            "inputs": "01.021.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 65
+    },
+    {
+        "fields": {
+            "coeficient": 7.0,
+            "composition": "04.009.000003.SER",
+            "inputs": "01.026.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 66
+    },
+    {
+        "fields": {
+            "coeficient": 795.0,
+            "composition": "04.009.000003.SER",
+            "inputs": "05.004.000006.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 67
+    },
+    {
+        "fields": {
+            "coeficient": 285.0,
+            "composition": "04.009.000003.SER",
+            "inputs": "06.003.000070.SER"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 68
+    },
+    {
+        "fields": {
+            "coeficient": 0.75,
+            "composition": "10.001.000002.SER",
+            "inputs": "01.021.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 69
+    },
+    {
+        "fields": {
+            "coeficient": 0.95,
+            "composition": "10.001.000002.SER",
+            "inputs": "01.026.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 70
+    },
+    {
+        "fields": {
+            "coeficient": 0.0243,
+            "composition": "10.001.000002.SER",
+            "inputs": "03.001.000008.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 71
+    },
+    {
+        "fields": {
+            "coeficient": 9.72,
+            "composition": "10.001.000002.SER",
+            "inputs": "04.002.000002.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 72
+    },
+    {
+        "fields": {
+            "coeficient": 0.1,
+            "composition": "10.001.000002.SER",
+            "inputs": "12.003.000012.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 73
+    },
+    {
+        "fields": {
+            "coeficient": 0.73,
+            "composition": "05.007.000002.SER",
+            "inputs": "01.007.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 74
+    },
+    {
+        "fields": {
+            "coeficient": 0.15,
+            "composition": "05.007.000002.SER",
+            "inputs": "01.011.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 75
+    },
+    {
+        "fields": {
+            "coeficient": 0.44,
+            "composition": "05.007.000002.SER",
+            "inputs": "01.021.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 76
+    },
+    {
+        "fields": {
+            "coeficient": 1.88,
+            "composition": "05.007.000002.SER",
+            "inputs": "01.026.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 77
+    },
+    {
+        "fields": {
+            "coeficient": 0.0489,
+            "composition": "05.007.000002.SER",
+            "inputs": "03.001.000008.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 78
+    },
+    {
+        "fields": {
+            "coeficient": 0.0111,
+            "composition": "05.007.000002.SER",
+            "inputs": "03.002.000011.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 79
+    },
+    {
+        "fields": {
+            "coeficient": 0.0332,
+            "composition": "05.007.000002.SER",
+            "inputs": "03.002.000014.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 80
+    },
+    {
+        "fields": {
+            "coeficient": 15.0,
+            "composition": "05.007.000002.SER",
+            "inputs": "04.002.000002.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 81
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "05.007.000002.SER",
+            "inputs": "06.001.000060.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 82
+    },
+    {
+        "fields": {
+            "coeficient": 1.89,
+            "composition": "05.007.000002.SER",
+            "inputs": "07.007.000008.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 83
+    },
+    {
+        "fields": {
+            "coeficient": 1.71,
+            "composition": "05.007.000002.SER",
+            "inputs": "08.005.000003.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 84
+    },
+    {
+        "fields": {
+            "coeficient": 0.97,
+            "composition": "05.007.000002.SER",
+            "inputs": "08.005.000011.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 85
+    },
+    {
+        "fields": {
+            "coeficient": 0.56,
+            "composition": "05.007.000002.SER",
+            "inputs": "08.005.000020.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 86
+    },
+    {
+        "fields": {
+            "coeficient": 0.03,
+            "composition": "05.007.000002.SER",
+            "inputs": "25.007.000009.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 87
+    },
+    {
+        "fields": {
+            "coeficient": 0.0123,
+            "composition": "05.007.000002.SER",
+            "inputs": "36.003.000017.EQH"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 88
+    },
+    {
+        "fields": {
+            "coeficient": 0.64,
+            "composition": "06.001.000044.SER",
+            "inputs": "01.021.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 89
+    },
+    {
+        "fields": {
+            "coeficient": 0.38,
+            "composition": "06.001.000044.SER",
+            "inputs": "01.026.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 90
+    },
+    {
+        "fields": {
+            "coeficient": 27.2,
+            "composition": "06.001.000044.SER",
+            "inputs": "05.004.000004.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 91
+    },
+    {
+        "fields": {
+            "coeficient": 0.0138,
+            "composition": "06.001.000044.SER",
+            "inputs": "06.003.000037.SER"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 92
+    },
+    {
+        "fields": {
+            "coeficient": 1.5,
+            "composition": "12.003.000031.SER",
+            "inputs": "01.021.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 93
+    },
+    {
+        "fields": {
+            "coeficient": 675.0,
+            "composition": "12.003.000031.SER",
+            "inputs": "01.026.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 94
+    },
+    {
+        "fields": {
+            "coeficient": 0.00663,
+            "composition": "12.003.000031.SER",
+            "inputs": "03.001.000008.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 95
+    },
+    {
+        "fields": {
+            "coeficient": 2.66,
+            "composition": "12.003.000031.SER",
+            "inputs": "04.002.000002.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 96
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "12.003.000031.SER",
+            "inputs": "13.005.000018.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 97
+    },
+    {
+        "fields": {
+            "coeficient": 1.2,
+            "composition": "12.003.000025.SER",
+            "inputs": "01.021.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 98
+    },
+    {
+        "fields": {
+            "coeficient": 0.54,
+            "composition": "12.003.000025.SER",
+            "inputs": "01.026.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 99
+    },
+    {
+        "fields": {
+            "coeficient": 0.0048,
+            "composition": "12.003.000025.SER",
+            "inputs": "03.001.000008.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 100
+    },
+    {
+        "fields": {
+            "coeficient": 1.94,
+            "composition": "12.003.000025.SER",
+            "inputs": "04.002.000002.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 101
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "12.003.000025.SER",
+            "inputs": "13.005.000010.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 102
+    },
+    {
+        "fields": {
+            "coeficient": 0.36,
+            "composition": "12.003.000022.SER",
+            "inputs": "01.021.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 103
+    },
+    {
+        "fields": {
+            "coeficient": 165.0,
+            "composition": "12.003.000022.SER",
+            "inputs": "01.026.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 104
+    },
+    {
+        "fields": {
+            "coeficient": 0.00255,
+            "composition": "12.003.000022.SER",
+            "inputs": "03.001.000008.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 105
+    },
+    {
+        "fields": {
+            "coeficient": 1.02,
+            "composition": "12.003.000022.SER",
+            "inputs": "04.002.000002.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 106
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "12.003.000022.SER",
+            "inputs": "13.005.000011.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 107
+    },
+    {
+        "fields": {
+            "coeficient": 3.75,
+            "composition": "12.004.000027.SER",
+            "inputs": "01.001.000003.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 108
+    },
+    {
+        "fields": {
+            "coeficient": 3.75,
+            "composition": "12.004.000027.SER",
+            "inputs": "01.007.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 109
+    },
+    {
+        "fields": {
+            "coeficient": 1.4,
+            "composition": "12.004.000027.SER",
+            "inputs": "01.021.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 110
+    },
+    {
+        "fields": {
+            "coeficient": 1.4,
+            "composition": "12.004.000027.SER",
+            "inputs": "01.026.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 111
+    },
+    {
+        "fields": {
+            "coeficient": 0.0106,
+            "composition": "12.004.000027.SER",
+            "inputs": "03.001.000008.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 112
+    },
+    {
+        "fields": {
+            "coeficient": 1.72,
+            "composition": "12.004.000027.SER",
+            "inputs": "04.001.000001.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 113
+    },
+    {
+        "fields": {
+            "coeficient": 1.72,
+            "composition": "12.004.000027.SER",
+            "inputs": "04.002.000002.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 114
+    },
+    {
+        "fields": {
+            "coeficient": 2.0,
+            "composition": "12.004.000027.SER",
+            "inputs": "13.008.000006.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 115
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "12.004.000027.SER",
+            "inputs": "13.008.000009.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 116
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "12.004.000027.SER",
+            "inputs": "13.008.000010.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 117
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "12.004.000027.SER",
+            "inputs": "13.017.000001.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 118
+    },
+    {
+        "fields": {
+            "coeficient": 3.0,
+            "composition": "12.004.000027.SER",
+            "inputs": "13.017.000004.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 119
+    },
+    {
+        "fields": {
+            "coeficient": 6.0,
+            "composition": "12.004.000027.SER",
+            "inputs": "18.003.000006.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 120
+    },
+    {
+        "fields": {
+            "coeficient": 8.0,
+            "composition": "12.004.000027.SER",
+            "inputs": "25.002.000014.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 121
+    },
+    {
+        "fields": {
+            "coeficient": 0.25,
+            "composition": "12.004.000027.SER",
+            "inputs": "25.007.000007.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 122
+    },
+    {
+        "fields": {
+            "coeficient": 3.75,
+            "composition": "12.004.000028.SER",
+            "inputs": "01.001.000003.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 123
+    },
+    {
+        "fields": {
+            "coeficient": 3.75,
+            "composition": "12.004.000028.SER",
+            "inputs": "01.007.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 124
+    },
+    {
+        "fields": {
+            "coeficient": 1.4,
+            "composition": "12.004.000028.SER",
+            "inputs": "01.021.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 125
+    },
+    {
+        "fields": {
+            "coeficient": 1.4,
+            "composition": "12.004.000028.SER",
+            "inputs": "01.026.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 126
+    },
+    {
+        "fields": {
+            "coeficient": 0.0106,
+            "composition": "12.004.000028.SER",
+            "inputs": "03.001.000008.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 127
+    },
+    {
+        "fields": {
+            "coeficient": 1.72,
+            "composition": "12.004.000028.SER",
+            "inputs": "04.001.000001.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 128
+    },
+    {
+        "fields": {
+            "coeficient": 1.72,
+            "composition": "12.004.000028.SER",
+            "inputs": "04.002.000002.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 129
+    },
+    {
+        "fields": {
+            "coeficient": 2.0,
+            "composition": "12.004.000028.SER",
+            "inputs": "13.008.000006.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 130
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "12.004.000028.SER",
+            "inputs": "13.008.000009.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 131
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "12.004.000028.SER",
+            "inputs": "13.008.000017.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 132
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "12.004.000028.SER",
+            "inputs": "13.017.000001.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 133
+    },
+    {
+        "fields": {
+            "coeficient": 3.0,
+            "composition": "12.004.000028.SER",
+            "inputs": "13.017.000004.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 134
+    },
+    {
+        "fields": {
+            "coeficient": 6.0,
+            "composition": "12.004.000028.SER",
+            "inputs": "18.003.000006.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 135
+    },
+    {
+        "fields": {
+            "coeficient": 8.0,
+            "composition": "12.004.000028.SER",
+            "inputs": "25.002.000014.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 136
+    },
+    {
+        "fields": {
+            "coeficient": 0.25,
+            "composition": "12.004.000028.SER",
+            "inputs": "25.007.000007.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 137
+    },
+    {
+        "fields": {
+            "coeficient": 1.25,
+            "composition": "09.003.000025.SER",
+            "inputs": "01.001.000003.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 138
+    },
+    {
+        "fields": {
+            "coeficient": 1.25,
+            "composition": "09.003.000025.SER",
+            "inputs": "01.007.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 139
+    },
+    {
+        "fields": {
+            "coeficient": 0.03,
+            "composition": "09.003.000025.SER",
+            "inputs": "08.001.000006.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 140
+    },
+    {
+        "fields": {
+            "coeficient": 0.19,
+            "composition": "09.003.000025.SER",
+            "inputs": "23.001.000002.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 141
+    },
+    {
+        "fields": {
+            "coeficient": 0.13,
+            "composition": "09.003.000025.SER",
+            "inputs": "25.007.000009.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 142
+    },
+    {
+        "fields": {
+            "coeficient": 0.25,
+            "composition": "09.005.000001.SER",
+            "inputs": "01.001.000008.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 143
+    },
+    {
+        "fields": {
+            "coeficient": 0.12,
+            "composition": "09.005.000001.SER",
+            "inputs": "01.029.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 144
+    },
+    {
+        "fields": {
+            "coeficient": 17.0,
+            "composition": "09.005.000001.SER",
+            "inputs": "23.004.000030.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 145
+    },
+    {
+        "fields": {
+            "coeficient": 7.7,
+            "composition": "13.005.000001.SER",
+            "inputs": "01.001.000005.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 146
+    },
+    {
+        "fields": {
+            "coeficient": 7.7,
+            "composition": "13.005.000001.SER",
+            "inputs": "01.010.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 147
+    },
+    {
+        "fields": {
+            "coeficient": 5.0,
+            "composition": "13.005.000001.SER",
+            "inputs": "08.005.000025.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 148
+    },
+    {
+        "fields": {
+            "coeficient": 2.0,
+            "composition": "13.005.000001.SER",
+            "inputs": "14.001.000199.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 149
+    },
+    {
+        "fields": {
+            "coeficient": 2.0,
+            "composition": "13.005.000001.SER",
+            "inputs": "14.001.000200.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 150
+    },
+    {
+        "fields": {
+            "coeficient": 4.0,
+            "composition": "13.005.000001.SER",
+            "inputs": "14.001.000203.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 151
+    },
+    {
+        "fields": {
+            "coeficient": 3.03,
+            "composition": "13.005.000001.SER",
+            "inputs": "14.001.000668.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 152
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "13.005.000001.SER",
+            "inputs": "14.015.000009.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 153
+    },
+    {
+        "fields": {
+            "coeficient": 0.1,
+            "composition": "13.005.000001.SER",
+            "inputs": "22.001.000001.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 154
+    },
+    {
+        "fields": {
+            "coeficient": 378.0,
+            "composition": "13.008.000091.SER",
+            "inputs": "01.001.000005.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 155
+    },
+    {
+        "fields": {
+            "coeficient": 378.0,
+            "composition": "13.008.000091.SER",
+            "inputs": "01.010.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 156
+    },
+    {
+        "fields": {
+            "coeficient": 0.0003,
+            "composition": "13.008.000091.SER",
+            "inputs": "14.001.000471.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 157
+    },
+    {
+        "fields": {
+            "coeficient": 1.15,
+            "composition": "13.008.000091.SER",
+            "inputs": "14.001.000506.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 158
+    },
+    {
+        "fields": {
+            "coeficient": 0.000704,
+            "composition": "13.008.000091.SER",
+            "inputs": "14.001.000564.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 159
+    },
+    {
+        "fields": {
+            "coeficient": 0.4915,
+            "composition": "13.008.000093.SER",
+            "inputs": "01.001.000005.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 160
+    },
+    {
+        "fields": {
+            "coeficient": 0.4915,
+            "composition": "13.008.000093.SER",
+            "inputs": "01.010.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 161
+    },
+    {
+        "fields": {
+            "coeficient": 0.0005,
+            "composition": "13.008.000093.SER",
+            "inputs": "14.001.000471.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 162
+    },
+    {
+        "fields": {
+            "coeficient": 1.15,
+            "composition": "13.008.000093.SER",
+            "inputs": "14.001.000508.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 163
+    },
+    {
+        "fields": {
+            "coeficient": 0.00106,
+            "composition": "13.008.000093.SER",
+            "inputs": "14.001.000564.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 164
+    },
+    {
+        "fields": {
+            "coeficient": 0.61,
+            "composition": "13.004.000016.SER",
+            "inputs": "01.001.000005.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 165
+    },
+    {
+        "fields": {
+            "coeficient": 0.61,
+            "composition": "13.004.000016.SER",
+            "inputs": "01.010.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 166
+    },
+    {
+        "fields": {
+            "coeficient": 1.2,
+            "composition": "13.004.000016.SER",
+            "inputs": "14.001.000668.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 167
+    },
+    {
+        "fields": {
+            "coeficient": 1015.0,
+            "composition": "13.004.000016.SER",
+            "inputs": "14.006.000058.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 168
+    },
+    {
+        "fields": {
+            "coeficient": 0.61,
+            "composition": "13.004.000033.SER",
+            "inputs": "01.001.000005.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 169
+    },
+    {
+        "fields": {
+            "coeficient": 0.61,
+            "composition": "13.004.000033.SER",
+            "inputs": "01.010.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 170
+    },
+    {
+        "fields": {
+            "coeficient": 1.2,
+            "composition": "13.004.000033.SER",
+            "inputs": "14.001.000668.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 171
+    },
+    {
+        "fields": {
+            "coeficient": 1015.0,
+            "composition": "13.004.000033.SER",
+            "inputs": "14.006.000019.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 172
+    },
+    {
+        "fields": {
+            "coeficient": 2.0,
+            "composition": "13.009.000001.SER",
+            "inputs": "01.001.000005.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 173
+    },
+    {
+        "fields": {
+            "coeficient": 2.0,
+            "composition": "13.009.000001.SER",
+            "inputs": "01.010.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 174
+    },
+    {
+        "fields": {
+            "coeficient": 0.6,
+            "composition": "13.009.000001.SER",
+            "inputs": "14.001.000333.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 175
+    },
+    {
+        "fields": {
+            "coeficient": 1.88,
+            "composition": "13.009.000001.SER",
+            "inputs": "14.001.000668.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 176
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "13.009.000001.SER",
+            "inputs": "14.006.000021.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 177
+    },
+    {
+        "fields": {
+            "coeficient": 0.6,
+            "composition": "13.008.000094.SER",
+            "inputs": "01.001.000005.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 178
+    },
+    {
+        "fields": {
+            "coeficient": 0.6,
+            "composition": "13.008.000094.SER",
+            "inputs": "01.010.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 179
+    },
+    {
+        "fields": {
+            "coeficient": 0.0007,
+            "composition": "13.008.000094.SER",
+            "inputs": "14.001.000471.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 180
+    },
+    {
+        "fields": {
+            "coeficient": 1.15,
+            "composition": "13.008.000094.SER",
+            "inputs": "14.001.000509.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 181
+    },
+    {
+        "fields": {
+            "coeficient": 0.0015,
+            "composition": "13.008.000094.SER",
+            "inputs": "14.001.000564.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 182
+    },
+    {
+        "fields": {
+            "coeficient": 0.9,
+            "composition": "13.008.000096.SER",
+            "inputs": "01.001.000005.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 183
+    },
+    {
+        "fields": {
+            "coeficient": 0.9,
+            "composition": "13.008.000096.SER",
+            "inputs": "01.010.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 184
+    },
+    {
+        "fields": {
+            "coeficient": 0.0011,
+            "composition": "13.008.000096.SER",
+            "inputs": "14.001.000471.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 185
+    },
+    {
+        "fields": {
+            "coeficient": 1.15,
+            "composition": "13.008.000096.SER",
+            "inputs": "14.001.000511.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 186
+    },
+    {
+        "fields": {
+            "coeficient": 0.00273,
+            "composition": "13.008.000096.SER",
+            "inputs": "14.001.000564.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 187
+    },
+    {
+        "fields": {
+            "coeficient": 1.1,
+            "composition": "13.008.000098.SER",
+            "inputs": "01.001.000005.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 188
+    },
+    {
+        "fields": {
+            "coeficient": 1.1,
+            "composition": "13.008.000098.SER",
+            "inputs": "01.010.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 189
+    },
+    {
+        "fields": {
+            "coeficient": 0.0023,
+            "composition": "13.008.000098.SER",
+            "inputs": "14.001.000471.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 190
+    },
+    {
+        "fields": {
+            "coeficient": 1.15,
+            "composition": "13.008.000098.SER",
+            "inputs": "14.001.000513.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 191
+    },
+    {
+        "fields": {
+            "coeficient": 0.00484,
+            "composition": "13.008.000098.SER",
+            "inputs": "14.001.000564.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 192
+    },
+    {
+        "fields": {
+            "coeficient": 0.45,
+            "composition": "14.001.000005.SER",
+            "inputs": "01.001.000005.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 193
+    },
+    {
+        "fields": {
+            "coeficient": 0.45,
+            "composition": "14.001.000005.SER",
+            "inputs": "01.010.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 194
+    },
+    {
+        "fields": {
+            "coeficient": 95.0,
+            "composition": "14.001.000005.SER",
+            "inputs": "14.001.000971.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 195
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "14.001.000005.SER",
+            "inputs": "14.010.000001.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 196
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "14.001.000005.SER",
+            "inputs": "14.010.000002.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 197
+    },
+    {
+        "fields": {
+            "coeficient": 0.6,
+            "composition": "14.001.000006.SER",
+            "inputs": "01.001.000005.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 198
+    },
+    {
+        "fields": {
+            "coeficient": 0.6,
+            "composition": "14.001.000006.SER",
+            "inputs": "01.010.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 199
+    },
+    {
+        "fields": {
+            "coeficient": 0.22,
+            "composition": "14.001.000006.SER",
+            "inputs": "14.001.000971.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 200
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "14.001.000006.SER",
+            "inputs": "14.010.000002.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 201
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "14.001.000006.SER",
+            "inputs": "14.010.000003.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 202
+    },
+    {
+        "fields": {
+            "coeficient": 0.4,
+            "composition": "14.001.000009.SER",
+            "inputs": "01.001.000005.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 203
+    },
+    {
+        "fields": {
+            "coeficient": 0.4,
+            "composition": "14.001.000009.SER",
+            "inputs": "01.010.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 204
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "14.001.000009.SER",
+            "inputs": "14.002.000007.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 205
+    },
+    {
+        "fields": {
+            "coeficient": 0.4,
+            "composition": "14.001.000026.SER",
+            "inputs": "01.001.000005.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 206
+    },
+    {
+        "fields": {
+            "coeficient": 0.4,
+            "composition": "14.001.000026.SER",
+            "inputs": "01.010.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 207
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "14.001.000026.SER",
+            "inputs": "14.002.000016.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 208
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "09.001.000011.SER",
+            "inputs": "01.001.000008.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 209
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "09.001.000011.SER",
+            "inputs": "01.029.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 210
+    },
+    {
+        "fields": {
+            "coeficient": 1.03,
+            "composition": "09.001.000011.SER",
+            "inputs": "23.005.000022.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 211
+    },
+    {
+        "fields": {
+            "coeficient": 0.07,
+            "composition": "09.001.000011.SER",
+            "inputs": "25.007.000008.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 212
+    },
+    {
+        "fields": {
+            "coeficient": 0.03,
+            "composition": "09.001.000011.SER",
+            "inputs": "25.008.000001.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 213
+    },
+    {
+        "fields": {
+            "coeficient": 0.03,
+            "composition": "09.001.000011.SER",
+            "inputs": "25.012.000002.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 214
+    },
+    {
+        "fields": {
+            "coeficient": 0.5,
+            "composition": "09.001.000025.SER",
+            "inputs": "01.001.000008.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 215
+    },
+    {
+        "fields": {
+            "coeficient": 0.5,
+            "composition": "09.001.000025.SER",
+            "inputs": "01.029.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 216
+    },
+    {
+        "fields": {
+            "coeficient": 1.03,
+            "composition": "09.001.000025.SER",
+            "inputs": "23.005.000006.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 217
+    },
+    {
+        "fields": {
+            "coeficient": 0.07,
+            "composition": "09.001.000025.SER",
+            "inputs": "25.007.000008.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 218
+    },
+    {
+        "fields": {
+            "coeficient": 0.06,
+            "composition": "14.001.000018.SER",
+            "inputs": "01.001.000008.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 219
+    },
+    {
+        "fields": {
+            "coeficient": 0.06,
+            "composition": "14.001.000018.SER",
+            "inputs": "01.029.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 220
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "14.001.000018.SER",
+            "inputs": "14.002.000024.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 221
+    },
+    {
+        "fields": {
+            "coeficient": 3.3,
+            "composition": "26.001.000004.SER",
+            "inputs": "01.001.000005.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 222
+    },
+    {
+        "fields": {
+            "coeficient": 3.3,
+            "composition": "26.001.000004.SER",
+            "inputs": "01.010.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 223
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "26.001.000004.SER",
+            "inputs": "14.001.000947.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 224
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "26.001.000004.SER",
+            "inputs": "15.005.000008.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 225
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "26.001.000004.SER",
+            "inputs": "15.005.000012.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 226
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "26.001.000004.SER",
+            "inputs": "15.005.000014.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 227
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "26.001.000004.SER",
+            "inputs": "15.005.000015.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 228
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "26.001.000004.SER",
+            "inputs": "15.005.000016.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 229
+    },
+    {
+        "fields": {
+            "coeficient": 0.25,
+            "composition": "26.001.000004.SER",
+            "inputs": "22.001.000001.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 230
+    },
+    {
+        "fields": {
+            "coeficient": 2.0,
+            "composition": "26.001.000004.SER",
+            "inputs": "25.002.000021.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 231
+    },
+    {
+        "fields": {
+            "coeficient": 2.0,
+            "composition": "26.001.000004.SER",
+            "inputs": "25.011.000001.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 232
+    },
+    {
+        "fields": {
+            "coeficient": 1.5,
+            "composition": "26.010.000013.SER",
+            "inputs": "01.001.000005.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 233
+    },
+    {
+        "fields": {
+            "coeficient": 1.5,
+            "composition": "26.010.000013.SER",
+            "inputs": "01.010.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 234
+    },
+    {
+        "fields": {
+            "coeficient": 0.84,
+            "composition": "26.010.000013.SER",
+            "inputs": "14.001.000668.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 235
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "26.010.000013.SER",
+            "inputs": "14.006.000065.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 236
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "26.010.000013.SER",
+            "inputs": "15.003.000010.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 237
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "26.010.000013.SER",
+            "inputs": "15.003.000018.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 238
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "26.010.000013.SER",
+            "inputs": "15.003.000024.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 239
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "26.010.000013.SER",
+            "inputs": "15.021.000003.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 240
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "26.018.000017.SER",
+            "inputs": "01.003.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 241
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "26.018.000017.SER",
+            "inputs": "01.026.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 242
+    },
+    {
+        "fields": {
+            "coeficient": 0.00158,
+            "composition": "26.018.000017.SER",
+            "inputs": "06.003.000027.SER"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 243
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "26.018.000017.SER",
+            "inputs": "15.003.000023.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 244
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "26.015.000014.SER",
+            "inputs": "01.003.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 245
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "26.015.000014.SER",
+            "inputs": "01.026.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 246
+    },
+    {
+        "fields": {
+            "coeficient": 0.00158,
+            "composition": "26.015.000014.SER",
+            "inputs": "06.003.000027.SER"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 247
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "26.015.000014.SER",
+            "inputs": "15.003.000020.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 248
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "26.016.000015.SER",
+            "inputs": "01.003.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 249
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "26.016.000015.SER",
+            "inputs": "01.026.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 250
+    },
+    {
+        "fields": {
+            "coeficient": 0.00158,
+            "composition": "26.016.000015.SER",
+            "inputs": "06.003.000027.SER"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 251
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "26.016.000015.SER",
+            "inputs": "15.003.000005.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 252
+    },
+    {
+        "fields": {
+            "coeficient": 4.0,
+            "composition": "26.013.000001.SER",
+            "inputs": "01.001.000005.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 253
+    },
+    {
+        "fields": {
+            "coeficient": 4.0,
+            "composition": "26.013.000001.SER",
+            "inputs": "01.010.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 254
+    },
+    {
+        "fields": {
+            "coeficient": 2.26,
+            "composition": "26.013.000001.SER",
+            "inputs": "14.001.000668.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 255
+    },
+    {
+        "fields": {
+            "coeficient": 2.0,
+            "composition": "26.013.000001.SER",
+            "inputs": "14.006.000063.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 256
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "26.013.000001.SER",
+            "inputs": "15.003.000012.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 257
+    },
+    {
+        "fields": {
+            "coeficient": 2.0,
+            "composition": "26.013.000001.SER",
+            "inputs": "15.003.000029.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 258
+    },
+    {
+        "fields": {
+            "coeficient": 3.0,
+            "composition": "26.019.000004.SER",
+            "inputs": "01.001.000005.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 259
+    },
+    {
+        "fields": {
+            "coeficient": 3.0,
+            "composition": "26.019.000004.SER",
+            "inputs": "01.010.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 260
+    },
+    {
+        "fields": {
+            "coeficient": 0.75,
+            "composition": "26.019.000004.SER",
+            "inputs": "14.001.000668.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 261
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "26.019.000004.SER",
+            "inputs": "14.006.000059.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 262
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "26.019.000004.SER",
+            "inputs": "15.001.000002.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 263
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "26.019.000004.SER",
+            "inputs": "15.001.000007.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 264
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "26.019.000004.SER",
+            "inputs": "15.001.000008.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 265
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "26.019.000004.SER",
+            "inputs": "15.003.000021.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 266
+    },
+    {
+        "fields": {
+            "coeficient": 1.4,
+            "composition": "26.020.000019.SER",
+            "inputs": "01.001.000005.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 267
+    },
+    {
+        "fields": {
+            "coeficient": 1.4,
+            "composition": "26.020.000019.SER",
+            "inputs": "01.010.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 268
+    },
+    {
+        "fields": {
+            "coeficient": 0.94,
+            "composition": "26.020.000019.SER",
+            "inputs": "14.001.000668.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 269
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "26.020.000019.SER",
+            "inputs": "15.021.000004.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 270
+    },
+    {
+        "fields": {
+            "coeficient": 1.4,
+            "composition": "26.020.000020.SER",
+            "inputs": "01.001.000005.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 271
+    },
+    {
+        "fields": {
+            "coeficient": 1.4,
+            "composition": "26.020.000020.SER",
+            "inputs": "01.010.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 272
+    },
+    {
+        "fields": {
+            "coeficient": 0.94,
+            "composition": "26.020.000020.SER",
+            "inputs": "14.001.000668.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 273
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "26.020.000020.SER",
+            "inputs": "15.021.000007.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 274
+    },
+    {
+        "fields": {
+            "coeficient": 10.0,
+            "composition": "16.001.000009.SER",
+            "inputs": "01.001.000004.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 275
+    },
+    {
+        "fields": {
+            "coeficient": 10.0,
+            "composition": "16.001.000009.SER",
+            "inputs": "01.009.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 276
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "16.001.000009.SER",
+            "inputs": "07.022.000002.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 277
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "16.001.000009.SER",
+            "inputs": "16.001.000032.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 278
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "16.001.000009.SER",
+            "inputs": "16.004.000088.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 279
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "16.001.000009.SER",
+            "inputs": "16.004.000089.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 280
+    },
+    {
+        "fields": {
+            "coeficient": 20.0,
+            "composition": "16.001.000009.SER",
+            "inputs": "16.006.000067.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 281
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "16.001.000009.SER",
+            "inputs": "16.011.000014.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 282
+    },
+    {
+        "fields": {
+            "coeficient": 2.0,
+            "composition": "16.001.000009.SER",
+            "inputs": "16.011.000033.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 283
+    },
+    {
+        "fields": {
+            "coeficient": 5.0,
+            "composition": "16.001.000009.SER",
+            "inputs": "16.012.000030.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 284
+    },
+    {
+        "fields": {
+            "coeficient": 5.0,
+            "composition": "16.001.000009.SER",
+            "inputs": "16.012.000035.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 285
+    },
+    {
+        "fields": {
+            "coeficient": 2.0,
+            "composition": "16.001.000009.SER",
+            "inputs": "25.021.000005.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 286
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "16.009.000007.SER",
+            "inputs": "01.001.000004.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 287
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "16.009.000007.SER",
+            "inputs": "01.009.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 288
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "16.009.000007.SER",
+            "inputs": "16.004.000086.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 289
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "16.009.000007.SER",
+            "inputs": "16.004.000090.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 290
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "16.009.000007.SER",
+            "inputs": "16.004.000092.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 291
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "16.009.000007.SER",
+            "inputs": "16.015.000024.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 292
+    },
+    {
+        "fields": {
+            "coeficient": 0.21,
+            "composition": "16.007.000011.SER",
+            "inputs": "01.001.000004.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 293
+    },
+    {
+        "fields": {
+            "coeficient": 0.21,
+            "composition": "16.007.000011.SER",
+            "inputs": "01.009.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 294
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "16.007.000011.SER",
+            "inputs": "16.035.000006.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 295
+    },
+    {
+        "fields": {
+            "coeficient": 0.37,
+            "composition": "16.007.000009.SER",
+            "inputs": "01.001.000004.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 296
+    },
+    {
+        "fields": {
+            "coeficient": 0.37,
+            "composition": "16.007.000009.SER",
+            "inputs": "01.009.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 297
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "16.007.000009.SER",
+            "inputs": "16.035.000016.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 298
+    },
+    {
+        "fields": {
+            "coeficient": 0.8,
+            "composition": "16.008.000021.SER",
+            "inputs": "01.001.000004.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 299
+    },
+    {
+        "fields": {
+            "coeficient": 0.8,
+            "composition": "16.008.000021.SER",
+            "inputs": "01.009.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 300
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "16.008.000021.SER",
+            "inputs": "16.037.000010.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 301
+    },
+    {
+        "fields": {
+            "coeficient": 1.1,
+            "composition": "16.008.000013.SER",
+            "inputs": "01.001.000004.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 302
+    },
+    {
+        "fields": {
+            "coeficient": 1.1,
+            "composition": "16.008.000013.SER",
+            "inputs": "01.009.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 303
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "16.008.000013.SER",
+            "inputs": "16.037.000004.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 304
+    },
+    {
+        "fields": {
+            "coeficient": 2.0,
+            "composition": "16.008.000013.SER",
+            "inputs": "16.037.000019.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 305
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "16.008.000013.SER",
+            "inputs": "16.037.000029.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 306
+    },
+    {
+        "fields": {
+            "coeficient": 4.0,
+            "composition": "16.008.000013.SER",
+            "inputs": "16.037.000032.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 307
+    },
+    {
+        "fields": {
+            "coeficient": 0.21,
+            "composition": "16.007.000022.SER",
+            "inputs": "01.001.000004.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 308
+    },
+    {
+        "fields": {
+            "coeficient": 0.21,
+            "composition": "16.007.000022.SER",
+            "inputs": "01.009.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 309
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "16.007.000022.SER",
+            "inputs": "16.035.000023.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 310
+    },
+    {
+        "fields": {
+            "coeficient": 0.29,
+            "composition": "16.007.000021.SER",
+            "inputs": "01.001.000004.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 311
+    },
+    {
+        "fields": {
+            "coeficient": 0.29,
+            "composition": "16.007.000021.SER",
+            "inputs": "01.009.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 312
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "16.007.000021.SER",
+            "inputs": "16.035.000020.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 313
+    },
+    {
+        "fields": {
+            "coeficient": 0.15,
+            "composition": "16.011.000059.SER",
+            "inputs": "01.001.000004.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 314
+    },
+    {
+        "fields": {
+            "coeficient": 0.15,
+            "composition": "16.011.000059.SER",
+            "inputs": "01.009.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 315
+    },
+    {
+        "fields": {
+            "coeficient": 1.1,
+            "composition": "16.011.000059.SER",
+            "inputs": "16.012.000023.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 316
+    },
+    {
+        "fields": {
+            "coeficient": 0.15,
+            "composition": "16.011.000060.SER",
+            "inputs": "01.001.000004.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 317
+    },
+    {
+        "fields": {
+            "coeficient": 0.15,
+            "composition": "16.011.000060.SER",
+            "inputs": "01.009.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 318
+    },
+    {
+        "fields": {
+            "coeficient": 1.1,
+            "composition": "16.011.000060.SER",
+            "inputs": "16.012.000009.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 319
+    },
+    {
+        "fields": {
+            "coeficient": 0.11,
+            "composition": "16.006.000108.SER",
+            "inputs": "01.001.000004.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 320
+    },
+    {
+        "fields": {
+            "coeficient": 0.11,
+            "composition": "16.006.000108.SER",
+            "inputs": "01.009.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 321
+    },
+    {
+        "fields": {
+            "coeficient": 1.02,
+            "composition": "16.006.000108.SER",
+            "inputs": "16.006.000013.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 322
+    },
+    {
+        "fields": {
+            "coeficient": 0.12,
+            "composition": "16.006.000109.SER",
+            "inputs": "01.001.000004.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 323
+    },
+    {
+        "fields": {
+            "coeficient": 0.12,
+            "composition": "16.006.000109.SER",
+            "inputs": "01.009.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 324
+    },
+    {
+        "fields": {
+            "coeficient": 1.02,
+            "composition": "16.006.000109.SER",
+            "inputs": "16.006.000007.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 325
+    },
+    {
+        "fields": {
+            "coeficient": 0.14,
+            "composition": "16.006.000111.SER",
+            "inputs": "01.001.000004.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 326
+    },
+    {
+        "fields": {
+            "coeficient": 0.14,
+            "composition": "16.006.000111.SER",
+            "inputs": "01.009.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 327
+    },
+    {
+        "fields": {
+            "coeficient": 1.02,
+            "composition": "16.006.000111.SER",
+            "inputs": "16.006.000023.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 328
+    },
+    {
+        "fields": {
+            "coeficient": 0.1,
+            "composition": "20.001.000002.SER",
+            "inputs": "01.021.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 329
+    },
+    {
+        "fields": {
+            "coeficient": 0.1,
+            "composition": "20.001.000002.SER",
+            "inputs": "01.026.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 330
+    },
+    {
+        "fields": {
+            "coeficient": 5.0,
+            "composition": "20.001.000002.SER",
+            "inputs": "06.003.000027.SER"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 331
+    },
+    {
+        "fields": {
+            "coeficient": 0.5,
+            "composition": "20.004.000004.SER",
+            "inputs": "01.021.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 332
+    },
+    {
+        "fields": {
+            "coeficient": 0.5,
+            "composition": "20.004.000004.SER",
+            "inputs": "01.026.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 333
+    },
+    {
+        "fields": {
+            "coeficient": 5.0,
+            "composition": "20.004.000004.SER",
+            "inputs": "06.003.000005.SER"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 334
+    },
+    {
+        "fields": {
+            "coeficient": 0.35,
+            "composition": "23.001.000013.SER",
+            "inputs": "01.003.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 335
+    },
+    {
+        "fields": {
+            "coeficient": 0.12,
+            "composition": "23.001.000013.SER",
+            "inputs": "01.026.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 336
+    },
+    {
+        "fields": {
+            "coeficient": 4.4,
+            "composition": "23.001.000013.SER",
+            "inputs": "04.004.000036.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 337
+    },
+    {
+        "fields": {
+            "coeficient": 1.1,
+            "composition": "23.001.000013.SER",
+            "inputs": "18.006.000008.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 338
+    },
+    {
+        "fields": {
+            "coeficient": 0.53,
+            "composition": "04.012.000007.SER",
+            "inputs": "01.021.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 339
+    },
+    {
+        "fields": {
+            "coeficient": 0.26,
+            "composition": "04.012.000007.SER",
+            "inputs": "01.026.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 340
+    },
+    {
+        "fields": {
+            "coeficient": 0.05,
+            "composition": "04.012.000007.SER",
+            "inputs": "05.004.000097.SER"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 341
+    },
+    {
+        "fields": {
+            "coeficient": 0.25,
+            "composition": "22.014.000006.SER",
+            "inputs": "01.021.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 342
+    },
+    {
+        "fields": {
+            "coeficient": 0.25,
+            "composition": "22.014.000006.SER",
+            "inputs": "01.026.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 343
+    },
+    {
+        "fields": {
+            "coeficient": 0.03,
+            "composition": "22.014.000006.SER",
+            "inputs": "06.003.000015.SER"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 344
+    },
+    {
+        "fields": {
+            "coeficient": 0.4,
+            "composition": "22.003.000003.SER",
+            "inputs": "01.003.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 345
+    },
+    {
+        "fields": {
+            "coeficient": 0.15,
+            "composition": "22.003.000003.SER",
+            "inputs": "01.026.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 346
+    },
+    {
+        "fields": {
+            "coeficient": 4.4,
+            "composition": "22.003.000003.SER",
+            "inputs": "04.004.000036.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 347
+    },
+    {
+        "fields": {
+            "coeficient": 1.1,
+            "composition": "22.003.000003.SER",
+            "inputs": "18.006.000009.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 348
+    },
+    {
+        "fields": {
+            "coeficient": 0.3,
+            "composition": "22.003.000009.SER",
+            "inputs": "01.016.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 349
+    },
+    {
+        "fields": {
+            "coeficient": 0.2,
+            "composition": "22.003.000009.SER",
+            "inputs": "01.026.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 350
+    },
+    {
+        "fields": {
+            "coeficient": 0.4,
+            "composition": "22.003.000009.SER",
+            "inputs": "04.004.000036.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 351
+    },
+    {
+        "fields": {
+            "coeficient": 1.1,
+            "composition": "22.003.000009.SER",
+            "inputs": "18.006.000002.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 352
+    },
+    {
+        "fields": {
+            "coeficient": 0.2,
+            "composition": "24.003.000007.SER",
+            "inputs": "01.001.000007.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 353
+    },
+    {
+        "fields": {
+            "coeficient": 0.3,
+            "composition": "24.003.000007.SER",
+            "inputs": "01.022.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 354
+    },
+    {
+        "fields": {
+            "coeficient": 0.7,
+            "composition": "24.003.000007.SER",
+            "inputs": "21.001.000007.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 355
+    },
+    {
+        "fields": {
+            "coeficient": 0.4,
+            "composition": "24.003.000007.SER",
+            "inputs": "21.006.000005.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 356
+    },
+    {
+        "fields": {
+            "coeficient": 0.35,
+            "composition": "24.003.000019.SER",
+            "inputs": "01.001.000007.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 357
+    },
+    {
+        "fields": {
+            "coeficient": 0.4,
+            "composition": "24.003.000019.SER",
+            "inputs": "01.022.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 358
+    },
+    {
+        "fields": {
+            "coeficient": 0.12,
+            "composition": "24.003.000019.SER",
+            "inputs": "21.001.000027.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 359
+    },
+    {
+        "fields": {
+            "coeficient": 0.17,
+            "composition": "24.003.000019.SER",
+            "inputs": "21.004.000004.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 360
+    },
+    {
+        "fields": {
+            "coeficient": 0.25,
+            "composition": "24.003.000019.SER",
+            "inputs": "21.006.000005.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 361
+    },
+    {
+        "fields": {
+            "coeficient": 0.25,
+            "composition": "24.003.000011.SER",
+            "inputs": "01.001.000007.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 362
+    },
+    {
+        "fields": {
+            "coeficient": 0.35,
+            "composition": "24.003.000011.SER",
+            "inputs": "01.022.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 363
+    },
+    {
+        "fields": {
+            "coeficient": 0.7,
+            "composition": "24.003.000011.SER",
+            "inputs": "21.001.000005.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 364
+    },
+    {
+        "fields": {
+            "coeficient": 0.5,
+            "composition": "24.003.000011.SER",
+            "inputs": "21.006.000005.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 365
+    },
+    {
+        "fields": {
+            "coeficient": 0.35,
+            "composition": "24.003.000001.SER",
+            "inputs": "01.001.000007.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 366
+    },
+    {
+        "fields": {
+            "coeficient": 0.4,
+            "composition": "24.003.000001.SER",
+            "inputs": "01.022.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 367
+    },
+    {
+        "fields": {
+            "coeficient": 0.12,
+            "composition": "24.003.000001.SER",
+            "inputs": "21.001.000023.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 368
+    },
+    {
+        "fields": {
+            "coeficient": 0.17,
+            "composition": "24.003.000001.SER",
+            "inputs": "21.004.000003.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 369
+    },
+    {
+        "fields": {
+            "coeficient": 0.25,
+            "composition": "24.003.000001.SER",
+            "inputs": "21.006.000005.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 370
+    },
+    {
+        "fields": {
+            "coeficient": 0.3,
+            "composition": "24.001.000005.SER",
+            "inputs": "01.001.000007.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 371
+    },
+    {
+        "fields": {
+            "coeficient": 0.4,
+            "composition": "24.001.000005.SER",
+            "inputs": "01.022.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 372
+    },
+    {
+        "fields": {
+            "coeficient": 0.03,
+            "composition": "24.001.000005.SER",
+            "inputs": "21.001.000020.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 373
+    },
+    {
+        "fields": {
+            "coeficient": 0.03,
+            "composition": "24.001.000005.SER",
+            "inputs": "21.001.000030.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 374
+    },
+    {
+        "fields": {
+            "coeficient": 0.06,
+            "composition": "24.001.000005.SER",
+            "inputs": "21.001.000032.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 375
+    },
+    {
+        "fields": {
+            "coeficient": 0.19,
+            "composition": "24.001.000005.SER",
+            "inputs": "21.002.000003.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 376
+    },
+    {
+        "fields": {
+            "coeficient": 1.0,
+            "composition": "24.001.000005.SER",
+            "inputs": "21.006.000005.MAT"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 377
+    },
+    {
+        "fields": {
+            "coeficient": 0.7,
+            "composition": "32.003.000003.SER",
+            "inputs": "01.026.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 378
+    },
+    {
+        "fields": {
+            "coeficient": 0.72,
+            "composition": "32.003.000001.SER",
+            "inputs": "01.026.000001.MOD"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 379
+    },
+    {
+        "fields": {
+            "coeficient": 0.24,
+            "composition": "32.003.000001.SER",
+            "inputs": "36.015.000004.EQI"
+        },
+        "model": "planilha.compositioncoeficient",
+        "pk": 380
+    }
+]
