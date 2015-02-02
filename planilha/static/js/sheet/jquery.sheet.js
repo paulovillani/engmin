@@ -9643,7 +9643,7 @@ jQuery = jQuery || window.jQuery;
 
             return sum;
         },
-
+        //adicionada a função sumif
         SUMIF:function () {
             var sum = 0,
                 c = arrHelpers.flatten(arguments[0]),
