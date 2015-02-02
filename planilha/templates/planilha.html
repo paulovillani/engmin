@@ -28,7 +28,7 @@
                 formula = "=SHEET1!G9*E"+(fim+2)
                 setFormula(1, fim+3, 7, formula);
 
-                formula = "=SHEET1!C9*G"+(fim+2)
+                formula = "=SHEET1!C9*(G"+(fim+2)+"+G"+(fim+3)+")"
                 setFormula(1, fim+4, 7, formula);
 
                 formula = "=SUM(G"+(fim+2)+":G"+(fim+4)+")";
@@ -646,7 +646,7 @@
                     {% endif %}
                         <td>{{coeficient.inputs.code}}</td>
                         <td>{{coeficient.inputs.description}}</td>
-                        <td>{{coeficient.inputs.unit}}</td>
+                        <td>{{coeficient.inputs.get_unit_display }}</td>
                         <td>{{coeficient.inputs.classification}}</td>
                         <td>{{coeficient.coeficient}}</td>
                         <td>{{coeficient.inputs.unit_price}}</td>
