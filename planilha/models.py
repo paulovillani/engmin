@@ -33,7 +33,6 @@ class Input(models.Model):
 	def __unicode__(self):
 		return self.code
 
-
 class Composition(models.Model):
 	class Meta:
 		verbose_name = u"Composição"
@@ -46,6 +45,25 @@ class Composition(models.Model):
 	def __unicode__(self):
 		return self.description
 
+	@property
+	def mod_price(self):
+		mod_coef = CompositionCoeficient.objects.filter(composition=self, inputs__classification="MOD")
+		mod = 0
+		for coef in mod_coef:
+			mod += coef.total_price;
+		return mod
+
+	@property
+	def others_price(self):
+		others_coef = CompositionCoeficient.objects.filter(composition=self).exclude(inputs__classification = "MOD")
+		others = 0
+		for coef in others_coef:
+			others += coef.total_price;
+		return others
+
+
+
+
 class CompositionCoeficient(models.Model):
 	class Meta:
 		verbose_name = u"Coeficiente da composição"
@@ -55,3 +73,7 @@ class CompositionCoeficient(models.Model):
 	inputs = models.ForeignKey(Input)
 	composition = models.ForeignKey(Composition)
 	coeficient = models.FloatField(verbose_name=u"Coeficiente")
+
+	@property
+	def total_price(self):
+		return self.coeficient*self.inputs.unit_price

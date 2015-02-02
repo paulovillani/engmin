@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{% load counter %}
 <html>
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
@@ -12,8 +13,47 @@
     <script type="text/javascript">
         $.sheet.preLoad('{{STATIC_URL}}js/sheet/');
         $(function(){
-            $('#sheetParent').sheet();
+            var me = $('#sheetParent').sheet();
+            jS = me.getSheet();
+            $('.first_row').each(function(){
+                var comeco = $(this).index();
+                var fim = $(this).nextAll('.last_row').index();
+                
+                var formula = "=SUMIF(D"+comeco+":D"+fim+", 'MOD', G"+comeco+":G"+fim+")"
+                setFormula(1, fim+2, 5, formula);
+
+                formula = "=SUM(G"+comeco+":G"+fim+")";
+                setFormula(1, fim+2, 7, formula);
+
+                formula = "=SHEET1!G9*E"+(fim+2)
+                setFormula(1, fim+3, 7, formula);
+
+                formula = "=SHEET1!C9*G"+(fim+2)
+                setFormula(1, fim+4, 7, formula);
+
+                formula = "=SUM(G"+(fim+2)+":G"+(fim+4)+")";
+                setFormula(1, fim+5, 7, formula);
+
+                formula = "=G"+(fim+2)+"-E"+(fim+2)
+                setFormula(1, fim+3, 5, formula);
+            });
+
+
+
+
+            function setFormula (sheet, row, col, val) {
+                var cell = getCell(sheet, row, col);
+                cell.formula = val;
+                cell.calcLast = 0;
+                jS.updateCellValue(sheet, row, col);
+            }
+            function getCell (sheet, row, col) {
+                var cell = jS.spreadsheets[sheet][row][col];
+                return cell;
+            }
         });
+
+
     </script>
     <style type="text/css">
     #container{
@@ -582,6 +622,8 @@
                 <td>Preço Un. (R$)</td>
                 <td>Total (R$)</td>
             </tr>
+            {% counter name="linha1" start=5 silent=True%}
+            {% counter name="linha2" start=5 silent=True%}
             {% for composition in compositions %}
                 <tr>
                     <td style="background: rgb(221,217,195);" class="styleBold styleRight">{{composition.code}}</td>
@@ -592,20 +634,25 @@
                     <td style="background: rgb(221,217,195);" class="styleBold styleRight"></td>
                     <td style="background: rgb(221,217,195);" class="styleBold styleRight"></td>
                 </tr>
-                {% for input in composition.inputs.all %}
-                    <tr>
-                        <td>{{input.code}}</td>
-                        <td>{{input.description}}</td>
-                        <td>{{input.unit}}</td>
-                        <td>{{input.classification}}</td>
-                        {% for coeficient in input.compositioncoeficient_set.all %}
-                            {% if coeficient.composition.code == composition.code %}
-                                <td>{{coeficient.coeficient}}</td>
-                            {% endif %}
-                        {% endfor %}
-                        <td>{{input.unit_price}}</td>
-                        <td></td>
+                {% counter name="linha1" silent=True%}
+                {% counter name="linha2" silent=True%}
+                {% for coeficient in composition.compositioncoeficient_set.all %}
+                    {% if forloop.first and forloop.last %}
+                    <tr class="unique_row">
+                    {% elif forloop.last %}
+                    <tr class="last_row">
+                    {% elif forloop.first %}
+                    <tr class="first_row">
+                    {% endif %}
+                        <td>{{coeficient.inputs.code}}</td>
+                        <td>{{coeficient.inputs.description}}</td>
+                        <td>{{coeficient.inputs.unit}}</td>
+                        <td>{{coeficient.inputs.classification}}</td>
+                        <td>{{coeficient.coeficient}}</td>
+                        <td>{{coeficient.inputs.unit_price}}</td>
+                        <td data-formula='=E{% counter name="linha1"%}*F{% counter name="linha2"%}'></td>
                     </tr>
+
                 {% endfor %}
                 <tr>
                     <td rowspan="1" colspan="7"></td>
@@ -616,6 +663,8 @@
                     <td style="display: none;"></td>
                     <td style="display: none;"></td>
                 </tr>
+                {% counter name="linha1" silent=True%}
+                {% counter name="linha2" silent=True%}
                 <tr>
                     <td rowspan="1" colspan="3"></td>
                     <td style="display: none;"></td>
@@ -625,6 +674,8 @@
                     <td>Total s/ Taxa (Unit.) :</td>
                     <td></td>
                 </tr>
+                {% counter name="linha1" silent=True%}
+                {% counter name="linha2" silent=True%}
                 <tr>
                     <td rowspan="1" colspan="3"></td>
                     <td style="display: none;"></td>
@@ -634,6 +685,8 @@
                     <td>Valor LS :</td>
                     <td></td>
                 </tr>
+                {% counter name="linha1" silent=True%}
+                {% counter name="linha2" silent=True%}
                 <tr>
                     <td rowspan="1" colspan="5"></td>
                     <td style="display: none;"></td>
@@ -643,6 +696,8 @@
                     <td>Valor BDI :</td>
                     <td></td>
                 </tr>
+                {% counter name="linha1" silent=True%}
+                {% counter name="linha2" silent=True%}
                 <tr>
                     <td rowspan="1" colspan="5"></td>
                     <td style="display: none;"></td>
@@ -652,6 +707,8 @@
                     <td>Valor Total c/ Taxa :</td>
                     <td></td>
                 </tr>
+                {% counter name="linha1" silent=True%}
+                {% counter name="linha2" silent=True%}
                 <tr>
                     <td rowspan="1" colspan="7"></td>
                     <td style="display: none;"></td>
@@ -661,6 +718,8 @@
                     <td style="display: none;"></td>
                     <td style="display: none;"></td>
                 </tr>
+                {% counter name="linha1" silent=True%}
+                {% counter name="linha2" silent=True%}
             {% endfor %}
         </tbody>
     </table>

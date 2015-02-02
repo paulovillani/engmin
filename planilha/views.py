@@ -3,6 +3,8 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from django.views.generic import ListView, TemplateView, DetailView, FormView
 from planilha.models import Composition
+import itertools
+
 
 # Create your views here.
 class PlanilhaView(TemplateView):

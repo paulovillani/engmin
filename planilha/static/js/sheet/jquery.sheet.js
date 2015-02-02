@@ -9644,6 +9644,24 @@ jQuery = jQuery || window.jQuery;
             return sum;
         },
 
+        SUMIF:function () {
+            var sum = 0,
+                c = arrHelpers.flatten(arguments[0]),
+                cond = arguments[1],
+                v = arrHelpers.toNumbers(arguments[2]),
+                i = v.length - 1;
+            if (i < 0) {
+                return 0;
+            }
+
+            do {
+               if(c[i] == cond)
+                sum += v[i] * 1;
+            } while (i--);
+
+            return sum;
+        },
+
         /**
          * math function
          * @param number
