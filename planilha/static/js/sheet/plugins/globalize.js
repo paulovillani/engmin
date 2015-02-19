@@ -146,7 +146,7 @@
 				// [negativePattern, positivePattern]
 				//   negativePattern: one of "($n)|-$n|$-n|$n-|(n$)|-n$|n-$|n$-|-n $|-$ n|n $-|$ n-|$ -n|n- $|($ n)|(n $)"
 				//   positivePattern: one of "$n|n$|$ n|n $"
-				pattern: [ "($n)", "$n" ],
+				pattern: [ "(R$n)", "$n" ],
 				// number of decimal places normally shown
 				decimals: 2,
 				// array of numbers indicating the size of each number group.
@@ -157,7 +157,7 @@
 				// string that separates a number from the fractional portion, as in 1.99
 				".": ".",
 				// symbol used to represent currency
-				symbol: "$"
+				symbol: "R$"
 			}
 		},
 		// calendars defines all the possible calendars used by this culture.

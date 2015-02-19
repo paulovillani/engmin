@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+        <meta http-equiv="Pragma" content="no-cache"/>
+        <meta http-equiv="Expires" content="-1"/>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+        <meta content="utf-8" http-equiv="encoding"/>
+
+        <!--<title>jQuery.sheet - The Ajax Spreadsheet</title> -->
+
+        <link rel="stylesheet" type="text/css" href="{{STATIC_URL}}js/sheet/jquery.sheet.css">
+        <link rel="stylesheet" type="text/css" href="{{STATIC_URL}}js/sheet/jquery-ui/theme/jquery-ui.min.css">
+
+        <script type="text/javascript" src="{{STATIC_URL}}js/sheet/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="{{STATIC_URL}}js/sheet/plugins/globalize.js"></script>
+        <script type="text/javascript" src="{{STATIC_URL}}js/sheet/parser/formula/formula.js"></script>
+        <script type="text/javascript" src="{{STATIC_URL}}js/sheet/parser/tsv/tsv.js"></script>
+        <script type="text/javascript" src="{{STATIC_URL}}js/sheet/jquery.sheet.js"></script>
+
+		<!--Optional-->
+            <!--Nearest-->
+            <script type="text/javascript" src="{{STATIC_URL}}js/sheet/plugins/jquery.nearest.min.js"></script>
+            <!--/Nearest-->
+			<!--jQuery UI-->
+				<script type="text/javascript" src="{{STATIC_URL}}js/sheet/jquery-ui/ui/jquery-ui.min.js"></script>
+			<!--/jQuery UI-->
+			<!--Raphaeljs - for charts-->
+				<script type="text/javascript" src="{{STATIC_URL}}js/sheet/plugins/raphael-min.js"></script>
+				<script type="text/javascript" src="{{STATIC_URL}}js/sheet/plugins/g.raphael-min.js"></script>
+			<!--/Raphaeljs-->
+			<!--ColorPicker-->
+				<link rel="stylesheet" type="text/css" href="{{STATIC_URL}}js/sheet/plugins/jquery.colorPicker.css" />
+				<script type="text/javascript" src="{{STATIC_URL}}js/sheet/plugins/jquery.colorPicker.min.js"></script>
+			<!--/ColorPicker-->
+			<!--Theme Switcher Tool-->
+				<script type="text/javascript" src="{{STATIC_URL}}js/sheet/plugins/jquery.themeswitcher.js"></script>
+			<!--/Theme Switcher Tool-->
+			<!--Elastic-->
+				<script type="text/javascript" src="{{STATIC_URL}}js/sheet/plugins/jquery.elastic.min.js"></script>
+			<!--/Elastic-->
+			<!--Advanced_Math-->
+				<script type="text/javascript" src="{{STATIC_URL}}js/sheet/plugins/jquery.sheet.advancedfn.js"></script>
+			<!--/Advanced_Math-->
+			<!--Finance-->
+				<script type="text/javascript" src="{{STATIC_URL}}js/sheet/plugins/jquery.sheet.financefn.js"></script>
+			<!--/Finance-->
+	        <!--Undo-->
+	            <script type="text/javascript" src="{{STATIC_URL}}js/sheet/plugins/undomanager.js"></script>
+	        <!--/Undo-->
+            <!--Zero Clipboard-->
+            <script type="text/javascript" src="{{STATIC_URL}}js/sheet/plugins/ZeroClipboard.js"></script>
+            <!--/Zero Clipboard-->
+		    <!--DataTransformationService-->
+		    <script type="text/javascript" src="{{STATIC_URL}}js/sheet/plugins/jquery.sheet.dts.js"></script>
+		    <!--/DataTransformationService-->
+		<!--/Optional-->
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("#mascara").click( function(){
+                    $(this).hide();
+                    $(".window").hide();
+                });
+             
+                $('.fechar').click(function(ev){
+                    ev.preventDefault();
+                    $("#mascara").hide();
+                    $(".window").hide();
+                });
+            });
+
+
+            $(function(){
+
+                $('#themeSwitcher').themeswitcher({
+                    imgpath: "{{STATIC_URL}}js/sheet/plugins/jquery.themeswitcher.images/",
+                    loadTheme: "start"
+                });
+                //Here is where we initiate the sheets
+                //every time sheet is created it creates a new jQuery.sheet.instance (array), to manipulate each sheet, the jQuery object is returned
+
+	            window.loadSheet = function (obj, url) {
+                    var urls = {sheet: url || $(obj).attr('href'), menuLeft: '{{STATIC_URL}}js/sheet/menu.left.html', menuRight: 'menu.right.html'}, results = {}, loadCount = 3, loaded = 0;
+                    for(var type in urls) {
+                        var tempUrl = urls[type] + (type == 'sheet' ? ' #sheetParent' : '');
+                        $(document.createElement('div'))
+                                .data('type', type)
+                                .load(tempUrl, function() {
+                            results[$(this).data('type')] = this.children[0];
+                            console.log(results);
+                            loaded++;
+                            if (loadCount == loaded) {
+                                var plan = $('#sheet')
+                                    .attr('class', results.sheet.className)
+                                    .html(results.sheet.children)
+                                    .sheet({
+                                        menuLeft: function() {
+                                            //console.log(results.menuLeft);
+                                            var jS = this,
+                                                menu = $(results.menuLeft),
+                                                copy = menu.find('.jSCopy').mouseover(function() { $(this).one('mouseout', function() {return false;})}),
+                                                cut = menu.find('.jSCut').mouseover(function() { $(this).one('mouseout', function() {return false;})}),
+                                                paste = menu.find('.jSPaste').click(function() {
+                                                    alert('Press Ctrl + V to paste over highlighted cells');
+                                                });
+                                            //Give anchors access to jS them
+                                            menu.find('a').each(function() {
+                                                this.jS = jS;
+                                            });
+
+                                            var clip = new ZeroClipboard(copy.add(cut), {
+                                                moviePath: "plugins/ZeroClipboard.swf"
+                                            });
+
+                                            clip.on('mousedown', function(client) {
+                                                clip.setText(jS.tdsToTsv());
+                                                $(this).mousedown();
+                                            });
+
+                                            cut.mousedown(function() {
+                                                jS.tdsToTsv(null, true);
+                                            });
+
+                                            return menu;
+                                        },
+                                        menuRight: function (){
+                                            var jS = this,
+                                            //we want to be able to edit the html for the menu to make them multi-instance
+                                                menu = $(results.menuRight);
+
+                                            //Give anchors access to jS them
+                                            menu.find('a').each(function() {
+                                                this.jS = jS;
+                                            });
+
+                                            //The following is just so you get an idea of how to style cells
+                                            menu.find('.colorPickerCell').colorPicker().change(function(){
+                                                jS.cellChangeStyle('background-color', $(this).val());
+                                            });
+
+                                            menu.find('.colorPickerFont').colorPicker().change(function(){
+                                                jS.cellChangeStyle('color', $(this).val());
+                                            });
+
+                                            menu.find('.colorPickers').children().eq(1).css('background-image', "url('images/palette.png')");
+                                            menu.find('.colorPickers').children().eq(3).css('background-image', "url('images/palette_bg.png')");
+
+                                            return menu;
+                                        }
+                                    })
+
+								var jS = plan.getSheet();
+								$('.first_row').each(function(){
+					                var comeco = $(this).index();
+					                var fim = $(this).nextAll('.last_row').index();
+					                
+					                var formula = "=SUMIF(D"+comeco+":D"+fim+", 'MOD', G"+comeco+":G"+fim+")"
+					                setFormula(jS, 1, fim+2, 5, formula);
+
+					                formula = "=SUM(G"+comeco+":G"+fim+")";
+					                setFormula(jS, 1, fim+2, 7, formula);
+
+					                formula = "=SHEET1!G9*E"+(fim+2)
+					                setFormula(jS, 1, fim+3, 7, formula);
+
+					                formula = "=SHEET1!C9*(G"+(fim+2)+"+G"+(fim+3)+")"
+					                setFormula(jS, 1, fim+4, 7, formula);
+
+					                formula = "=SUM(G"+(fim+2)+":G"+(fim+4)+")";
+					                setFormula(jS, 1, fim+5, 7, formula);
+
+					                formula = "=G"+(fim+2)+"-E"+(fim+2)
+					                setFormula(jS, 1, fim+3, 5, formula);
+					            });
+                                $('.unique_row').each(function(){
+                                    var linha = $(this).index();
+
+                                    var formula = "=SUMIF(D"+linha+":D"+linha+", 'MOD', G"+linha+":G"+linha+")"
+                                    setFormula(jS, 1, linha+2, 5, formula);
+
+                                    formula = "=SUM(G"+linha+":G"+linha+")";
+                                    setFormula(jS, 1, linha+2, 7, formula);
+
+                                    formula = "=SHEET1!G9*E"+(linha+2)
+                                    setFormula(jS, 1, linha+3, 7, formula);
+
+                                    formula = "=SHEET1!C9*(G"+(linha+2)+"+G"+(linha+3)+")"
+                                    setFormula(jS, 1, linha+4, 7, formula);
+
+                                    formula = "=SUM(G"+(linha+2)+":G"+(linha+4)+")";
+                                    setFormula(jS, 1, linha+5, 7, formula);
+
+                                    formula = "=G"+(linha+2)+"-E"+(linha+2)
+                                    setFormula(jS, 1, linha+3, 5, formula);
+                                });
+                            }
+                        });
+                    }
+	            };
+
+	            loadSheet({}, 'planilha.html');
+
+	            function setFormula (jS, sheet, row, col, val) {
+	                var cell = getCell(jS, sheet, row, col);
+	                cell.formula = val;
+	                cell.calcLast = 0;
+	                jS.updateCellValue(sheet, row, col);
+	            }
+	            function getCell (jS, sheet, row, col) {
+	                var cell = jS.spreadsheets[sheet][row][col];
+	                return cell;
+	            }
+                $('#pseudoSheetsMoreInfo').click(function() {
+                    $(this).next().dialog({
+                        title: "What is a pseudo sheet?",
+                        modal: true
+                    });
+                })
+                    .next().hide();
+            });
+
+            function exportar (json){
+                var data = "text/json;charset=utf-8," + encodeURIComponent(json);
+                //ev.preventDefault();
+                $('#downLink').html('<a href="data:' + data + '" download="planilha.json">Salvar Planilha</a>');
+ 
+                var id = '#janela1';
+
+         
+                var alturaTela = $(document).height();
+                var larguraTela = $(window).width();
+             
+                //colocando o fundo preto
+                $('#mascara').css({'width':larguraTela,'height':alturaTela});
+                //$('#mascara').fadeIn(1000);
+                $('#mascara').fadeTo("slow",0.8);
+         
+                var left = ($(window).width() /2) - ( $(id).width() / 2 );
+                var top = ($(window).height() / 2) - ( $(id).height() / 2 );
+             
+                $(id).css({'top':top,'left':left});
+                $(id).show();   
+            }
+
+            function importar(jS){
+                var file = document.getElementById('upFile').files[0];
+                var reader = new FileReader();
+
+
+                reader.onload = function(e) {
+                    plotTable(reader.result);
+                }
+
+                reader.readAsText(file, "UTF-8");
+            }
+
+            function plotTable(json){
+                var tables = $.sheet.dts.toTables.json(JSON.parse(json)),
+                    results = {};
+
+                $(document.createElement('div')).load('{{STATIC_URL}}js/sheet/menu.left.html', function() {
+                    results['menuLeft'] = this.children[0];
+                });
+                $(document.createElement('div')).load('menu.right.html', function() {
+                    results['menuRight'] = this.children[0];  
+                
+                    $('#sheet').html(tables).height($('#sheet').height())
+                        .sheet({
+                            menuLeft: function() {
+                                //console.log(results.menuLeft);
+                                var jS = this,
+                                    menu = $(results.menuLeft),
+                                    copy = menu.find('.jSCopy').mouseover(function() { $(this).one('mouseout', function() {return false;})}),
+                                    cut = menu.find('.jSCut').mouseover(function() { $(this).one('mouseout', function() {return false;})}),
+                                    paste = menu.find('.jSPaste').click(function() {
+                                        alert('Press Ctrl + V to paste over highlighted cells');
+                                    });
+
+                                //Give anchors access to jS them
+                                menu.find('a').each(function() {
+                                    this.jS = jS;
+                                });
+
+                                var clip = new ZeroClipboard(copy.add(cut), {
+                                    moviePath: "plugins/ZeroClipboard.swf"
+                                });
+
+                                clip.on('mousedown', function(client) {
+                                    clip.setText(jS.tdsToTsv());
+                                    $(this).mousedown();
+                                });
+
+                                cut.mousedown(function() {
+                                    jS.tdsToTsv(null, true);
+                                });
+
+                                return menu;
+                            },
+                            menuRight: function (){
+                                var jS = this,
+                                //we want to be able to edit the html for the menu to make them multi-instance
+                                    menu = $(results.menuRight);
+
+                                //Give anchors access to jS them
+                                menu.find('a').each(function() {
+                                    this.jS = jS;
+                                });
+
+                                //The following is just so you get an idea of how to style cells
+                                menu.find('.colorPickerCell').colorPicker().change(function(){
+                                    jS.cellChangeStyle('background-color', $(this).val());
+                                });
+
+                                menu.find('.colorPickerFont').colorPicker().change(function(){
+                                    jS.cellChangeStyle('color', $(this).val());
+                                });
+
+                                menu.find('.colorPickers').children().eq(1).css('background-image', "url('images/palette.png')");
+                                menu.find('.colorPickers').children().eq(3).css('background-image', "url('images/palette_bg.png')");
+
+                                return menu;
+                            }
+                        });
+                });
+            }
+
+        </script>
+        <!--Page styles-->
+        <style>
+            body {
+                background-color: #464646;
+                padding: 0px;
+                margin: 0px;
+                padding-bottom: 100px;
+                color: black;
+                font-family: sans-serif;
+                font-size: 13px;
+            }
+            
+            .wrapper {
+                margin: 10px;
+                background-color: #CCCCCC;
+            }
+            
+            .locked {
+                position: fixed;
+                top: expression(eval(document.body.scrollTop) + "px");
+                left: 20px;
+            }
+
+            #lockedMenu
+            {
+                width: 225px;
+                background-image: none;
+            }
+
+			#lockedMenu * {
+				font-size: .95em ! important;
+                text-decoration: none;
+			}
+            
+            #header {
+                text-align: left;
+                font-size: 1.5em;
+                padding: 18px;
+                border: none;
+                padding-left: 150px;
+            }
+            
+            #footer {
+                text-align: center;
+                color: white;
+                font-size: .9em;
+            }
+            
+            #footer a {
+                font-size: 1.2em;
+                color: #FFFFFF;
+            }
+            #container{
+		        width:1112px;
+		        height: 98%;
+		        left: 50%;
+		        margin-left: -556px;
+		        position: absolute;
+		    }
+            #global-zeroclipboard-html-bridge{
+                display: none;
+            }
+            .jSMenu ul ul{
+                width: 13em;
+            }
+            .jSMenu li ul a{
+                width: 13em;
+            }
+            .window{
+                display:none;
+                width:300px;
+                height:300px;
+                position:absolute;
+                left:0;
+                top:0;
+                background:#FFF;
+                z-index:9900;
+                padding:10px;
+                border-radius:10px;
+            }
+             
+            #mascara{
+                display:none;
+                position:absolute;
+                left:0;
+                top:0;
+                z-index:9000;
+                background-color:#000;
+            }
+ 
+            .fechar{display:block; text-align:right;}
+
+            #upFile{
+                filter:alpha(opacity: 0);  
+                font-size: 15px;
+                left: 6px;
+                opacity: 0;
+                position: absolute;
+                width: 150px;
+            }
+        </style>
+    </head>
+    <body>
+    	<div id="container">
+			<div id="sheet" class="jQuerySheet" style="width: 1112px; height:100%;"></div>
+		</div>
+
+        <div class="window" id="janela1">
+            <a href="#" class="fechar">X Fechar</a>
+            <div id="downLink"></div>
+        </div>
+         
+        <!-- mascara para cobrir o site -->  
+        <div id="mascara"></div>
+	</body>
+
+</html>

@@ -15,3 +15,9 @@ class PlanilhaView(TemplateView):
 		context['compositions'] = Composition.objects.all()
 
 		return context
+
+class HomeView(TemplateView):
+	template_name = 'home.html'
+
+class RightMenuView(TemplateView):
+	template_name = 'menu.right.html'

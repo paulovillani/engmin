@@ -12,9 +12,14 @@
     <script type="text/javascript" src="{{STATIC_URL}}js/sheet/jquery.sheet.js"></script>
     <script type="text/javascript">
         $.sheet.preLoad('{{STATIC_URL}}js/sheet/');
-        $(function(){
-            var me = $('#sheetParent').sheet();
-            jS = me.getSheet();
+        $(function() {
+            $('#sheetParent').sheet();
+        });    
+
+            /*var me = $('#sheetParent').bind('sheetCellEdited', function() {
+                alert('A cell was edited!')
+            }).sheet();
+           jS = me.getSheet();
             $('.first_row').each(function(){
                 var comeco = $(this).index();
                 var fim = $(this).nextAll('.last_row').index();
@@ -36,12 +41,12 @@
 
                 formula = "=G"+(fim+2)+"-E"+(fim+2)
                 setFormula(1, fim+3, 5, formula);
-            });
+            });*/
 
 
 
 
-            function setFormula (sheet, row, col, val) {
+            /*function setFormula (sheet, row, col, val) {
                 var cell = getCell(sheet, row, col);
                 cell.formula = val;
                 cell.calcLast = 0;
@@ -51,20 +56,10 @@
                 var cell = jS.spreadsheets[sheet][row][col];
                 return cell;
             }
-        });
+        });/*
 
 
     </script>
-    <style type="text/css">
-    #container{
-        width:1112px;
-        height: 98%;
-        left: 50%;
-        margin-left: -556px;
-        position: absolute;
-    }
-
-    </style>
 </head>
 <body>
 <div id="container">
@@ -619,20 +614,20 @@
                 <td>Un.</td>
                 <td>Clas.</td>
                 <td>Coef.</td>
-                <td>Preço Un. (R$)</td>
-                <td>Total (R$)</td>
+                <td>Preço Un.</td>
+                <td>Total</td>
             </tr>
             {% counter name="linha1" start=5 silent=True%}
             {% counter name="linha2" start=5 silent=True%}
             {% for composition in compositions %}
-                <tr>
-                    <td style="background: rgb(221,217,195);" class="styleBold styleRight">{{composition.code}}</td>
-                    <td style="background: rgb(221,217,195);" class="styleBold styleRight">{{composition.description}}</td>
-                    <td style="background: rgb(221,217,195);" class="styleBold styleRight">{{composition.unit}}</td>
-                    <td style="background: rgb(221,217,195);" class="styleBold styleRight"></td>
-                    <td style="background: rgb(221,217,195);" class="styleBold styleRight"></td>
-                    <td style="background: rgb(221,217,195);" class="styleBold styleRight"></td>
-                    <td style="background: rgb(221,217,195);" class="styleBold styleRight"></td>
+                <tr id="{{composition.code}}">
+                    <td style="background: rgb(221,217,195);" class="styleBold">{{composition.code}}</td>
+                    <td style="background: rgb(221,217,195);" class="styleBold description">{{composition.description}}</td>
+                    <td style="background: rgb(221,217,195);" class="styleBold unit">{{composition.get_unit_display}}</td>
+                    <td style="background: rgb(221,217,195);" class="styleBold"></td>
+                    <td style="background: rgb(221,217,195);" class="styleBold"></td>
+                    <td style="background: rgb(221,217,195);" class="styleBold"></td>
+                    <td style="background: rgb(221,217,195);" class="styleBold"></td>
                 </tr>
                 {% counter name="linha1" silent=True%}
                 {% counter name="linha2" silent=True%}
@@ -649,8 +644,8 @@
                         <td>{{coeficient.inputs.get_unit_display }}</td>
                         <td>{{coeficient.inputs.classification}}</td>
                         <td>{{coeficient.coeficient}}</td>
-                        <td>{{coeficient.inputs.unit_price}}</td>
-                        <td data-formula='=E{% counter name="linha1"%}*F{% counter name="linha2"%}'></td>
+                        <td data-celltype="currency">{{coeficient.inputs.unit_price}}</td>
+                        <td data-celltype="currency" data-formula='=E{% counter name="linha1"%}*F{% counter name="linha2"%}'></td>
                     </tr>
 
                 {% endfor %}
@@ -670,9 +665,9 @@
                     <td style="display: none;"></td>
                     <td style="display: none;"></td>
                     <td>M.O.</td>
-                    <td></td>
+                    <td data-celltype="currency"></td>
                     <td>Total s/ Taxa (Unit.) :</td>
-                    <td></td>
+                    <td data-celltype="currency"></td>
                 </tr>
                 {% counter name="linha1" silent=True%}
                 {% counter name="linha2" silent=True%}
@@ -681,9 +676,9 @@
                     <td style="display: none;"></td>
                     <td style="display: none;"></td>
                     <td>Outros</td>
-                    <td></td>
+                    <td data-celltype="currency"></td>
                     <td>Valor LS :</td>
-                    <td></td>
+                    <td data-celltype="currency"></td>
                 </tr>
                 {% counter name="linha1" silent=True%}
                 {% counter name="linha2" silent=True%}
@@ -694,7 +689,7 @@
                     <td style="display: none;"></td>
                     <td style="display: none;"></td>
                     <td>Valor BDI :</td>
-                    <td></td>
+                    <td data-celltype="currency"></td>
                 </tr>
                 {% counter name="linha1" silent=True%}
                 {% counter name="linha2" silent=True%}
@@ -705,7 +700,7 @@
                     <td style="display: none;"></td>
                     <td style="display: none;"></td>
                     <td>Valor Total c/ Taxa :</td>
-                    <td></td>
+                    <td data-celltype="currency"></td>
                 </tr>
                 {% counter name="linha1" silent=True%}
                 {% counter name="linha2" silent=True%}

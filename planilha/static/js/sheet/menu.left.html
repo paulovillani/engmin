@@ -1,11 +1,14 @@
 <ul>
 	<li>
-		<a href="#">File</a>
+		<a href="#">Arquivo</a>
 		<ul>
-			<li><a onclick="this.jS.newSheet(); return false;" title="Creates a new spreadsheet.">New</a></li>
+			<li><a onclick="this.jS.newSheet(); return false;" title="Creates a new spreadsheet.">Novo</a></li>
+			<li><a onclick="exportar($.sheet.dts.fromTables.json(this.jS));" title="Save the spreadsheet.">Salvar</a></li>
+			<li><a title="Load an spreadsheet.">Carregar<input type="file" id="upFile" multiple size="50" onchange="importar(this.jS);"></a></li>
+
 		</ul>
 	</li>
-	<li>
+	<!--<li>
 		<a href="#">Edit</a>
 		<ul>
             <li><a onclick="this.jS.undo.manager.undo(); return false;">Undo</a></li>
@@ -70,8 +73,8 @@
 				</ul>
 			</li>
 		</ul>
-	</li>
-	<li>
+	</li>-->
+	<!--<li>
 		<a href="#">View</a>
 		<ul>
 			<li><a onclick="$(this.jS.tables()).viewSource(true); return false;" title="Shows the HTML that makes up the current spreadsheet.">Pretty Source</a></li>
@@ -142,37 +145,31 @@
 			</li>
 			<li><a onclick="this.jS.toggleFullScreen();">Toggle Full Screen</a></li>
 		</ul>
-	</li>
+	</li>-->
 	<li>
-		<a href="#">Format</a>
+		<a href="#">Formatar</a>
 		<ul>
-            <li><a onclick="this.jS.cellTypeToggle('percent')">Percent</a></li>
-            <li><a onclick="this.jS.cellTypeToggle('number')">Number</a></li>
-			<li><a onclick="this.jS.cellTypeToggle('date')">Date</a></li>
-			<li><a onclick="this.jS.cellTypeToggle('time')">Time</a></li>
-			<li><a onclick="this.jS.cellTypeToggle('currency')">Currency</a></li>
-            <li><a onclick="this.jS.cellTypeToggle(null)">Remove Format</a></li>
+            <li><a onclick="this.jS.cellTypeToggle('percent')">Porcentagem</a></li>
+            <li><a onclick="this.jS.cellTypeToggle('number')">Número</a></li>
+			<li><a onclick="this.jS.cellTypeToggle('currency')">Moeda</a></li>
+            <li><a onclick="this.jS.cellTypeToggle(null)">Remover Formatação</a></li>
 		</ul>
 	</li>
 	<li>
-		<a href="#">Style</a>
+		<a href="#">Estilo</a>
 		<ul>
-			<li><a class="cellStyleToggle" onclick="this.jS.cellStyleToggle('styleBold'); return false;">Bold</a></li>
-			<li><a class="cellStyleToggle" onclick="this.jS.cellStyleToggle('styleItalics'); return false;">Italics</a></li>
-			<li><a class="cellStyleToggle" onclick="this.jS.cellStyleToggle('styleUnderline', 'styleLineThrough'); return false;">Underline</a></li>
-			<li><a class="cellStyleToggle" onclick="this.jS.cellStyleToggle('styleLineThrough', 'styleUnderline'); return false;">Strike Through</a></li>
-			<li><a class="cellStyleToggle" onclick="this.jS.cellStyleToggle('styleLeft', 'styleCenter styleRight'); return false;">Left</a></li>
-			<li><a class="cellStyleToggle" onclick="this.jS.cellStyleToggle('styleCenter', 'styleLeft styleRight'); return false;">Center</a></li>
-			<li><a class="cellStyleToggle" onclick="this.jS.cellStyleToggle('styleRight', 'styleLeft styleCenter'); return false;">Right</a></li>
-			<li><a class="cellStyleToggle" onclick="this.jS.cellStyleToggle('styleUpper', 'styleCapital styleLower'); return false;">Uppercase</a></li>
-			<li><a class="cellStyleToggle" onclick="this.jS.cellStyleToggle('styleCapital', 'styleUpper styleLower'); return false;">Capitalize</a></li>
-			<li><a class="cellStyleToggle" onclick="this.jS.cellStyleToggle('styleLower', 'styleCapital styleUpper'); return false;">Lowercase</a></li>
-			<li><a class="cellStyleToggle" onclick="this.jS.cellStyleToggle('styleTop', 'styleMiddle styleBottom'); return false;">Top</a></li>
-			<li><a class="cellStyleToggle" onclick="this.jS.cellStyleToggle('styleMiddle', 'styleTop styleBottom'); return false;">Middle</a></li>
-			<li><a class="cellStyleToggle" onclick="this.jS.cellStyleToggle('styleBottom', 'styleTop styleMiddle'); return false;">Bottom</a></li>
-			<li><a class="cellStyleToggle" onclick="this.jS.fontReSize('up'); return false;">Font Size +</a></li>
-			<li><a class="cellStyleToggle" onclick="this.jS.fontReSize('down'); return false;">Font Size -</a></li>
-			<li><a class="cellStyleToggle" onclick="this.jS.cellStyleToggle('styleWrap'); return false;">Wrap</a></li>
+			<li><a class="cellStyleToggle" onclick="this.jS.cellStyleToggle('styleBold'); return false;">Negrito</a></li>
+			<li><a class="cellStyleToggle" onclick="this.jS.cellStyleToggle('styleItalics'); return false;">Itálico</a></li>
+			<li><a class="cellStyleToggle" onclick="this.jS.cellStyleToggle('styleUnderline', 'styleLineThrough'); return false;">Sublinhado</a></li>
+			<li><a class="cellStyleToggle" onclick="this.jS.cellStyleToggle('styleLineThrough', 'styleUnderline'); return false;">Riscar</a></li>
+			<li><a class="cellStyleToggle" onclick="this.jS.cellStyleToggle('styleLeft', 'styleCenter styleRight'); return false;">Esquerda</a></li>
+			<li><a class="cellStyleToggle" onclick="this.jS.cellStyleToggle('styleCenter', 'styleLeft styleRight'); return false;">Centralizado</a></li>
+			<li><a class="cellStyleToggle" onclick="this.jS.cellStyleToggle('styleRight', 'styleLeft styleCenter'); return false;">Direita</a></li>
+			<li><a class="cellStyleToggle" onclick="this.jS.cellStyleToggle('styleTop', 'styleMiddle styleBottom'); return false;">Topo</a></li>
+			<li><a class="cellStyleToggle" onclick="this.jS.cellStyleToggle('styleMiddle', 'styleTop styleBottom'); return false;">Meio</a></li>
+			<li><a class="cellStyleToggle" onclick="this.jS.cellStyleToggle('styleBottom', 'styleTop styleMiddle'); return false;">Base</a></li>
+			<li><a class="cellStyleToggle" onclick="this.jS.fontReSize('up'); return false;">Fonte +</a></li>
+			<li><a class="cellStyleToggle" onclick="this.jS.fontReSize('down'); return false;">Fonte -</a></li>
 		</ul>
 	</li>
 </ul>
