@@ -56,6 +56,10 @@
 		    <!--/DataTransformationService-->
 		<!--/Optional-->
         <script type="text/javascript">
+            $(window).load(function() {
+                $(".loadingModal").fadeOut("slow");
+            })
+            
             $(document).ready(function(){
                 $("#mascara").click( function(){
                     $(this).hide();
@@ -71,7 +75,6 @@
 
 
             $(function(){
-
                 $('#themeSwitcher').themeswitcher({
                     imgpath: "{{STATIC_URL}}js/sheet/plugins/jquery.themeswitcher.images/",
                     loadTheme: "start"
@@ -198,7 +201,9 @@
                     }
 	            };
 
+                
 	            loadSheet({}, 'planilha.html');
+                
 
 	            function setFormula (jS, sheet, row, col, val) {
 	                var cell = getCell(jS, sheet, row, col);
@@ -245,7 +250,7 @@
             function importar(jS){
                 var file = document.getElementById('upFile').files[0];
                 var reader = new FileReader();
-
+                $(".loadingModal").show();
 
                 reader.onload = function(e) {
                     plotTable(reader.result);
@@ -322,6 +327,8 @@
                             }
                         });
                 });
+
+                $(".loadingModal").fadeOut("slow");
             }
 
         </script>
@@ -425,6 +432,19 @@
                 position: absolute;
                 width: 150px;
             }
+
+            .loadingModal {
+                position:   fixed;
+                z-index:    9999;
+                top:        0;
+                left:       0;
+                height:     100%;
+                width:      100%;
+                background: rgba( 255, 255, 255, .8 ) 
+                            url('{{STATIC_URL}}img/loading.gif') 
+                            50% 50% 
+                            no-repeat;
+            }
         </style>
     </head>
     <body>
@@ -439,6 +459,8 @@
          
         <!-- mascara para cobrir o site -->  
         <div id="mascara"></div>
+
+        <div class="loadingModal"></div>
 	</body>
 
 </html>
