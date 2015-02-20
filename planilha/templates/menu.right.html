@@ -23,6 +23,8 @@
         <input title="Foreground color" class="colorPickerFont" style="background-image: url('{{STATIC_URL}}js/sheet/images/palette.png') ! important; width: 16px; height: 16px;"/>
         <input title="Background Color" class="colorPickerCell" style="background-image: url('{{STATIC_URL}}js/sheet/images/palette_bg.png') ! important; width: 16px; height: 16px;"/>
     </span>
+    <a href="#" onclick="this.jS.calc(this.jS.i, true); return false;" title="Refresh Calculations">
+        <img alt="Refresh Calculations" src="{{STATIC_URL}}js/sheet/images/arrow_refresh.png"/></a>
     <a href="#" onclick="this.jS.toggleFullScreen(); return false;" title="Toggle Full Screen">
         <img alt="Toggle Full Screen" src="{{STATIC_URL}}js/sheet/images/arrow_out.png"/></a><!--<a href="#" onclick="insertAt('jSheetControls_formula', '~np~text~'+'/np~');return false;" title="Non-parsed"><img alt="Non-parsed" src="{{STATIC_URL}}js/sheet/images/noparse.png"/></a>-->
 </div>

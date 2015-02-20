@@ -6391,7 +6391,7 @@ jQuery = jQuery || window.jQuery;
                                         if (!cell.formulaParser) { //cut down on un-needed parser creation
                                             cell.formulaParser = win.Formula(jS.cellHandler);
                                         }
-                                        formulaParser = cell.formulaParser
+                                        formulaParser = cell.formulaParser;
                                     } else {//use the sheet's parser if there aren't many calls in the callStack
                                         formulaParser = jS.formulaParser;
                                     }

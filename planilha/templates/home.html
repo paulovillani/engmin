@@ -90,15 +90,45 @@
                                 .data('type', type)
                                 .load(tempUrl, function() {
                             results[$(this).data('type')] = this.children[0];
-                            console.log(results);
                             loaded++;
                             if (loadCount == loaded) {
-                                var plan = $('#sheet')
+                                $('#sheet')
                                     .attr('class', results.sheet.className)
                                     .html(results.sheet.children)
+                                    .bind('sheetCellEdited', function(e, jS, cell) {
+         								if(e.handled !== true){
+         									var col = cell.td.index(),
+         										linha = cell.td.parent().index();
+         										id = cell.value.split('.').join("");
+
+         									if(col==1 && jS.i==0){
+         										if($('#unit_'+id).length > 0 ){
+         											var unitL =  $('#unit_'+id).index(),
+         												priceL = $('#val_'+id).index(),
+         												formula;
+
+         											//preço unitário
+         											formula = '=SHEET2!G'+priceL;
+         											setFormula (0, linha, 7, formula);
+
+         											//unidade
+         											formula = '=SHEET2!C'+unitL;
+         											setFormula (0, linha, 4, formula);
+
+         											//preço total
+         											formula = '=E'+linha+"*G"+linha;
+         											setFormula (0, linha, 8, formula);
+
+         											//descrição
+         											formula = '=SHEET2!B'+unitL;
+         											setFormula (0, linha, 2, formula);
+         										}
+         									}
+                                			e.handled = true;
+                                		}
+									})
                                     .sheet({
                                         menuLeft: function() {
-                                            //console.log(results.menuLeft);
                                             var jS = this,
                                                 menu = $(results.menuLeft),
                                                 copy = menu.find('.jSCopy').mouseover(function() { $(this).one('mouseout', function() {return false;})}),
@@ -145,56 +175,55 @@
                                                 jS.cellChangeStyle('color', $(this).val());
                                             });
 
-                                            menu.find('.colorPickers').children().eq(1).css('background-image', "url('images/palette.png')");
-                                            menu.find('.colorPickers').children().eq(3).css('background-image', "url('images/palette_bg.png')");
+                                            menu.find('.colorPickers').children().eq(1).css('background-image', "url('{{STATIC_URL}}js/sheet/images/palette.png')");
+                                            menu.find('.colorPickers').children().eq(3).css('background-image', "url('{{STATIC_URL}}js/sheet/images/palette_bg.png')");
 
                                             return menu;
                                         }
                                     })
 
-								var jS = plan.getSheet();
 								$('.first_row').each(function(){
 					                var comeco = $(this).index();
 					                var fim = $(this).nextAll('.last_row').index();
 					                
 					                var formula = "=SUMIF(D"+comeco+":D"+fim+", 'MOD', G"+comeco+":G"+fim+")"
-					                setFormula(jS, 1, fim+2, 5, formula);
+					                setFormula(1, fim+2, 5, formula);
 
 					                formula = "=SUM(G"+comeco+":G"+fim+")";
-					                setFormula(jS, 1, fim+2, 7, formula);
+					                setFormula(1, fim+2, 7, formula);
 
 					                formula = "=SHEET1!G9*E"+(fim+2)
-					                setFormula(jS, 1, fim+3, 7, formula);
+					                setFormula(1, fim+3, 7, formula);
 
 					                formula = "=SHEET1!C9*(G"+(fim+2)+"+G"+(fim+3)+")"
-					                setFormula(jS, 1, fim+4, 7, formula);
+					                setFormula(1, fim+4, 7, formula);
 
 					                formula = "=SUM(G"+(fim+2)+":G"+(fim+4)+")";
-					                setFormula(jS, 1, fim+5, 7, formula);
+					                setFormula(1, fim+5, 7, formula);
 
 					                formula = "=G"+(fim+2)+"-E"+(fim+2)
-					                setFormula(jS, 1, fim+3, 5, formula);
+					                setFormula(1, fim+3, 5, formula);
 					            });
                                 $('.unique_row').each(function(){
                                     var linha = $(this).index();
 
                                     var formula = "=SUMIF(D"+linha+":D"+linha+", 'MOD', G"+linha+":G"+linha+")"
-                                    setFormula(jS, 1, linha+2, 5, formula);
+                                    setFormula(1, linha+2, 5, formula);
 
                                     formula = "=SUM(G"+linha+":G"+linha+")";
-                                    setFormula(jS, 1, linha+2, 7, formula);
+                                    setFormula(1, linha+2, 7, formula);
 
                                     formula = "=SHEET1!G9*E"+(linha+2)
-                                    setFormula(jS, 1, linha+3, 7, formula);
+                                    setFormula(1, linha+3, 7, formula);
 
                                     formula = "=SHEET1!C9*(G"+(linha+2)+"+G"+(linha+3)+")"
-                                    setFormula(jS, 1, linha+4, 7, formula);
+                                    setFormula(1, linha+4, 7, formula);
 
                                     formula = "=SUM(G"+(linha+2)+":G"+(linha+4)+")";
-                                    setFormula(jS, 1, linha+5, 7, formula);
+                                    setFormula(1, linha+5, 7, formula);
 
                                     formula = "=G"+(linha+2)+"-E"+(linha+2)
-                                    setFormula(jS, 1, linha+3, 5, formula);
+                                    setFormula(1, linha+3, 5, formula);
                                 });
                             }
                         });
@@ -205,15 +234,8 @@
 	            loadSheet({}, 'planilha.html');
                 
 
-	            function setFormula (jS, sheet, row, col, val) {
-	                var cell = getCell(jS, sheet, row, col);
-	                cell.formula = val;
-	                cell.calcLast = 0;
-	                jS.updateCellValue(sheet, row, col);
-	            }
-	            function getCell (jS, sheet, row, col) {
-	                var cell = jS.spreadsheets[sheet][row][col];
-	                return cell;
+	            function setFormula (sheet, row, col, val) {
+	            	$('#sheet').setCellFormula(val,row,col,sheet);
 	            }
                 $('#pseudoSheetsMoreInfo').click(function() {
                     $(this).next().dialog({
@@ -225,7 +247,8 @@
             });
 
             function exportar (json){
-                var data = "text/json;charset=utf-8," + encodeURIComponent(json);
+                var data = "text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(json));
+                console.log(json);
                 //ev.preventDefault();
                 $('#downLink').html('<a href="data:' + data + '" download="planilha.json">Salvar Planilha</a>');
  
@@ -270,9 +293,40 @@
                     results['menuRight'] = this.children[0];  
                 
                     $('#sheet').html(tables).height($('#sheet').height())
+                    	.bind('sheetCellEdited', function(e, jS, cell) {
+							if(e.handled !== true){
+								var col = cell.td.index(),
+									linha = cell.td.parent().index();
+									id = cell.value.split('.').join("");
+
+								if(col==1 && jS.i==0){
+									if($('#unit_'+id).length > 0 ){
+										var unitL =  $('#unit_'+id).index(),
+											priceL = $('#val_'+id).index(),
+											formula;
+
+										//preço unitário
+										formula = '=SHEET2!G'+priceL;
+										setFormula (0, linha, 7, formula);
+
+										//unidade
+										formula = '=SHEET2!C'+unitL;
+										setFormula (0, linha, 4, formula);
+
+										//preço total
+										formula = '=E'+linha+"*G"+linha;
+										setFormula (0, linha, 8, formula);
+
+										//descrição
+										formula = '=SHEET2!B'+unitL;
+										setFormula (0, linha, 2, formula);
+									}
+								}
+                			e.handled = true;
+	                		}
+						})
                         .sheet({
                             menuLeft: function() {
-                                //console.log(results.menuLeft);
                                 var jS = this,
                                     menu = $(results.menuLeft),
                                     copy = menu.find('.jSCopy').mouseover(function() { $(this).one('mouseout', function() {return false;})}),
@@ -280,7 +334,6 @@
                                     paste = menu.find('.jSPaste').click(function() {
                                         alert('Press Ctrl + V to paste over highlighted cells');
                                     });
-
                                 //Give anchors access to jS them
                                 menu.find('a').each(function() {
                                     this.jS = jS;
@@ -320,12 +373,12 @@
                                     jS.cellChangeStyle('color', $(this).val());
                                 });
 
-                                menu.find('.colorPickers').children().eq(1).css('background-image', "url('images/palette.png')");
-                                menu.find('.colorPickers').children().eq(3).css('background-image', "url('images/palette_bg.png')");
+                                menu.find('.colorPickers').children().eq(1).css('background-image', "url('{{STATIC_URL}}js/sheet/images/palette.png')");
+                                menu.find('.colorPickers').children().eq(3).css('background-image', "url('{{STATIC_URL}}js/sheet/images/palette_bg.png')");
 
                                 return menu;
                             }
-                        });
+                        })
                 });
 
                 $(".loadingModal").fadeOut("slow");

@@ -16,49 +16,6 @@
             $('#sheetParent').sheet();
         });    
 
-            /*var me = $('#sheetParent').bind('sheetCellEdited', function() {
-                alert('A cell was edited!')
-            }).sheet();
-           jS = me.getSheet();
-            $('.first_row').each(function(){
-                var comeco = $(this).index();
-                var fim = $(this).nextAll('.last_row').index();
-                
-                var formula = "=SUMIF(D"+comeco+":D"+fim+", 'MOD', G"+comeco+":G"+fim+")"
-                setFormula(1, fim+2, 5, formula);
-
-                formula = "=SUM(G"+comeco+":G"+fim+")";
-                setFormula(1, fim+2, 7, formula);
-
-                formula = "=SHEET1!G9*E"+(fim+2)
-                setFormula(1, fim+3, 7, formula);
-
-                formula = "=SHEET1!C9*(G"+(fim+2)+"+G"+(fim+3)+")"
-                setFormula(1, fim+4, 7, formula);
-
-                formula = "=SUM(G"+(fim+2)+":G"+(fim+4)+")";
-                setFormula(1, fim+5, 7, formula);
-
-                formula = "=G"+(fim+2)+"-E"+(fim+2)
-                setFormula(1, fim+3, 5, formula);
-            });*/
-
-
-
-
-            /*function setFormula (sheet, row, col, val) {
-                var cell = getCell(sheet, row, col);
-                cell.formula = val;
-                cell.calcLast = 0;
-                jS.updateCellValue(sheet, row, col);
-            }
-            function getCell (sheet, row, col) {
-                var cell = jS.spreadsheets[sheet][row][col];
-                return cell;
-            }
-        });/*
-
-
     </script>
 </head>
 <body>
@@ -119,7 +76,7 @@
             <tr>
                 <td style="background: rgb(221,217,195);" class="styleBold styleRight" rowspan="1" colspan="2">Obra:</td>
                 <td style="display: none;"></td>
-                <td rowspan="1" colspan="6">Estudo de Caso - Curso Engenharia Minuto - Preços TCPO 14 - Região São Paulo</td>
+                <td rowspan="1" colspan="6"></td>
                 <td style="display: none;"></td>
                 <td style="display: none;"></td>
                 <td style="display: none;"></td>
@@ -129,7 +86,7 @@
             <tr>
                 <td style="background: rgb(221,217,195);" class="styleBold styleRight" rowspan="1" colspan="2">Unidade Construtiva:</td>
                 <td style="display: none;"></td>
-                <td rowspan="1" colspan="6">não aplicado</td>
+                <td rowspan="1" colspan="6"></td>
                 <td style="display: none;"></td>
                 <td style="display: none;"></td>
                 <td style="display: none;"></td>
@@ -139,7 +96,7 @@
             <tr>
                 <td style="background: rgb(221,217,195);" class="styleBold styleRight" rowspan="1" colspan="2">Tipo de obra:</td>
                 <td style="display: none;"></td>
-                <td rowspan="1" colspan="6">Residencial</td>
+                <td rowspan="1" colspan="6"></td>
                 <td style="display: none;"></td>
                 <td style="display: none;"></td>
                 <td style="display: none;"></td>
@@ -149,7 +106,7 @@
             <tr>
                 <td style="background: rgb(221,217,195);" class="styleBold styleRight" rowspan="1" colspan="2">Endereço da obra:</td>
                 <td style="display: none;"></td>
-                <td rowspan="1" colspan="6">não aplicado</td>
+                <td rowspan="1" colspan="6"></td>
                 <td style="display: none;"></td>
                 <td style="display: none;"></td>
                 <td style="display: none;"></td>
@@ -159,11 +116,11 @@
             <tr>
                 <td style="background: rgb(221,217,195);" class="styleBold styleRight" rowspan="1" colspan="2">BDI:</td>
                 <td style="display: none;"></td>
-                <td rowspan="1" colspan="1">30%</td>
+                <td rowspan="1" colspan="1"></td>
                 <td style="background: rgb(221,217,195);" class="styleBold styleCenter" rowspan="1" colspan="3">Encargos Sociais</td>
                 <td style="display: none;"></td>
                 <td style="display: none;"></td>
-                <td rowspan="1" colspan="2">122%</td>
+                <td rowspan="1" colspan="2"></td>
                 <td style="display: none;"></td>
             </tr>
             <tr>
@@ -197,365 +154,426 @@
                 <td style="background: rgb(221,217,195);" class="styleBold styleLeft" rowspan="1" colspan="1">Preço total</td>       
             </tr>
             <tr>
-                <td class="styleBold styleRight" rowspan="1" colspan="1">02</td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="2">SERVIÇOS PRELIMINARES</td>
-                <td style="display: none;"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="2"></td>
-                <td style="display: none;"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>       
-            </tr>
-            <tr>
-                <td class="styleRight" rowspan="1" colspan="1"></td>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
                 <td class="styleLeft" rowspan="1" colspan="2"></td>
                 <td style="display: none;"></td>
                 <td class="styleLeft" rowspan="1" colspan="1"></td>
                 <td class="styleLeft" rowspan="1" colspan="2"></td>
                 <td style="display: none;"></td>
-                <td class="styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleLeft" rowspan="1" colspan="1"></td>       
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
             </tr>
             <tr>
-                <td class="styleBold styleRight" rowspan="1" colspan="1">04</td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="2">INFRA ESTRUTURA</td>
-                <td style="display: none;"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="2"></td>
-                <td style="display: none;"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>       
-            </tr>
-            <tr>
-                <td class="styleRight" rowspan="1" colspan="1"></td>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
                 <td class="styleLeft" rowspan="1" colspan="2"></td>
                 <td style="display: none;"></td>
                 <td class="styleLeft" rowspan="1" colspan="1"></td>
                 <td class="styleLeft" rowspan="1" colspan="2"></td>
                 <td style="display: none;"></td>
-                <td class="styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleLeft" rowspan="1" colspan="1"></td>       
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
             </tr>
             <tr>
-                <td class="styleBold styleRight" rowspan="1" colspan="1">05</td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="2">SUPER ESTRUTURA</td>
-                <td style="display: none;"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="2"></td>
-                <td style="display: none;"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>       
-            </tr>
-            <tr>
-                <td class="styleRight" rowspan="1" colspan="1"></td>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
                 <td class="styleLeft" rowspan="1" colspan="2"></td>
                 <td style="display: none;"></td>
                 <td class="styleLeft" rowspan="1" colspan="1"></td>
                 <td class="styleLeft" rowspan="1" colspan="2"></td>
                 <td style="display: none;"></td>
-                <td class="styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleLeft" rowspan="1" colspan="1"></td>       
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
             </tr>
             <tr>
-                <td class="styleBold styleRight" rowspan="1" colspan="1">06</td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="2">ALVENARIA</td>
-                <td style="display: none;"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="2"></td>
-                <td style="display: none;"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>       
-            </tr>
-            <tr>
-                <td class="styleRight" rowspan="1" colspan="1"></td>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
                 <td class="styleLeft" rowspan="1" colspan="2"></td>
                 <td style="display: none;"></td>
                 <td class="styleLeft" rowspan="1" colspan="1"></td>
                 <td class="styleLeft" rowspan="1" colspan="2"></td>
                 <td style="display: none;"></td>
-                <td class="styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleLeft" rowspan="1" colspan="1"></td>       
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
             </tr>
             <tr>
-                <td class="styleBold styleRight" rowspan="1" colspan="1">07</td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="2">ESQUADRIAS</td>
-                <td style="display: none;"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="2"></td>
-                <td style="display: none;"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>       
-            </tr>
-            <tr>
-                <td class="styleRight" rowspan="1" colspan="1"></td>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
                 <td class="styleLeft" rowspan="1" colspan="2"></td>
                 <td style="display: none;"></td>
                 <td class="styleLeft" rowspan="1" colspan="1"></td>
                 <td class="styleLeft" rowspan="1" colspan="2"></td>
                 <td style="display: none;"></td>
-                <td class="styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleLeft" rowspan="1" colspan="1"></td>       
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
             </tr>
             <tr>
-                <td class="styleBold styleRight" rowspan="1" colspan="1">08</td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="2">CORBERTURA</td>
-                <td style="display: none;"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="2"></td>
-                <td style="display: none;"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>       
-            </tr>
-            <tr>
-                <td class="styleRight" rowspan="1" colspan="1"></td>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
                 <td class="styleLeft" rowspan="1" colspan="2"></td>
                 <td style="display: none;"></td>
                 <td class="styleLeft" rowspan="1" colspan="1"></td>
                 <td class="styleLeft" rowspan="1" colspan="2"></td>
                 <td style="display: none;"></td>
-                <td class="styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleLeft" rowspan="1" colspan="1"></td>       
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
             </tr>
             <tr>
-                <td class="styleBold styleRight" rowspan="1" colspan="1">09</td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="2">INSTALAÇÕES HIDRÁULICAS</td>
-                <td style="display: none;"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="2"></td>
-                <td style="display: none;"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>       
-            </tr>
-            <tr>
-                <td class="styleBold styleRight" rowspan="1" colspan="1">09.01</td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="2">INSTALAÇÕES HIDRÁULICAS</td>
-                <td style="display: none;"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="2"></td>
-                <td style="display: none;"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>       
-            </tr>
-            <tr>
-                <td class="styleRight" rowspan="1" colspan="1"></td>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
                 <td class="styleLeft" rowspan="1" colspan="2"></td>
                 <td style="display: none;"></td>
                 <td class="styleLeft" rowspan="1" colspan="1"></td>
                 <td class="styleLeft" rowspan="1" colspan="2"></td>
                 <td style="display: none;"></td>
-                <td class="styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleLeft" rowspan="1" colspan="1"></td>       
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
             </tr>
             <tr>
-                <td class="styleBold styleRight" rowspan="1" colspan="1">09.02</td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="2">ESGOTO</td>
-                <td style="display: none;"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="2"></td>
-                <td style="display: none;"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>       
-            </tr>
-            <tr>
-                <td class="styleRight" rowspan="1" colspan="1"></td>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
                 <td class="styleLeft" rowspan="1" colspan="2"></td>
                 <td style="display: none;"></td>
                 <td class="styleLeft" rowspan="1" colspan="1"></td>
                 <td class="styleLeft" rowspan="1" colspan="2"></td>
                 <td style="display: none;"></td>
-                <td class="styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleLeft" rowspan="1" colspan="1"></td>       
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
             </tr>
             <tr>
-                <td class="styleBold styleRight" rowspan="1" colspan="1">09.03</td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="2">PLUVIAL</td>
-                <td style="display: none;"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="2"></td>
-                <td style="display: none;"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>       
-            </tr>
-            <tr>
-                <td class="styleRight" rowspan="1" colspan="1"></td>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
                 <td class="styleLeft" rowspan="1" colspan="2"></td>
                 <td style="display: none;"></td>
                 <td class="styleLeft" rowspan="1" colspan="1"></td>
                 <td class="styleLeft" rowspan="1" colspan="2"></td>
                 <td style="display: none;"></td>
-                <td class="styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleLeft" rowspan="1" colspan="1"></td>       
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
             </tr>
             <tr>
-                <td class="styleBold styleRight" rowspan="1" colspan="1">09.04</td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="2">LOUÇAS, METAIS E APARELHOS</td>
-                <td style="display: none;"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="2"></td>
-                <td style="display: none;"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>       
-            </tr>
-            <tr>
-                <td class="styleRight" rowspan="1" colspan="1"></td>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
                 <td class="styleLeft" rowspan="1" colspan="2"></td>
                 <td style="display: none;"></td>
                 <td class="styleLeft" rowspan="1" colspan="1"></td>
                 <td class="styleLeft" rowspan="1" colspan="2"></td>
                 <td style="display: none;"></td>
-                <td class="styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleLeft" rowspan="1" colspan="1"></td>       
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
             </tr>
             <tr>
-                <td class="styleBold styleRight" rowspan="1" colspan="1">10</td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="2">INSTALAÇÕES ELÉTRICAS</td>
-                <td style="display: none;"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="2"></td>
-                <td style="display: none;"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>       
-            </tr>
-            <tr>
-                <td class="styleRight" rowspan="1" colspan="1"></td>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
                 <td class="styleLeft" rowspan="1" colspan="2"></td>
                 <td style="display: none;"></td>
                 <td class="styleLeft" rowspan="1" colspan="1"></td>
                 <td class="styleLeft" rowspan="1" colspan="2"></td>
                 <td style="display: none;"></td>
-                <td class="styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleLeft" rowspan="1" colspan="1"></td>       
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
             </tr>
             <tr>
-                <td class="styleBold styleRight" rowspan="1" colspan="1">11</td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="2">REVESTIMENTO</td>
-                <td style="display: none;"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="2"></td>
-                <td style="display: none;"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>       
-            </tr>
-            <tr>
-                <td class="styleBold styleRight" rowspan="1" colspan="1">11.01</td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="2">PAREDES INTERNAS</td>
-                <td style="display: none;"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="2"></td>
-                <td style="display: none;"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>       
-            </tr>
-            <tr>
-                <td class="styleRight" rowspan="1" colspan="1"></td>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
                 <td class="styleLeft" rowspan="1" colspan="2"></td>
                 <td style="display: none;"></td>
                 <td class="styleLeft" rowspan="1" colspan="1"></td>
                 <td class="styleLeft" rowspan="1" colspan="2"></td>
                 <td style="display: none;"></td>
-                <td class="styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleLeft" rowspan="1" colspan="1"></td>       
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
             </tr>
             <tr>
-                <td class="styleBold styleRight" rowspan="1" colspan="1">11.02</td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="2">PAREDES EXTERNAS</td>
-                <td style="display: none;"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="2"></td>
-                <td style="display: none;"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>       
-            </tr>
-            <tr>
-                <td class="styleRight" rowspan="1" colspan="1"></td>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
                 <td class="styleLeft" rowspan="1" colspan="2"></td>
                 <td style="display: none;"></td>
                 <td class="styleLeft" rowspan="1" colspan="1"></td>
                 <td class="styleLeft" rowspan="1" colspan="2"></td>
                 <td style="display: none;"></td>
-                <td class="styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleLeft" rowspan="1" colspan="1"></td>       
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
             </tr>
             <tr>
-                <td class="styleBold styleRight" rowspan="1" colspan="1">11.03</td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="2">PISOS</td>
-                <td style="display: none;"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="2"></td>
-                <td style="display: none;"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>       
-            </tr>
-            <tr>
-                <td class="styleRight" rowspan="1" colspan="1"></td>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
                 <td class="styleLeft" rowspan="1" colspan="2"></td>
                 <td style="display: none;"></td>
                 <td class="styleLeft" rowspan="1" colspan="1"></td>
                 <td class="styleLeft" rowspan="1" colspan="2"></td>
                 <td style="display: none;"></td>
-                <td class="styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleLeft" rowspan="1" colspan="1"></td>       
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
             </tr>
             <tr>
-                <td class="styleBold styleRight" rowspan="1" colspan="1">11.04</td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="2">TETO</td>
-                <td style="display: none;"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="2"></td>
-                <td style="display: none;"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>       
-            </tr>
-            <tr>
-                <td class="styleRight" rowspan="1" colspan="1"></td>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
                 <td class="styleLeft" rowspan="1" colspan="2"></td>
                 <td style="display: none;"></td>
                 <td class="styleLeft" rowspan="1" colspan="1"></td>
                 <td class="styleLeft" rowspan="1" colspan="2"></td>
                 <td style="display: none;"></td>
-                <td class="styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleLeft" rowspan="1" colspan="1"></td>       
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
             </tr>
             <tr>
-                <td class="styleBold styleRight" rowspan="1" colspan="1">12</td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="2">PINTURA</td>
-                <td style="display: none;"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="2"></td>
-                <td style="display: none;"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>       
-            </tr>
-            <tr>
-                <td class="styleRight" rowspan="1" colspan="1"></td>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
                 <td class="styleLeft" rowspan="1" colspan="2"></td>
                 <td style="display: none;"></td>
                 <td class="styleLeft" rowspan="1" colspan="1"></td>
                 <td class="styleLeft" rowspan="1" colspan="2"></td>
                 <td style="display: none;"></td>
-                <td class="styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleLeft" rowspan="1" colspan="1"></td>       
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
             </tr>
             <tr>
-                <td class="styleBold styleRight" rowspan="1" colspan="1">13</td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="2">SERVIÇOS COMPLEMENTARES</td>
-                <td style="display: none;"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="2"></td>
-                <td style="display: none;"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleBold styleLeft" rowspan="1" colspan="1"></td>       
-            </tr>
-            <tr>
-                <td class="styleRight" rowspan="1" colspan="1"></td>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
                 <td class="styleLeft" rowspan="1" colspan="2"></td>
                 <td style="display: none;"></td>
                 <td class="styleLeft" rowspan="1" colspan="1"></td>
                 <td class="styleLeft" rowspan="1" colspan="2"></td>
                 <td style="display: none;"></td>
-                <td class="styleLeft" rowspan="1" colspan="1"></td>
-                <td class="styleLeft" rowspan="1" colspan="1"></td>       
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
             </tr>
+            <tr>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
+            </tr>
+            <tr>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
+            </tr>
+            <tr>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
+            </tr>
+            <tr>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
+            </tr>
+            <tr>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
+            </tr>
+            <tr>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
+            </tr>
+            <tr>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
+            </tr>
+            <tr>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
+            </tr>
+            <tr>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
+            </tr>
+            <tr>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
+            </tr>
+            <tr>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
+            </tr>
+            <tr>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
+            </tr>
+            <tr>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
+            </tr>
+            <tr>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
+            </tr>
+            <tr>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
+            </tr>
+            <tr>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
+            </tr>
+            <tr>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
+            </tr>
+            <tr>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
+            </tr>
+            <tr>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
+            </tr>
+            <tr>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
+            </tr>
+            <tr>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
+            </tr>
+            <tr>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
+            </tr>
+            <tr>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
+            </tr><tr>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
+            </tr>
+            <tr>
+                <td class="codComp styleRight" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" rowspan="1" colspan="2"></td>
+                <td style="display: none;"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>
+                <td class="styleLeft" data-celltype="currency" rowspan="1" colspan="1"></td>       
+            </tr>
+
+            
 
 
 
@@ -620,7 +638,7 @@
             {% counter name="linha1" start=5 silent=True%}
             {% counter name="linha2" start=5 silent=True%}
             {% for composition in compositions %}
-                <tr id="{{composition.code}}">
+                <tr id="unit_{{composition.code|cut:"."}}">
                     <td style="background: rgb(221,217,195);" class="styleBold">{{composition.code}}</td>
                     <td style="background: rgb(221,217,195);" class="styleBold description">{{composition.description}}</td>
                     <td style="background: rgb(221,217,195);" class="styleBold unit">{{composition.get_unit_display}}</td>
@@ -693,7 +711,7 @@
                 </tr>
                 {% counter name="linha1" silent=True%}
                 {% counter name="linha2" silent=True%}
-                <tr>
+                <tr id="val_{{composition.code|cut:"."}}">
                     <td rowspan="1" colspan="5"></td>
                     <td style="display: none;"></td>
                     <td style="display: none;"></td>
