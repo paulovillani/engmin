@@ -248,7 +248,6 @@
 
             function exportar (json){
                 var data = "text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(json));
-                console.log(json);
                 //ev.preventDefault();
                 $('#downLink').html('<a href="data:' + data + '" download="planilha.json">Salvar Planilha</a>');
  
@@ -281,6 +280,21 @@
 
                 reader.readAsText(file, "UTF-8");
             }
+
+            function imprimir(jS){
+                //var html = jS.tables(true).toCompactSource();
+                //$.print(jS.tables()[jS.i])
+
+                //html += jS.tables()[jS.i]
+                var w = window.open();
+
+                $(w.document.body).html(jS.tables()[jS.i]);
+                //$(w.document.head).html("<style>tr{height:17px;}</style>");
+                w.print();
+                w.close();
+            }
+
+            //$(this.jS.tables()).viewSource(true)
 
             function plotTable(json){
                 var tables = $.sheet.dts.toTables.json(JSON.parse(json)),
@@ -475,7 +489,10 @@
                 background-color:#000;
             }
  
-            .fechar{display:block; text-align:right;}
+            .fechar{
+                display:block;
+                text-align:right;
+            }
 
             #upFile{
                 filter:alpha(opacity: 0);  
