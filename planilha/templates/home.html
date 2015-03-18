@@ -282,14 +282,10 @@
             }
 
             function imprimir(jS){
-                //var html = jS.tables(true).toCompactSource();
-                //$.print(jS.tables()[jS.i])
-
-                //html += jS.tables()[jS.i]
                 var w = window.open();
 
                 $(w.document.body).html(jS.tables()[jS.i]);
-                //$(w.document.head).html("<style>tr{height:17px;}</style>");
+                $(w.document.head).html("<style>tr{height:17px;}</style>");
                 w.print();
                 w.close();
             }
